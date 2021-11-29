@@ -14,8 +14,8 @@ import sys
 
 class EasySelenium:
     def __init__(self,implicitly_wait=1.0,sleep_time=1.0,headless=False):
-        self._DRIVER_PATH = '/Users/kizuk/Desktop/python/auto_run/chromedriver'
-        #self._DRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
+        #self._DRIVER_PATH = '/Users/kizuk/Desktop/python/auto_run/chromedriver'
+        self._DRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
         self._options = Options()
         self._options.add_argument('--disable-gpu');
         self._options.add_argument('--disable-extensions');

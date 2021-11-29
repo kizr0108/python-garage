@@ -4,6 +4,7 @@ import re
 import sys
 import os
 from bs4 import BeautifulSoup
+import platform
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from modules import sendtoline
@@ -14,8 +15,11 @@ stl = sendtoline.SendToLine()
 ep = easyfile.EasyPickle()
 
 ########## ログイン ##########
+text = platform.system()
+stl.send('Platform:'+text)
+
 es = easyselenium.EasySelenium(headless=False)
-es.get('https://webmail.jikei.ac.jp/',sleeptime=1)
+es.get('https://webmail.jikei.ac.jp/',sleeptime=5)
 html = es.driver.page_source
 soup = BeautifulSoup(html,'html.parser')
 stl.send(str(soup))

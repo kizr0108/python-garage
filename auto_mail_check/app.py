@@ -13,7 +13,7 @@ stl = sendtoline.SendToLine()
 ep = easyfile.EasyPickle()
 
 ########## ログイン ##########
-es = easyselenium.EasySelenium(headless=True)
+es = easyselenium.EasySelenium(headless=False)
 es.get('https://webmail.jikei.ac.jp/',sleeptime=1)
 es.write_all([['input[name="twuser"]','h27ms-horimi'],['input[name="twpassword"]','kazuki213322']])
 es.click('input[type="submit"]',sleeptime=1)

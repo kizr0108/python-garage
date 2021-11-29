@@ -49,6 +49,7 @@ class EasySelenium:
 
     def get(self,url,sleeptime=2):
         self.driver.get(url)
+        self.ec_wait_all()
         time.sleep(sleeptime)
     def quit(self):
         self.driver.quit()

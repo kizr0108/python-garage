@@ -8,8 +8,10 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from modules import easyselenium
 from modules import sendtoline as stl
+from modules import easylogger
 
 es = easyselenium.EasySelenium(headless=False)
+el = easylogger.EasyLogger('auto_bt_check')
 sendline = stl.SendToLine('health_check')
 sendtome = stl.SendToLine('test')
 

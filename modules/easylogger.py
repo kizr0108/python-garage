@@ -2,14 +2,20 @@ from logging import getLogger,StreamHandler,FileHandler,Formatter,DEBUG,INFO,WAR
 import sys
 import re
 import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+import config
 
 class EasyLogger:
     _dict_level = {'debug':DEBUG,'info':INFO,'warning':WARNING,'error':ERROR}
     def __init__(self,rootname,level='warning'):
+        root_folder = 'log/{}/'.format(rootname)
+        if not os.path.exists(root_folder):
+            os.mkdir(root_folder)
+
         self._logger = getLogger(rootname)
         formatter = Formatter('%(asctime)s: %(levelname)s: %(message)s')
         self._sh = StreamHandler()
-        self._fh = FileHandler(r'.\log\{}.log'.format(rootname))
+        self._fh = FileHandler(filename=r'.\log\{}\{}.log'.format(rootname,rootname), encoding='utf-8')
         self._sh.setFormatter(formatter)
         self._fh.setFormatter(formatter)
         self._logger.addHandler(self._sh)
@@ -41,3 +47,14 @@ class EasyLogger:
         lineno = exc_tb.tb_lineno
         text = '{}: {} [{}][line:{}]'.format(exc_type_name,exc_obj,folder_name+'/'+file_name,lineno)
         return text
+
+
+if __name__ == "__main__":
+    level = 'debug'
+    el = EasyLogger('easylogger',level)
+    el.debug('---------- EasyLogger level:{} ----------'.format(level))
+    el.debug('debug')
+    el.info('info')
+    el.warning('warning')
+    el.error('error')
+    el.debug('日本語の確認')

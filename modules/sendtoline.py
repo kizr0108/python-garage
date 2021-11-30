@@ -1,6 +1,10 @@
 import requests
 import time
 import random
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+import config
 
 class SendToLine: #完成版
     '''
@@ -22,21 +26,17 @@ class SendToLine: #完成版
     __URL = 'https://notify-api.line.me/api/notify'
 
     def __init__(self, val = 'test'):
-        self.user_dict = {
-            'kazuki':'qr2GkZz25XUfmtICQVJe6Vlw9K7rcTSaBhoJk4qFfRx',
-            'fx':'G3Vj0lpjMOJ14RXWuSaiqhDhlTdb0X4p834aJifZr8U',
-            'renban':'dXFeSJ3lZdP6noZqKQKPSedo2xCeBLNLwa2HmPyVEZN',
-            'test':'ISEvrT7lZpPYCamFxqOQ7gDH17bHQW4lUBTIWz2aigs',
-            'marina':'SYARJFQJiVGL4E0MHj5eVdZGz9hhUlkQQQ5zQvFh9VV',
-            'health_check':'VNVZ55rtEGPmCkOqpIDFsVp0l21C8Lqb3vWSHgo1lbd',
-            'kashiwa_health_check':'BSFdzZ65e3p8x0OjJGnrtflcMim9LKmYiizqsx2QqDf',
-        }
+        LINE_TOKEN = config.LINE_TOKEN
+        user_dict = {}
+        for i in LINE_TOKEN.split('/'):
+            j = i.split(',')
+            user_dict[j[0]]=j[1]
+        self.user_dict = user_dict
         self.stk_dict = {'high':{0:{1:10},1:{1:12},2:{2:40}},'low':{0:{1:8},1:{1:113},2:{2:43}}}
         if val in self.user_dict.keys():
             self.username = val
             self._access_token = self.user_dict[val]
         else:
-            print('We cannot find the user named ' + val +'.')
             self.username = ''
             self._access_token = ''
         self.msg_size_limit = 800

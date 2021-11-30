@@ -6,17 +6,21 @@ import os
 from bs4 import BeautifulSoup
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
+import config
 from modules import sendtoline
 from modules import easyselenium
 from modules import easyfile
 
 stl = sendtoline.SendToLine()
 ep = easyfile.EasyPickle()
+MAIL_ACCOUNT = config.MAIL_ACCOUNT
+id = MAIL_ACCOUNT.split(',')[0]
+password = MAIL_ACCOUNT.split(',')[1]
 
 ########## ログイン ##########
 es = easyselenium.EasySelenium(headless=False)
 es.get('https://webmail.jikei.ac.jp/',sleeptime=5)
-es.write_all([['input[name="twuser"]','h27ms-horimi'],['input[name="twpassword"]','kazuki213322']])
+es.write_all([['input[name="twuser"]',id],['input[name="twpassword"]',password]])
 es.click('input[type="submit"]',sleeptime=1)
 
 es.click('input[value="クリア"]',0.4)

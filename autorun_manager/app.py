@@ -58,7 +58,7 @@ def change_autorun_app_status(app_name,app_status):
         el.warning(text)
         status,description = 'ERROR','[ERROR]'+text
     el.info('---------- end change_autorun_app_status() ----------')
-    return status,description 
+    return status,description
 
 
 def check_all_apps_status():
@@ -179,12 +179,9 @@ def run_it(appname):
 
 
 if __name__ == "__main__":
-    with open(LOG_PATH, 'w', encoding='utf-8') as f:
-        json.dump({}, f, indent=4, ensure_ascii=False)
-    appdict = check_all_apps_status()
-    run_all(appdict)
     try:
-        a=1
+        appdict = check_all_apps_status()
+        run_all(appdict)
     except:
         warning = el.error_info()
         el.warning('!!!!! ERROR !!!!!')

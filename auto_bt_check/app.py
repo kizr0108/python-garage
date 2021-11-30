@@ -7,9 +7,9 @@ import os
 import platform
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from modules import easyselenium
+import config
+from modules import easyselenium, easylogger
 from modules import sendtoline as stl
-from modules import easylogger
 
 es = easyselenium.EasySelenium(headless=True)
 el = easylogger.EasyLogger('auto_bt_check')
@@ -19,12 +19,14 @@ elif platform.system() == 'Windows':
     sendline = stl.SendToLine('test')
 sendtome = stl.SendToLine('test')
 
-user_dict = {'堀見':['05-4760','dn8350',36.5],'井谷':['05-5277','yoshiro1231',36.4],'石塚':['05-5276','fe2008',36.4],'椋下':['05-4791','xq5879',36.4]}
-user_dict_backup = {'堀見':['05-4760','dn8350',36.5],'井谷':['05-5277','yoshiro1231',36.4],'石塚':['05-5276','fe2008',36.4],'小見山':['05-5290','3612',36.5],'椋下':['05-4791','xq5879','36.4']}
+user_dict = {}
+user_config = config.BT_USER
+for user in user_config.split('/'):
+    i = user.split(',')
+    user_dict[i[0]]=[i[1],i[2],float(i[3])]
+
 URL = 'https://el4.jikei.ac.jp/login/index.php'
 css_id, css_pass = 'input#username','input#password'
-
-
 
 
 

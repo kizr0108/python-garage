@@ -39,7 +39,7 @@ def index():
         if os.path.exists(path+f+'/app.py') and os.path.exists(path+f+'/settings.py'):
             applist.append(f)
     return render_template("index.html",title="success!",log_autorun=log_autorun,applist=applist,success_info=success_info)
-
+'''
 @app.route("/",methods=['get'])
 def result():
     success_info = request.args.get('successinfo')
@@ -56,7 +56,7 @@ def result():
         if os.path.exists(path+f+'/app.py') and os.path.exists(path+f+'/settings.py'):
             applist.append(f)
     return render_template("index.html",title="success!",log_autorun=log_autorun,applist=applist,success_info=success_info)
-
+'''
 @app.route("/testapp-sendline/")
 def sendline():
     return render_template("testapp-sendline.html", title="success!",sidebar=' ')

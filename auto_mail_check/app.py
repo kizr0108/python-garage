@@ -10,9 +10,13 @@ import config
 from modules import sendtoline
 from modules import easyselenium
 from modules import easyfile
+from modules import easylogger
+
 
 stl = sendtoline.SendToLine()
 ep = easyfile.EasyPickle()
+el = easylogger.EasyLogger()
+
 MAIL_ACCOUNT = config.MAIL_ACCOUNT
 id = MAIL_ACCOUNT.split(',')[0]
 password = MAIL_ACCOUNT.split(',')[1]

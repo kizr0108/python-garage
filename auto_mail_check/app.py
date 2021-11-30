@@ -15,7 +15,7 @@ from modules import easylogger
 
 stl = sendtoline.SendToLine()
 ep = easyfile.EasyPickle()
-el = easylogger.EasyLogger()
+el = easylogger.EasyLogger('auto_mail_check')
 
 MAIL_ACCOUNT = config.MAIL_ACCOUNT
 id = MAIL_ACCOUNT.split(',')[0]

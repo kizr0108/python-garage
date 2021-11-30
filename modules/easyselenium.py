@@ -11,18 +11,22 @@ import time
 import inspect
 import re
 import sys
+import platform
 
 class EasySelenium:
     def __init__(self,implicitly_wait=1.0,sleep_time=1.0,headless=False):
-        #self._DRIVER_PATH = '/Users/kizuk/Desktop/python/auto_run/chromedriver'
-        self._DRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
+        run_os = platform.system()
+        if run_os == 'Linux': #heroku上で実行している場合
+            self._DRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
+        elif run_os == 'Windows':
+            self._DRIVER_PATH = '/Users/kizuk/Desktop/python/auto_run/chromedriver'
         self._options = Options()
         self._options.add_argument('--disable-gpu');
         self._options.add_argument('--disable-extensions');
         self._options.add_argument('--proxy-server="direct://"');
         self._options.add_argument('--proxy-bypass-list=*');
         self._options.add_argument('--start-maximized');
-        if headless == True:
+        if headless == True or run_os == 'Linux':
             self._options.add_argument('--headless');
         #self._PROFILE_PATH = '/Users/kizuk/AppData/Local/Google/Chrome'
         #self._options.add_argument('--user-data-dir=' + PROFILE_PATH) #ログイン状態保持したい場合
@@ -53,7 +57,6 @@ class EasySelenium:
         time.sleep(sleeptime)
     def quit(self):
         self.driver.quit()
-        sys.exit()
     def ec_wait_all(self,timeout=30):
          WebDriverWait(self.driver,timeout).until(EC.presence_of_all_elements_located)
 

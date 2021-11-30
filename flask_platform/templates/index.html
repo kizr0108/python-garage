@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h1 class="h3 block border-bottom">アプリ一覧</h1>
+  {% if result and appname %}
+  <div class="alert alert-success">{{appname}}:{{result}}</div>
+  {% endif %}
+  <div class="">
+    {% if applist |length >0 %}
+      <ul>
+        {% for app in applist %}
+          <li>{{ app }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+  <div class="">
+    <form class="" action="/run/" method="post">
+      <input type="hidden" name="app-name" value="auto_bt_check">
+      <button type="submit" class="btn btn-primary">自動体温チェック実行</button>
+    </form>
+  </div>
+{% endblock %}

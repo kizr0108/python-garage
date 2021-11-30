@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h1 class="h3 block border-bottom">メール送信画面</h1>
+  {% if sendline_title and sendline_text %}
+  <div class="alert alert-success">{{sendline_title}}:{{sendline_text}}</div>
+  {% endif %}
+  <div class="">
+    <form class="" action="/testapp-sendline/" method="post">
+      <div class="form-group">
+        <label for="sendline-title">sendline:title</label>
+        <input class="form-control" type="text" name="sendline-title" value="">
+      </div>
+      <div class="form-group">
+        <label for="sendline-text">sendline:text</label>
+        <textarea class="form-control" name="sendline-text" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">LINEへ送信</button>
+    </form>
+  </div>
+{% endblock %}

@@ -37,6 +37,7 @@ class EasyLogger:
         exc_type_name = re.split("'",str(exc_type))[1]
         file_path = exc_tb.tb_frame.f_code.co_filename
         file_name = os.path.split(file_path)[1]
+        folder_name = os.path.split(os.path.split(file_path)[0])[1]
         lineno = exc_tb.tb_lineno
-        text = '{}: {} [{}][line:{}]'.format(exc_type_name,exc_obj,file_name,lineno)
+        text = '{}: {} [{}][line:{}]'.format(exc_type_name,exc_obj,folder_name+'/'+file_name,lineno)
         return text

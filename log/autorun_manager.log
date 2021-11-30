@@ -1,0 +1,2499 @@
+2021-11-30 06:29:02,397: DEBUG: ---------- start get_apps() ----------
+2021-11-30 06:29:02,399: DEBUG: <Section: AUTORUN APP LIST>
+2021-11-30 06:31:04,043: DEBUG: ---------- start get_apps() ----------
+2021-11-30 06:31:04,044: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:31:04,044: DEBUG: found:{} = {}
+2021-11-30 06:31:04,044: DEBUG: found:{} = {}
+2021-11-30 06:31:04,045: DEBUG: found:{} = {}
+2021-11-30 06:31:04,045: DEBUG: found:{} = {}
+2021-11-30 06:31:04,045: DEBUG: ---------- end get_apps() ----------
+2021-11-30 06:31:17,244: DEBUG: ---------- start get_apps() ----------
+2021-11-30 06:31:17,247: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:31:17,268: DEBUG: found:True = autorun_manager
+2021-11-30 06:31:17,268: DEBUG: found:True = auto_bt_check
+2021-11-30 06:31:17,268: DEBUG: found:True = auto_mail_check
+2021-11-30 06:31:17,269: DEBUG: found:True = flask_platform
+2021-11-30 06:31:17,269: DEBUG: ---------- end get_apps() ----------
+2021-11-30 06:31:31,192: DEBUG: ---------- start get_apps() ----------
+2021-11-30 06:31:31,194: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:31:31,194: DEBUG: found:autorun_manager = True
+2021-11-30 06:31:31,194: DEBUG: found:auto_bt_check = True
+2021-11-30 06:31:31,194: DEBUG: found:auto_mail_check = True
+2021-11-30 06:31:31,195: DEBUG: found:flask_platform = True
+2021-11-30 06:31:31,195: DEBUG: ---------- end get_apps() ----------
+2021-11-30 06:38:30,831: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:38:30,831: DEBUG: found:./.git
+2021-11-30 06:38:30,831: DEBUG: this file/folder has "."
+2021-11-30 06:38:30,831: DEBUG: found:./.venv
+2021-11-30 06:38:30,832: DEBUG: this file/folder has "."
+2021-11-30 06:38:30,832: DEBUG: found:./app_template
+2021-11-30 06:38:30,832: DEBUG: this file/folder is app_template
+2021-11-30 06:38:30,832: DEBUG: found:./autorun_manager
+2021-11-30 06:38:30,833: DEBUG: this is APP
+2021-11-30 06:38:30,834: DEBUG: found:./auto_bt_check
+2021-11-30 06:38:30,834: DEBUG: this is APP
+2021-11-30 06:38:30,835: DEBUG: found:./auto_mail_check
+2021-11-30 06:38:30,835: DEBUG: this is APP
+2021-11-30 06:38:30,836: DEBUG: found:./config.ini
+2021-11-30 06:38:30,836: DEBUG: this file/folder has "."
+2021-11-30 06:38:30,836: DEBUG: found:./flask_platform
+2021-11-30 06:38:30,836: DEBUG: this is APP
+2021-11-30 06:38:30,837: DEBUG: found:./log
+2021-11-30 06:38:30,837: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:38:30,837: DEBUG: found:./manage.py
+2021-11-30 06:38:30,837: DEBUG: this file/folder has "."
+2021-11-30 06:38:30,838: DEBUG: found:./modules
+2021-11-30 06:38:30,838: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:38:30,838: DEBUG: found:./requirements.txt
+2021-11-30 06:38:30,838: DEBUG: this file/folder has "."
+2021-11-30 06:38:30,839: DEBUG: found:./runtime.txt
+2021-11-30 06:38:30,839: DEBUG: this file/folder has "."
+2021-11-30 06:38:30,839: DEBUG: found:./test.py
+2021-11-30 06:38:30,839: DEBUG: this file/folder has "."
+2021-11-30 06:38:30,839: DEBUG: found:./test2.py
+2021-11-30 06:38:30,840: DEBUG: this file/folder has "."
+2021-11-30 06:38:30,840: DEBUG: found:./__init__.py
+2021-11-30 06:38:30,840: DEBUG: this file/folder has "."
+2021-11-30 06:38:30,840: DEBUG: found:./__pycache__
+2021-11-30 06:38:30,840: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:38:30,841: INFO: ---------- start get_apps() ----------
+2021-11-30 06:38:30,841: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:38:30,841: DEBUG: found:autorun_manager = True
+2021-11-30 06:38:30,841: DEBUG: found:auto_bt_check = True
+2021-11-30 06:38:30,841: DEBUG: found:auto_mail_check = True
+2021-11-30 06:38:30,842: DEBUG: found:flask_platform = True
+2021-11-30 06:38:30,842: INFO: ---------- end get_apps() ----------
+2021-11-30 06:38:30,842: INFO: ---------- start update_ini() ----------
+2021-11-30 06:38:30,843: INFO: ---------- end update_ini() ----------
+2021-11-30 06:38:30,843: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:39:17,489: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:39:17,490: DEBUG: found:./.git
+2021-11-30 06:39:17,490: DEBUG: this file/folder has "."
+2021-11-30 06:39:17,490: DEBUG: found:./.venv
+2021-11-30 06:39:17,490: DEBUG: this file/folder has "."
+2021-11-30 06:39:17,490: DEBUG: found:./app_template
+2021-11-30 06:39:17,490: DEBUG: this file/folder is app_template
+2021-11-30 06:39:17,490: DEBUG: found:./autorun_manager
+2021-11-30 06:39:17,491: DEBUG:     this is APP
+2021-11-30 06:39:17,492: DEBUG: found:./auto_bt_check
+2021-11-30 06:39:17,493: DEBUG:     this is APP
+2021-11-30 06:39:17,493: DEBUG: found:./auto_mail_check
+2021-11-30 06:39:17,493: DEBUG:     this is APP
+2021-11-30 06:39:17,493: DEBUG: found:./config.ini
+2021-11-30 06:39:17,493: DEBUG: this file/folder has "."
+2021-11-30 06:39:17,493: DEBUG: found:./flask_platform
+2021-11-30 06:39:17,493: DEBUG:     this is APP
+2021-11-30 06:39:17,494: DEBUG: found:./log
+2021-11-30 06:39:17,494: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:39:17,494: DEBUG: found:./manage.py
+2021-11-30 06:39:17,494: DEBUG: this file/folder has "."
+2021-11-30 06:39:17,494: DEBUG: found:./modules
+2021-11-30 06:39:17,494: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:39:17,494: DEBUG: found:./requirements.txt
+2021-11-30 06:39:17,495: DEBUG: this file/folder has "."
+2021-11-30 06:39:17,495: DEBUG: found:./runtime.txt
+2021-11-30 06:39:17,495: DEBUG: this file/folder has "."
+2021-11-30 06:39:17,495: DEBUG: found:./test.py
+2021-11-30 06:39:17,495: DEBUG: this file/folder has "."
+2021-11-30 06:39:17,495: DEBUG: found:./test2.py
+2021-11-30 06:39:17,495: DEBUG: this file/folder has "."
+2021-11-30 06:39:17,495: DEBUG: found:./__init__.py
+2021-11-30 06:39:17,495: DEBUG: this file/folder has "."
+2021-11-30 06:39:17,495: DEBUG: found:./__pycache__
+2021-11-30 06:39:17,495: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:39:17,496: INFO: ---------- start get_apps() ----------
+2021-11-30 06:39:17,496: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:39:17,496: DEBUG: found:autorun_manager = True
+2021-11-30 06:39:17,497: DEBUG: found:auto_bt_check = True
+2021-11-30 06:39:17,497: DEBUG: found:auto_mail_check = True
+2021-11-30 06:39:17,497: DEBUG: found:flask_platform = True
+2021-11-30 06:39:17,497: INFO: ---------- end get_apps() ----------
+2021-11-30 06:39:17,497: INFO: ---------- start update_ini() ----------
+2021-11-30 06:39:17,498: INFO: ---------- end update_ini() ----------
+2021-11-30 06:39:17,498: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:40:44,877: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:40:44,877: DEBUG: found:./.git
+2021-11-30 06:40:44,877: DEBUG: this file/folder has "."
+2021-11-30 06:40:44,877: DEBUG: found:./.venv
+2021-11-30 06:40:44,877: DEBUG: this file/folder has "."
+2021-11-30 06:40:44,878: DEBUG: found:./app_template
+2021-11-30 06:40:44,878: DEBUG: this file/folder is app_template
+2021-11-30 06:40:44,878: DEBUG: found:./autorun_manager
+2021-11-30 06:40:44,878: DEBUG:     this is APP
+2021-11-30 06:41:28,414: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:41:28,414: DEBUG: found:./.git
+2021-11-30 06:41:28,414: DEBUG: this file/folder has "."
+2021-11-30 06:41:28,414: DEBUG: found:./.venv
+2021-11-30 06:41:28,414: DEBUG: this file/folder has "."
+2021-11-30 06:41:28,415: DEBUG: found:./app_template
+2021-11-30 06:41:28,415: DEBUG: this file/folder is app_template
+2021-11-30 06:41:28,415: DEBUG: found:./autorun_manager
+2021-11-30 06:41:28,415: DEBUG:     this is APP
+2021-11-30 06:41:28,416: DEBUG:     [autorun_manager/settings.py]app_for_auto_run = True
+2021-11-30 06:41:28,416: DEBUG: found:./auto_bt_check
+2021-11-30 06:41:28,416: DEBUG:     this is APP
+2021-11-30 06:41:28,417: DEBUG:     [auto_bt_check/settings.py]app_for_auto_run = True
+2021-11-30 06:41:28,417: DEBUG: found:./auto_mail_check
+2021-11-30 06:41:28,417: DEBUG:     this is APP
+2021-11-30 06:41:28,417: DEBUG:     [auto_mail_check/settings.py]app_for_auto_run = True
+2021-11-30 06:41:28,417: DEBUG: found:./config.ini
+2021-11-30 06:41:28,417: DEBUG: this file/folder has "."
+2021-11-30 06:41:28,417: DEBUG: found:./flask_platform
+2021-11-30 06:41:28,418: DEBUG:     this is APP
+2021-11-30 06:41:28,418: DEBUG:     [flask_platform/settings.py]app_for_auto_run = True
+2021-11-30 06:41:28,418: DEBUG: found:./log
+2021-11-30 06:41:28,419: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:41:28,419: DEBUG: found:./manage.py
+2021-11-30 06:41:28,419: DEBUG: this file/folder has "."
+2021-11-30 06:41:28,419: DEBUG: found:./modules
+2021-11-30 06:41:28,419: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:41:28,419: DEBUG: found:./requirements.txt
+2021-11-30 06:41:28,420: DEBUG: this file/folder has "."
+2021-11-30 06:41:28,420: DEBUG: found:./runtime.txt
+2021-11-30 06:41:28,420: DEBUG: this file/folder has "."
+2021-11-30 06:41:28,420: DEBUG: found:./test.py
+2021-11-30 06:41:28,420: DEBUG: this file/folder has "."
+2021-11-30 06:41:28,420: DEBUG: found:./test2.py
+2021-11-30 06:41:28,420: DEBUG: this file/folder has "."
+2021-11-30 06:41:28,420: DEBUG: found:./__init__.py
+2021-11-30 06:41:28,420: DEBUG: this file/folder has "."
+2021-11-30 06:41:28,421: DEBUG: found:./__pycache__
+2021-11-30 06:41:28,421: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:41:28,421: INFO: ---------- start get_apps() ----------
+2021-11-30 06:41:28,421: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:41:28,422: DEBUG: found:autorun_manager = True
+2021-11-30 06:41:28,422: DEBUG: found:auto_bt_check = True
+2021-11-30 06:41:28,422: DEBUG: found:auto_mail_check = True
+2021-11-30 06:41:28,422: DEBUG: found:flask_platform = True
+2021-11-30 06:41:28,422: INFO: ---------- end get_apps() ----------
+2021-11-30 06:41:28,422: INFO: ---------- start update_ini() ----------
+2021-11-30 06:41:28,424: INFO: ---------- end update_ini() ----------
+2021-11-30 06:41:28,424: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:42:29,246: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:42:29,246: DEBUG: found:./.git
+2021-11-30 06:42:29,246: DEBUG: this file/folder has "."
+2021-11-30 06:42:29,246: DEBUG: found:./.venv
+2021-11-30 06:42:29,246: DEBUG: this file/folder has "."
+2021-11-30 06:42:29,246: DEBUG: found:./app_template
+2021-11-30 06:42:29,246: DEBUG: this file/folder is app_template
+2021-11-30 06:42:29,247: DEBUG: found:./autorun_manager
+2021-11-30 06:42:29,247: DEBUG:     this is APP
+2021-11-30 06:42:29,248: DEBUG:     [autorun_manager/settings.py]app_for_auto_run = True
+2021-11-30 06:42:29,248: DEBUG: found:./auto_bt_check
+2021-11-30 06:42:29,248: DEBUG:     this is APP
+2021-11-30 06:42:29,249: DEBUG:     [auto_bt_check/settings.py]app_for_auto_run = True
+2021-11-30 06:42:29,249: DEBUG: found:./auto_mail_check
+2021-11-30 06:42:29,249: DEBUG:     this is APP
+2021-11-30 06:42:29,249: DEBUG:     [auto_mail_check/settings.py]app_for_auto_run = True
+2021-11-30 06:42:29,249: DEBUG: found:./config.ini
+2021-11-30 06:42:29,249: DEBUG: this file/folder has "."
+2021-11-30 06:42:29,249: DEBUG: found:./flask_platform
+2021-11-30 06:42:29,250: DEBUG:     this is APP
+2021-11-30 06:42:29,250: DEBUG:     [flask_platform/settings.py]app_for_auto_run = True
+2021-11-30 06:42:29,250: DEBUG: found:./log
+2021-11-30 06:42:29,250: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:42:29,250: DEBUG: found:./manage.py
+2021-11-30 06:42:29,251: DEBUG: this file/folder has "."
+2021-11-30 06:42:29,251: DEBUG: found:./modules
+2021-11-30 06:42:29,251: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:42:29,251: DEBUG: found:./requirements.txt
+2021-11-30 06:42:29,251: DEBUG: this file/folder has "."
+2021-11-30 06:42:29,251: DEBUG: found:./runtime.txt
+2021-11-30 06:42:29,252: DEBUG: this file/folder has "."
+2021-11-30 06:42:29,252: DEBUG: found:./test.py
+2021-11-30 06:42:29,252: DEBUG: this file/folder has "."
+2021-11-30 06:42:29,252: DEBUG: found:./test2.py
+2021-11-30 06:42:29,252: DEBUG: this file/folder has "."
+2021-11-30 06:42:29,252: DEBUG: found:./__init__.py
+2021-11-30 06:42:29,252: DEBUG: this file/folder has "."
+2021-11-30 06:42:29,253: DEBUG: found:./__pycache__
+2021-11-30 06:42:29,253: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:42:29,253: INFO: ---------- start get_apps() ----------
+2021-11-30 06:42:29,254: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:42:29,254: DEBUG: found:autorun_manager = True
+2021-11-30 06:42:29,254: DEBUG: found:auto_bt_check = True
+2021-11-30 06:42:29,254: DEBUG: found:auto_mail_check = True
+2021-11-30 06:42:29,254: DEBUG: found:flask_platform = True
+2021-11-30 06:42:29,254: INFO: ---------- end get_apps() ----------
+2021-11-30 06:42:29,254: INFO: ---------- start update_ini() ----------
+2021-11-30 06:42:29,256: INFO: ---------- end update_ini() ----------
+2021-11-30 06:42:29,256: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:46:20,178: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:46:20,178: DEBUG: found:./.git
+2021-11-30 06:46:20,179: DEBUG: this file/folder has "."
+2021-11-30 06:46:20,179: DEBUG: found:./.venv
+2021-11-30 06:46:20,179: DEBUG: this file/folder has "."
+2021-11-30 06:46:20,179: DEBUG: found:./app_template
+2021-11-30 06:46:20,179: DEBUG: this file/folder is app_template
+2021-11-30 06:46:20,179: DEBUG: found:./autorun_manager
+2021-11-30 06:46:20,179: DEBUG:     this is APP
+2021-11-30 06:46:29,994: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:46:29,995: DEBUG: found:./.git
+2021-11-30 06:46:29,995: DEBUG: this file/folder has "."
+2021-11-30 06:46:29,995: DEBUG: found:./.venv
+2021-11-30 06:46:29,996: DEBUG: this file/folder has "."
+2021-11-30 06:46:29,996: DEBUG: found:./app_template
+2021-11-30 06:46:29,996: DEBUG: this file/folder is app_template
+2021-11-30 06:46:29,996: DEBUG: found:./autorun_manager
+2021-11-30 06:46:29,997: DEBUG:     this is APP
+2021-11-30 06:46:29,998: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:46:29,998: DEBUG: found:./auto_bt_check
+2021-11-30 06:46:29,999: DEBUG:     this is APP
+2021-11-30 06:46:29,999: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:46:29,999: DEBUG: found:./auto_mail_check
+2021-11-30 06:46:29,999: DEBUG:     this is APP
+2021-11-30 06:46:29,999: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:46:29,999: DEBUG: found:./config.ini
+2021-11-30 06:46:29,999: DEBUG: this file/folder has "."
+2021-11-30 06:46:30,000: DEBUG: found:./flask_platform
+2021-11-30 06:46:30,000: DEBUG:     this is APP
+2021-11-30 06:46:30,000: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:46:30,000: DEBUG: found:./log
+2021-11-30 06:46:30,001: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:46:30,001: DEBUG: found:./manage.py
+2021-11-30 06:46:30,001: DEBUG: this file/folder has "."
+2021-11-30 06:46:30,001: DEBUG: found:./modules
+2021-11-30 06:46:30,001: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:46:30,002: DEBUG: found:./requirements.txt
+2021-11-30 06:46:30,002: DEBUG: this file/folder has "."
+2021-11-30 06:46:30,002: DEBUG: found:./runtime.txt
+2021-11-30 06:46:30,002: DEBUG: this file/folder has "."
+2021-11-30 06:46:30,002: DEBUG: found:./test.py
+2021-11-30 06:46:30,002: DEBUG: this file/folder has "."
+2021-11-30 06:46:30,002: DEBUG: found:./test2.py
+2021-11-30 06:46:30,002: DEBUG: this file/folder has "."
+2021-11-30 06:46:30,003: DEBUG: found:./__init__.py
+2021-11-30 06:46:30,003: DEBUG: this file/folder has "."
+2021-11-30 06:46:30,003: DEBUG: found:./__pycache__
+2021-11-30 06:46:30,003: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:46:30,003: INFO: ---------- start get_apps() ----------
+2021-11-30 06:46:30,004: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:46:30,004: DEBUG: found:autorun_manager = True
+2021-11-30 06:46:30,004: DEBUG: found:auto_bt_check = True
+2021-11-30 06:46:30,005: DEBUG: found:auto_mail_check = True
+2021-11-30 06:46:30,005: DEBUG: found:flask_platform = True
+2021-11-30 06:46:30,005: INFO: ---------- end get_apps() ----------
+2021-11-30 06:46:30,005: INFO: ---------- start update_ini() ----------
+2021-11-30 06:46:30,008: INFO: ---------- end update_ini() ----------
+2021-11-30 06:46:30,008: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:47:17,706: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:47:17,707: DEBUG: found:./.git
+2021-11-30 06:47:17,707: DEBUG: this file/folder has "."
+2021-11-30 06:47:17,707: DEBUG: found:./.venv
+2021-11-30 06:47:17,707: DEBUG: this file/folder has "."
+2021-11-30 06:47:17,708: DEBUG: found:./app_template
+2021-11-30 06:47:17,708: DEBUG: this file/folder is app_template
+2021-11-30 06:47:17,708: DEBUG: found:./autorun_manager
+2021-11-30 06:47:17,708: DEBUG:     this is APP
+2021-11-30 06:47:17,709: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:47:17,709: DEBUG: found:./auto_bt_check
+2021-11-30 06:47:17,710: DEBUG:     this is APP
+2021-11-30 06:47:17,710: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:47:17,710: DEBUG: found:./auto_mail_check
+2021-11-30 06:47:17,710: DEBUG:     this is APP
+2021-11-30 06:47:17,710: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:47:17,710: DEBUG: found:./config.ini
+2021-11-30 06:47:17,710: DEBUG: this file/folder has "."
+2021-11-30 06:47:17,710: DEBUG: found:./flask_platform
+2021-11-30 06:47:17,711: DEBUG:     this is APP
+2021-11-30 06:47:17,711: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:47:17,711: DEBUG: found:./log
+2021-11-30 06:47:17,711: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:47:17,711: DEBUG: found:./manage.py
+2021-11-30 06:47:17,711: DEBUG: this file/folder has "."
+2021-11-30 06:47:17,711: DEBUG: found:./modules
+2021-11-30 06:47:17,712: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:47:17,712: DEBUG: found:./requirements.txt
+2021-11-30 06:47:17,712: DEBUG: this file/folder has "."
+2021-11-30 06:47:17,712: DEBUG: found:./runtime.txt
+2021-11-30 06:47:17,712: DEBUG: this file/folder has "."
+2021-11-30 06:47:17,712: DEBUG: found:./test.py
+2021-11-30 06:47:17,712: DEBUG: this file/folder has "."
+2021-11-30 06:47:17,712: DEBUG: found:./test2.py
+2021-11-30 06:47:17,712: DEBUG: this file/folder has "."
+2021-11-30 06:47:17,712: DEBUG: found:./__init__.py
+2021-11-30 06:47:17,712: DEBUG: this file/folder has "."
+2021-11-30 06:47:17,712: DEBUG: found:./__pycache__
+2021-11-30 06:47:17,713: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:47:17,713: INFO: ---------- start get_apps() ----------
+2021-11-30 06:47:17,713: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:47:17,713: DEBUG: found:autorun_manager = True
+2021-11-30 06:47:17,714: DEBUG: found:auto_bt_check = True
+2021-11-30 06:47:17,714: DEBUG: found:auto_mail_check = True
+2021-11-30 06:47:17,714: DEBUG: found:flask_platform = True
+2021-11-30 06:47:17,714: INFO: ---------- end get_apps() ----------
+2021-11-30 06:47:17,714: INFO: ---------- start update_ini() ----------
+2021-11-30 06:47:17,715: INFO: ---------- end update_ini() ----------
+2021-11-30 06:47:17,715: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:49:43,401: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:49:43,402: DEBUG: found:./.git
+2021-11-30 06:49:43,402: DEBUG: this file/folder has "."
+2021-11-30 06:49:43,402: DEBUG: found:./.venv
+2021-11-30 06:49:43,402: DEBUG: this file/folder has "."
+2021-11-30 06:49:43,402: DEBUG: found:./app_template
+2021-11-30 06:49:43,402: DEBUG: this file/folder is app_template
+2021-11-30 06:49:43,403: DEBUG: found:./autorun_manager
+2021-11-30 06:49:43,403: DEBUG:     this is APP
+2021-11-30 06:49:57,879: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:49:57,879: DEBUG: found:./.git
+2021-11-30 06:49:57,879: DEBUG: this file/folder has "."
+2021-11-30 06:49:57,880: DEBUG: found:./.venv
+2021-11-30 06:49:57,880: DEBUG: this file/folder has "."
+2021-11-30 06:49:57,880: DEBUG: found:./app_template
+2021-11-30 06:49:57,880: DEBUG: this file/folder is app_template
+2021-11-30 06:49:57,880: DEBUG: found:./autorun_manager
+2021-11-30 06:49:57,880: DEBUG:     this is APP
+2021-11-30 06:49:57,886: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:49:57,887: DEBUG: found:./auto_bt_check
+2021-11-30 06:49:57,887: DEBUG:     this is APP
+2021-11-30 06:49:57,914: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:49:57,914: DEBUG: found:./auto_mail_check
+2021-11-30 06:49:57,914: DEBUG:     this is APP
+2021-11-30 06:49:57,921: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:49:57,921: DEBUG: found:./config.ini
+2021-11-30 06:49:57,921: DEBUG: this file/folder has "."
+2021-11-30 06:49:57,921: DEBUG: found:./flask_platform
+2021-11-30 06:49:57,921: DEBUG:     this is APP
+2021-11-30 06:49:57,925: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = bool
+2021-11-30 06:49:57,926: DEBUG: found:./log
+2021-11-30 06:49:57,926: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:49:57,926: DEBUG: found:./manage.py
+2021-11-30 06:49:57,926: DEBUG: this file/folder has "."
+2021-11-30 06:49:57,926: DEBUG: found:./modules
+2021-11-30 06:49:57,927: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:49:57,927: DEBUG: found:./requirements.txt
+2021-11-30 06:49:57,927: DEBUG: this file/folder has "."
+2021-11-30 06:49:57,927: DEBUG: found:./runtime.txt
+2021-11-30 06:49:57,927: DEBUG: this file/folder has "."
+2021-11-30 06:49:57,927: DEBUG: found:./test.py
+2021-11-30 06:49:57,927: DEBUG: this file/folder has "."
+2021-11-30 06:49:57,927: DEBUG: found:./test2.py
+2021-11-30 06:49:57,928: DEBUG: this file/folder has "."
+2021-11-30 06:49:57,928: DEBUG: found:./__init__.py
+2021-11-30 06:49:57,928: DEBUG: this file/folder has "."
+2021-11-30 06:49:57,928: DEBUG: found:./__pycache__
+2021-11-30 06:49:57,928: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:49:57,928: INFO: ---------- start get_apps() ----------
+2021-11-30 06:49:57,929: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:49:57,929: DEBUG: found:autorun_manager = True
+2021-11-30 06:49:57,929: DEBUG: found:auto_bt_check = True
+2021-11-30 06:49:57,930: DEBUG: found:auto_mail_check = True
+2021-11-30 06:49:57,930: DEBUG: found:flask_platform = True
+2021-11-30 06:49:57,930: INFO: ---------- end get_apps() ----------
+2021-11-30 06:49:57,930: INFO: ---------- start update_ini() ----------
+2021-11-30 06:49:57,931: INFO: ---------- end update_ini() ----------
+2021-11-30 06:49:57,931: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:50:25,354: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:50:25,354: DEBUG: found:./.git
+2021-11-30 06:50:25,355: DEBUG: this file/folder has "."
+2021-11-30 06:50:25,355: DEBUG: found:./.venv
+2021-11-30 06:50:25,355: DEBUG: this file/folder has "."
+2021-11-30 06:50:25,355: DEBUG: found:./app_template
+2021-11-30 06:50:25,355: DEBUG: this file/folder is app_template
+2021-11-30 06:50:25,355: DEBUG: found:./autorun_manager
+2021-11-30 06:50:25,355: DEBUG:     this is APP
+2021-11-30 06:50:25,357: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:50:25,357: DEBUG: found:./auto_bt_check
+2021-11-30 06:50:25,358: DEBUG:     this is APP
+2021-11-30 06:50:25,360: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:50:25,360: DEBUG: found:./auto_mail_check
+2021-11-30 06:50:25,360: DEBUG:     this is APP
+2021-11-30 06:50:25,363: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:50:25,363: DEBUG: found:./config.ini
+2021-11-30 06:50:25,363: DEBUG: this file/folder has "."
+2021-11-30 06:50:25,363: DEBUG: found:./flask_platform
+2021-11-30 06:50:25,364: DEBUG:     this is APP
+2021-11-30 06:50:25,369: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 06:50:25,369: DEBUG: found:./log
+2021-11-30 06:50:25,369: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:50:25,370: DEBUG: found:./manage.py
+2021-11-30 06:50:25,370: DEBUG: this file/folder has "."
+2021-11-30 06:50:25,370: DEBUG: found:./modules
+2021-11-30 06:50:25,370: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:50:25,370: DEBUG: found:./requirements.txt
+2021-11-30 06:50:25,371: DEBUG: this file/folder has "."
+2021-11-30 06:50:25,371: DEBUG: found:./runtime.txt
+2021-11-30 06:50:25,371: DEBUG: this file/folder has "."
+2021-11-30 06:50:25,371: DEBUG: found:./test.py
+2021-11-30 06:50:25,371: DEBUG: this file/folder has "."
+2021-11-30 06:50:25,371: DEBUG: found:./test2.py
+2021-11-30 06:50:25,371: DEBUG: this file/folder has "."
+2021-11-30 06:50:25,371: DEBUG: found:./__init__.py
+2021-11-30 06:50:25,371: DEBUG: this file/folder has "."
+2021-11-30 06:50:25,372: DEBUG: found:./__pycache__
+2021-11-30 06:50:25,372: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:50:25,372: INFO: ---------- start get_apps() ----------
+2021-11-30 06:50:25,373: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:50:25,373: INFO: ---------- end get_apps() ----------
+2021-11-30 06:50:25,373: INFO: ---------- start update_ini() ----------
+2021-11-30 06:50:25,374: INFO: ---------- end update_ini() ----------
+2021-11-30 06:50:25,374: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:55:02,405: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:55:02,405: DEBUG: found:./.git
+2021-11-30 06:55:02,405: DEBUG: this file/folder has "."
+2021-11-30 06:55:02,405: DEBUG: found:./.venv
+2021-11-30 06:55:02,406: DEBUG: this file/folder has "."
+2021-11-30 06:55:02,406: DEBUG: found:./app_template
+2021-11-30 06:55:02,407: DEBUG: this file/folder is app_template
+2021-11-30 06:55:02,407: DEBUG: found:./autorun_manager
+2021-11-30 06:55:02,408: DEBUG:     this is APP
+2021-11-30 06:55:02,412: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:55:02,412: DEBUG: found:./auto_bt_check
+2021-11-30 06:55:02,412: DEBUG:     this is APP
+2021-11-30 06:55:02,415: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:55:02,415: DEBUG: found:./auto_mail_check
+2021-11-30 06:55:02,416: DEBUG:     this is APP
+2021-11-30 06:55:02,419: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:55:02,419: DEBUG: found:./config.ini
+2021-11-30 06:55:02,419: DEBUG: this file/folder has "."
+2021-11-30 06:55:02,419: DEBUG: found:./flask_platform
+2021-11-30 06:55:02,419: DEBUG:     this is APP
+2021-11-30 06:55:02,422: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 06:55:02,422: DEBUG: found:./log
+2021-11-30 06:55:02,422: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:55:02,423: DEBUG: found:./manage.py
+2021-11-30 06:55:02,423: DEBUG: this file/folder has "."
+2021-11-30 06:55:02,423: DEBUG: found:./modules
+2021-11-30 06:55:02,423: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:55:02,423: DEBUG: found:./requirements.txt
+2021-11-30 06:55:02,424: DEBUG: this file/folder has "."
+2021-11-30 06:55:02,424: DEBUG: found:./runtime.txt
+2021-11-30 06:55:02,424: DEBUG: this file/folder has "."
+2021-11-30 06:55:02,424: DEBUG: found:./test.py
+2021-11-30 06:55:02,424: DEBUG: this file/folder has "."
+2021-11-30 06:55:02,424: DEBUG: found:./test2.py
+2021-11-30 06:55:02,425: DEBUG: this file/folder has "."
+2021-11-30 06:55:02,425: DEBUG: found:./__init__.py
+2021-11-30 06:55:02,425: DEBUG: this file/folder has "."
+2021-11-30 06:55:02,425: DEBUG: found:./__pycache__
+2021-11-30 06:55:02,426: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:55:02,426: INFO: ---------- start get_apps() ----------
+2021-11-30 06:55:02,427: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:55:02,428: DEBUG: found:autorun_manager = True
+2021-11-30 06:55:02,428: DEBUG: found:auto_bt_check = True
+2021-11-30 06:55:02,428: DEBUG: found:auto_mail_check = True
+2021-11-30 06:55:02,428: INFO: ---------- end get_apps() ----------
+2021-11-30 06:55:02,428: INFO: ---------- start update_ini() ----------
+2021-11-30 06:55:02,430: INFO: ---------- end update_ini() ----------
+2021-11-30 06:55:02,430: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:57:26,445: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:57:26,446: DEBUG: found:./.git
+2021-11-30 06:57:26,446: DEBUG: this file/folder has "."
+2021-11-30 06:57:26,446: DEBUG: found:./.venv
+2021-11-30 06:57:26,447: DEBUG: this file/folder has "."
+2021-11-30 06:57:26,447: DEBUG: found:./app_template
+2021-11-30 06:57:26,448: DEBUG: this file/folder is app_template
+2021-11-30 06:57:26,448: DEBUG: found:./autorun_manager
+2021-11-30 06:57:26,449: DEBUG:     this is APP
+2021-11-30 06:57:26,452: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:57:26,453: DEBUG: found:./auto_bt_check
+2021-11-30 06:57:26,453: DEBUG:     this is APP
+2021-11-30 06:57:26,457: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:57:26,457: DEBUG: found:./auto_mail_checka
+2021-11-30 06:57:26,457: DEBUG:     this is APP
+2021-11-30 06:57:26,460: DEBUG:     [auto_mail_checka/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:57:26,460: DEBUG: found:./config.ini
+2021-11-30 06:57:26,460: DEBUG: this file/folder has "."
+2021-11-30 06:57:26,460: DEBUG: found:./flask_platform
+2021-11-30 06:57:26,461: DEBUG:     this is APP
+2021-11-30 06:57:26,464: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 06:57:26,464: DEBUG: found:./log
+2021-11-30 06:57:26,465: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:57:26,465: DEBUG: found:./manage.py
+2021-11-30 06:57:26,465: DEBUG: this file/folder has "."
+2021-11-30 06:57:26,465: DEBUG: found:./modules
+2021-11-30 06:57:26,465: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:57:26,465: DEBUG: found:./requirements.txt
+2021-11-30 06:57:26,465: DEBUG: this file/folder has "."
+2021-11-30 06:57:26,465: DEBUG: found:./runtime.txt
+2021-11-30 06:57:26,466: DEBUG: this file/folder has "."
+2021-11-30 06:57:26,466: DEBUG: found:./test.py
+2021-11-30 06:57:26,466: DEBUG: this file/folder has "."
+2021-11-30 06:57:26,466: DEBUG: found:./test2.py
+2021-11-30 06:57:26,466: DEBUG: this file/folder has "."
+2021-11-30 06:57:26,466: DEBUG: found:./__init__.py
+2021-11-30 06:57:26,466: DEBUG: this file/folder has "."
+2021-11-30 06:57:26,466: DEBUG: found:./__pycache__
+2021-11-30 06:57:26,466: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:57:26,466: INFO: ---------- start get_apps() ----------
+2021-11-30 06:57:26,467: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:57:26,467: DEBUG: found:autorun_manager = True
+2021-11-30 06:57:26,467: DEBUG: found:auto_bt_check = True
+2021-11-30 06:57:26,467: DEBUG: found:auto_mail_check = True
+2021-11-30 06:57:26,467: INFO: ---------- end get_apps() ----------
+2021-11-30 06:57:26,467: DEBUG: add:auto_mail_checka = True
+2021-11-30 06:57:26,467: DEBUG: delete:auto_mail_check
+2021-11-30 06:59:05,994: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:59:05,995: DEBUG: found:./.git
+2021-11-30 06:59:05,995: DEBUG: this file/folder has "."
+2021-11-30 06:59:05,995: DEBUG: found:./.venv
+2021-11-30 06:59:05,995: DEBUG: this file/folder has "."
+2021-11-30 06:59:05,995: DEBUG: found:./app_template
+2021-11-30 06:59:05,996: DEBUG: this file/folder is app_template
+2021-11-30 06:59:05,996: DEBUG: found:./autorun_manager
+2021-11-30 06:59:05,997: DEBUG:     this is APP
+2021-11-30 06:59:06,001: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:59:06,001: DEBUG: found:./auto_bt_check
+2021-11-30 06:59:06,002: DEBUG:     this is APP
+2021-11-30 06:59:06,006: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:59:06,007: DEBUG: found:./auto_mail_checka
+2021-11-30 06:59:06,007: DEBUG:     this is APP
+2021-11-30 06:59:06,011: DEBUG:     [auto_mail_checka/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:59:06,012: DEBUG: found:./config.ini
+2021-11-30 06:59:06,012: DEBUG: this file/folder has "."
+2021-11-30 06:59:06,012: DEBUG: found:./flask_platform
+2021-11-30 06:59:06,012: DEBUG:     this is APP
+2021-11-30 06:59:06,015: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 06:59:06,015: DEBUG: found:./log
+2021-11-30 06:59:06,016: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:59:06,016: DEBUG: found:./manage.py
+2021-11-30 06:59:06,016: DEBUG: this file/folder has "."
+2021-11-30 06:59:06,016: DEBUG: found:./modules
+2021-11-30 06:59:06,017: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:59:06,017: DEBUG: found:./requirements.txt
+2021-11-30 06:59:06,017: DEBUG: this file/folder has "."
+2021-11-30 06:59:06,017: DEBUG: found:./runtime.txt
+2021-11-30 06:59:06,017: DEBUG: this file/folder has "."
+2021-11-30 06:59:06,017: DEBUG: found:./test.py
+2021-11-30 06:59:06,018: DEBUG: this file/folder has "."
+2021-11-30 06:59:06,018: DEBUG: found:./test2.py
+2021-11-30 06:59:06,018: DEBUG: this file/folder has "."
+2021-11-30 06:59:06,018: DEBUG: found:./__init__.py
+2021-11-30 06:59:06,018: DEBUG: this file/folder has "."
+2021-11-30 06:59:06,018: DEBUG: found:./__pycache__
+2021-11-30 06:59:06,019: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:59:06,019: INFO: ---------- start get_apps() ----------
+2021-11-30 06:59:06,020: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:59:06,020: DEBUG: found:autorun_manager = True
+2021-11-30 06:59:06,020: DEBUG: found:auto_bt_check = True
+2021-11-30 06:59:06,021: DEBUG: found:auto_mail_check = True
+2021-11-30 06:59:06,021: INFO: ---------- end get_apps() ----------
+2021-11-30 06:59:06,021: DEBUG: add:auto_mail_checka = True
+2021-11-30 06:59:17,398: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:59:17,399: DEBUG: found:./.git
+2021-11-30 06:59:17,399: DEBUG: this file/folder has "."
+2021-11-30 06:59:17,400: DEBUG: found:./.venv
+2021-11-30 06:59:17,401: DEBUG: this file/folder has "."
+2021-11-30 06:59:17,401: DEBUG: found:./app_template
+2021-11-30 06:59:17,401: DEBUG: this file/folder is app_template
+2021-11-30 06:59:17,401: DEBUG: found:./autorun_manager
+2021-11-30 06:59:17,402: DEBUG:     this is APP
+2021-11-30 06:59:17,405: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:59:17,406: DEBUG: found:./auto_bt_check
+2021-11-30 06:59:17,406: DEBUG:     this is APP
+2021-11-30 06:59:17,409: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:59:17,409: DEBUG: found:./auto_mail_checka
+2021-11-30 06:59:17,410: DEBUG:     this is APP
+2021-11-30 06:59:17,413: DEBUG:     [auto_mail_checka/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:59:17,413: DEBUG: found:./config.ini
+2021-11-30 06:59:17,413: DEBUG: this file/folder has "."
+2021-11-30 06:59:17,413: DEBUG: found:./flask_platform
+2021-11-30 06:59:17,414: DEBUG:     this is APP
+2021-11-30 06:59:17,417: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 06:59:17,417: DEBUG: found:./log
+2021-11-30 06:59:17,417: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:59:17,417: DEBUG: found:./manage.py
+2021-11-30 06:59:17,418: DEBUG: this file/folder has "."
+2021-11-30 06:59:17,418: DEBUG: found:./modules
+2021-11-30 06:59:17,418: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:59:17,418: DEBUG: found:./requirements.txt
+2021-11-30 06:59:17,418: DEBUG: this file/folder has "."
+2021-11-30 06:59:17,419: DEBUG: found:./runtime.txt
+2021-11-30 06:59:17,419: DEBUG: this file/folder has "."
+2021-11-30 06:59:17,419: DEBUG: found:./test.py
+2021-11-30 06:59:17,419: DEBUG: this file/folder has "."
+2021-11-30 06:59:17,419: DEBUG: found:./test2.py
+2021-11-30 06:59:17,419: DEBUG: this file/folder has "."
+2021-11-30 06:59:17,419: DEBUG: found:./__init__.py
+2021-11-30 06:59:17,420: DEBUG: this file/folder has "."
+2021-11-30 06:59:17,420: DEBUG: found:./__pycache__
+2021-11-30 06:59:17,420: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:59:17,420: INFO: ---------- start get_apps() ----------
+2021-11-30 06:59:17,421: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:59:17,421: DEBUG: found:autorun_manager = True
+2021-11-30 06:59:17,421: DEBUG: found:auto_bt_check = True
+2021-11-30 06:59:17,422: DEBUG: found:auto_mail_check = True
+2021-11-30 06:59:17,422: INFO: ---------- end get_apps() ----------
+2021-11-30 06:59:17,422: DEBUG: add:auto_mail_checka = True
+2021-11-30 06:59:17,422: INFO: ---------- start update_ini() ----------
+2021-11-30 06:59:17,424: INFO: ---------- end update_ini() ----------
+2021-11-30 06:59:17,424: INFO: ---------- end add_newapps() ----------
+2021-11-30 06:59:49,126: INFO: ---------- start add_newapps() ----------
+2021-11-30 06:59:49,126: DEBUG: found:./.git
+2021-11-30 06:59:49,126: DEBUG: this file/folder has "."
+2021-11-30 06:59:49,126: DEBUG: found:./.venv
+2021-11-30 06:59:49,127: DEBUG: this file/folder has "."
+2021-11-30 06:59:49,127: DEBUG: found:./app_template
+2021-11-30 06:59:49,127: DEBUG: this file/folder is app_template
+2021-11-30 06:59:49,127: DEBUG: found:./autorun_manager
+2021-11-30 06:59:49,127: DEBUG:     this is APP
+2021-11-30 06:59:49,129: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:59:49,129: DEBUG: found:./auto_bt_check
+2021-11-30 06:59:49,130: DEBUG:     this is APP
+2021-11-30 06:59:49,132: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:59:49,132: DEBUG: found:./auto_mail_checka
+2021-11-30 06:59:49,133: DEBUG:     this is APP
+2021-11-30 06:59:49,136: DEBUG:     [auto_mail_checka/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 06:59:49,137: DEBUG: found:./config.ini
+2021-11-30 06:59:49,137: DEBUG: this file/folder has "."
+2021-11-30 06:59:49,137: DEBUG: found:./flask_platform
+2021-11-30 06:59:49,137: DEBUG:     this is APP
+2021-11-30 06:59:49,141: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 06:59:49,141: DEBUG: found:./log
+2021-11-30 06:59:49,141: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:59:49,141: DEBUG: found:./manage.py
+2021-11-30 06:59:49,141: DEBUG: this file/folder has "."
+2021-11-30 06:59:49,141: DEBUG: found:./modules
+2021-11-30 06:59:49,142: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:59:49,142: DEBUG: found:./requirements.txt
+2021-11-30 06:59:49,142: DEBUG: this file/folder has "."
+2021-11-30 06:59:49,142: DEBUG: found:./runtime.txt
+2021-11-30 06:59:49,142: DEBUG: this file/folder has "."
+2021-11-30 06:59:49,143: DEBUG: found:./test.py
+2021-11-30 06:59:49,143: DEBUG: this file/folder has "."
+2021-11-30 06:59:49,143: DEBUG: found:./test2.py
+2021-11-30 06:59:49,143: DEBUG: this file/folder has "."
+2021-11-30 06:59:49,143: DEBUG: found:./__init__.py
+2021-11-30 06:59:49,143: DEBUG: this file/folder has "."
+2021-11-30 06:59:49,143: DEBUG: found:./__pycache__
+2021-11-30 06:59:49,144: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 06:59:49,144: INFO: ---------- start get_apps() ----------
+2021-11-30 06:59:49,144: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 06:59:49,145: DEBUG: found:autorun_manager = True
+2021-11-30 06:59:49,145: DEBUG: found:auto_bt_check = True
+2021-11-30 06:59:49,145: DEBUG: found:auto_mail_checka = True
+2021-11-30 06:59:49,145: INFO: ---------- end get_apps() ----------
+2021-11-30 06:59:49,145: INFO: ---------- start update_ini() ----------
+2021-11-30 06:59:49,146: INFO: ---------- end update_ini() ----------
+2021-11-30 06:59:49,146: INFO: ---------- end add_newapps() ----------
+2021-11-30 07:00:14,677: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:00:14,677: DEBUG: found:./.git
+2021-11-30 07:00:14,677: DEBUG: this file/folder has "."
+2021-11-30 07:00:14,678: DEBUG: found:./.venv
+2021-11-30 07:00:14,678: DEBUG: this file/folder has "."
+2021-11-30 07:00:14,678: DEBUG: found:./app_template
+2021-11-30 07:00:14,678: DEBUG: this file/folder is app_template
+2021-11-30 07:00:14,678: DEBUG: found:./autorun_manager
+2021-11-30 07:00:14,678: DEBUG:     this is APP
+2021-11-30 07:00:14,681: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:00:14,681: DEBUG: found:./auto_bt_check
+2021-11-30 07:00:14,683: DEBUG:     this is APP
+2021-11-30 07:00:14,689: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:00:14,689: DEBUG: found:./auto_mail_check
+2021-11-30 07:00:14,690: DEBUG:     this is APP
+2021-11-30 07:00:14,693: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:00:14,693: DEBUG: found:./config.ini
+2021-11-30 07:00:14,693: DEBUG: this file/folder has "."
+2021-11-30 07:00:14,693: DEBUG: found:./flask_platform
+2021-11-30 07:00:14,694: DEBUG:     this is APP
+2021-11-30 07:00:14,696: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:00:14,696: DEBUG: found:./log
+2021-11-30 07:00:14,696: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:00:14,696: DEBUG: found:./manage.py
+2021-11-30 07:00:14,696: DEBUG: this file/folder has "."
+2021-11-30 07:00:14,696: DEBUG: found:./modules
+2021-11-30 07:00:14,696: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:00:14,696: DEBUG: found:./requirements.txt
+2021-11-30 07:00:14,697: DEBUG: this file/folder has "."
+2021-11-30 07:00:14,697: DEBUG: found:./runtime.txt
+2021-11-30 07:00:14,697: DEBUG: this file/folder has "."
+2021-11-30 07:00:14,697: DEBUG: found:./test.py
+2021-11-30 07:00:14,697: DEBUG: this file/folder has "."
+2021-11-30 07:00:14,697: DEBUG: found:./test2.py
+2021-11-30 07:00:14,697: DEBUG: this file/folder has "."
+2021-11-30 07:00:14,697: DEBUG: found:./__init__.py
+2021-11-30 07:00:14,697: DEBUG: this file/folder has "."
+2021-11-30 07:00:14,697: DEBUG: found:./__pycache__
+2021-11-30 07:00:14,697: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:00:14,698: INFO: ---------- start get_apps() ----------
+2021-11-30 07:00:14,698: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:00:14,698: DEBUG: found:autorun_manager = True
+2021-11-30 07:00:14,698: DEBUG: found:auto_bt_check = True
+2021-11-30 07:00:14,698: DEBUG: found:auto_mail_checka = True
+2021-11-30 07:00:14,699: INFO: ---------- end get_apps() ----------
+2021-11-30 07:00:14,699: DEBUG: add:auto_mail_check = True
+2021-11-30 07:00:14,699: DEBUG: delete:auto_mail_checka = True
+2021-11-30 07:00:14,699: INFO: ---------- start update_ini() ----------
+2021-11-30 07:00:14,700: INFO: ---------- end update_ini() ----------
+2021-11-30 07:00:14,700: INFO: ---------- end add_newapps() ----------
+2021-11-30 07:07:09,227: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:07:09,228: DEBUG: found:./.git
+2021-11-30 07:07:09,228: DEBUG: this file/folder has "."
+2021-11-30 07:07:09,228: DEBUG: found:./.venv
+2021-11-30 07:07:09,228: DEBUG: this file/folder has "."
+2021-11-30 07:07:09,228: DEBUG: found:./app_template
+2021-11-30 07:07:09,229: DEBUG: this file/folder is app_template
+2021-11-30 07:07:09,229: DEBUG: found:./autorun_manager
+2021-11-30 07:07:09,229: DEBUG:     this is APP
+2021-11-30 07:07:09,231: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:07:09,231: DEBUG: found:./auto_bt_check
+2021-11-30 07:07:09,232: DEBUG:     this is APP
+2021-11-30 07:07:09,234: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:07:09,235: DEBUG: found:./auto_mail_check
+2021-11-30 07:07:09,235: DEBUG:     this is APP
+2021-11-30 07:07:09,238: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:07:09,238: DEBUG: found:./config.ini
+2021-11-30 07:07:09,238: DEBUG: this file/folder has "."
+2021-11-30 07:07:09,239: DEBUG: found:./flask_platform
+2021-11-30 07:07:09,239: DEBUG:     this is APP
+2021-11-30 07:07:09,241: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:07:09,241: DEBUG: found:./log
+2021-11-30 07:07:09,242: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:07:09,242: DEBUG: found:./manage.py
+2021-11-30 07:07:09,242: DEBUG: this file/folder has "."
+2021-11-30 07:07:09,242: DEBUG: found:./modules
+2021-11-30 07:07:09,242: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:07:09,242: DEBUG: found:./requirements.txt
+2021-11-30 07:07:09,242: DEBUG: this file/folder has "."
+2021-11-30 07:07:09,242: DEBUG: found:./runtime.txt
+2021-11-30 07:07:09,242: DEBUG: this file/folder has "."
+2021-11-30 07:07:09,243: DEBUG: found:./test.py
+2021-11-30 07:07:09,243: DEBUG: this file/folder has "."
+2021-11-30 07:07:09,243: DEBUG: found:./test2.py
+2021-11-30 07:07:09,243: DEBUG: this file/folder has "."
+2021-11-30 07:07:09,243: DEBUG: found:./__init__.py
+2021-11-30 07:07:09,243: DEBUG: this file/folder has "."
+2021-11-30 07:07:09,243: DEBUG: found:./__pycache__
+2021-11-30 07:07:09,243: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:07:09,244: INFO: ---------- start get_apps() ----------
+2021-11-30 07:07:09,244: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:07:09,244: DEBUG: found:autorun_manager = True
+2021-11-30 07:07:09,245: DEBUG: found:auto_bt_check = True
+2021-11-30 07:07:09,245: DEBUG: found:auto_mail_check = True
+2021-11-30 07:07:09,245: INFO: ---------- end get_apps() ----------
+2021-11-30 07:07:09,245: INFO: ---------- start update_ini() ----------
+2021-11-30 07:07:09,246: INFO: ---------- end update_ini() ----------
+2021-11-30 07:07:09,246: INFO: ---------- end add_newapps() ----------
+2021-11-30 07:07:25,793: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:07:25,794: DEBUG: found:./.git
+2021-11-30 07:07:25,794: DEBUG: this file/folder has "."
+2021-11-30 07:07:25,794: DEBUG: found:./.venv
+2021-11-30 07:07:25,794: DEBUG: this file/folder has "."
+2021-11-30 07:07:25,794: DEBUG: found:./app_template
+2021-11-30 07:07:25,794: DEBUG: this file/folder is app_template
+2021-11-30 07:07:25,795: DEBUG: found:./autorun_manager
+2021-11-30 07:07:25,795: DEBUG:     this is APP
+2021-11-30 07:07:25,799: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:07:25,799: DEBUG: found:./auto_bt_check
+2021-11-30 07:07:25,800: DEBUG:     this is APP
+2021-11-30 07:07:25,803: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:07:25,804: DEBUG: found:./auto_mail_check
+2021-11-30 07:07:25,804: DEBUG:     this is APP
+2021-11-30 07:07:25,808: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:07:25,808: DEBUG: found:./config.ini
+2021-11-30 07:07:25,808: DEBUG: this file/folder has "."
+2021-11-30 07:07:25,808: DEBUG: found:./flask_platform
+2021-11-30 07:07:25,809: DEBUG:     this is APP
+2021-11-30 07:07:25,811: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:07:25,811: DEBUG: found:./log
+2021-11-30 07:07:25,811: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:07:25,811: DEBUG: found:./manage.py
+2021-11-30 07:07:25,811: DEBUG: this file/folder has "."
+2021-11-30 07:07:25,811: DEBUG: found:./modules
+2021-11-30 07:07:25,812: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:07:25,812: DEBUG: found:./requirements.txt
+2021-11-30 07:07:25,812: DEBUG: this file/folder has "."
+2021-11-30 07:07:25,812: DEBUG: found:./runtime.txt
+2021-11-30 07:07:25,812: DEBUG: this file/folder has "."
+2021-11-30 07:07:25,812: DEBUG: found:./test.py
+2021-11-30 07:07:25,812: DEBUG: this file/folder has "."
+2021-11-30 07:07:25,812: DEBUG: found:./test2.py
+2021-11-30 07:07:25,812: DEBUG: this file/folder has "."
+2021-11-30 07:07:25,812: DEBUG: found:./__init__.py
+2021-11-30 07:07:25,812: DEBUG: this file/folder has "."
+2021-11-30 07:07:25,813: DEBUG: found:./__pycache__
+2021-11-30 07:07:25,813: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:07:25,813: INFO: ---------- start get_apps() ----------
+2021-11-30 07:07:25,813: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:07:25,814: DEBUG: found:autorun_manager = True
+2021-11-30 07:07:25,814: DEBUG: found:auto_bt_check = True
+2021-11-30 07:07:25,814: DEBUG: found:auto_mail_check = True
+2021-11-30 07:07:25,814: INFO: ---------- end get_apps() ----------
+2021-11-30 07:07:25,814: WARNING: !!!!! ERROR !!!!!
+NameError: name 'dellist' is not defined [app.py][line:93]
+2021-11-30 07:08:55,717: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:08:55,717: DEBUG: found:./.git
+2021-11-30 07:08:55,717: DEBUG: this file/folder has "."
+2021-11-30 07:08:55,717: DEBUG: found:./.venv
+2021-11-30 07:08:55,717: DEBUG: this file/folder has "."
+2021-11-30 07:08:55,718: DEBUG: found:./app_template
+2021-11-30 07:08:55,718: DEBUG: this file/folder is app_template
+2021-11-30 07:08:55,718: DEBUG: found:./autorun_manager
+2021-11-30 07:08:55,718: DEBUG:     this is APP
+2021-11-30 07:08:55,721: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:08:55,721: DEBUG: found:./auto_bt_check
+2021-11-30 07:08:55,721: DEBUG:     this is APP
+2021-11-30 07:08:55,724: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:08:55,724: DEBUG: found:./auto_mail_check
+2021-11-30 07:08:55,724: DEBUG:     this is APP
+2021-11-30 07:08:55,726: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:08:55,726: DEBUG: found:./config.ini
+2021-11-30 07:08:55,727: DEBUG: this file/folder has "."
+2021-11-30 07:08:55,727: DEBUG: found:./flask_platform
+2021-11-30 07:08:55,727: DEBUG:     this is APP
+2021-11-30 07:08:55,729: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:08:55,729: DEBUG: found:./log
+2021-11-30 07:08:55,729: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:08:55,729: DEBUG: found:./manage.py
+2021-11-30 07:08:55,729: DEBUG: this file/folder has "."
+2021-11-30 07:08:55,729: DEBUG: found:./modules
+2021-11-30 07:08:55,730: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:08:55,730: DEBUG: found:./requirements.txt
+2021-11-30 07:08:55,730: DEBUG: this file/folder has "."
+2021-11-30 07:08:55,730: DEBUG: found:./runtime.txt
+2021-11-30 07:08:55,730: DEBUG: this file/folder has "."
+2021-11-30 07:08:55,730: DEBUG: found:./test.py
+2021-11-30 07:08:55,730: DEBUG: this file/folder has "."
+2021-11-30 07:08:55,730: DEBUG: found:./test2.py
+2021-11-30 07:08:55,730: DEBUG: this file/folder has "."
+2021-11-30 07:08:55,730: DEBUG: found:./__init__.py
+2021-11-30 07:08:55,730: DEBUG: this file/folder has "."
+2021-11-30 07:08:55,731: DEBUG: found:./__pycache__
+2021-11-30 07:08:55,731: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:08:55,731: INFO: ---------- start get_apps() ----------
+2021-11-30 07:08:55,731: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:08:55,731: DEBUG: found:autorun_manager = True
+2021-11-30 07:08:55,732: DEBUG: found:auto_bt_check = True
+2021-11-30 07:08:55,732: DEBUG: found:auto_mail_check = True
+2021-11-30 07:08:55,732: INFO: ---------- end get_apps() ----------
+2021-11-30 07:08:55,732: WARNING: !!!!! ERROR !!!!!
+2021-11-30 07:08:55,732: WARNING: NameError: name 'dellist' is not defined [C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py][line:93]
+2021-11-30 07:11:28,790: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:11:28,790: DEBUG: found:./.git
+2021-11-30 07:11:28,790: DEBUG: this file/folder has "."
+2021-11-30 07:11:28,790: DEBUG: found:./.venv
+2021-11-30 07:11:28,791: DEBUG: this file/folder has "."
+2021-11-30 07:11:28,791: DEBUG: found:./app_template
+2021-11-30 07:11:28,791: DEBUG: this file/folder is app_template
+2021-11-30 07:11:28,791: DEBUG: found:./autorun_manager
+2021-11-30 07:11:28,791: DEBUG:     this is APP
+2021-11-30 07:11:28,794: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:11:28,794: DEBUG: found:./auto_bt_check
+2021-11-30 07:11:28,795: DEBUG:     this is APP
+2021-11-30 07:11:28,798: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:11:28,798: DEBUG: found:./auto_mail_check
+2021-11-30 07:11:28,799: DEBUG:     this is APP
+2021-11-30 07:11:28,802: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:11:28,802: DEBUG: found:./config.ini
+2021-11-30 07:11:28,802: DEBUG: this file/folder has "."
+2021-11-30 07:11:28,803: DEBUG: found:./flask_platform
+2021-11-30 07:11:28,803: DEBUG:     this is APP
+2021-11-30 07:11:28,806: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:11:28,806: DEBUG: found:./log
+2021-11-30 07:11:28,806: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:11:28,807: DEBUG: found:./manage.py
+2021-11-30 07:11:28,807: DEBUG: this file/folder has "."
+2021-11-30 07:11:28,807: DEBUG: found:./modules
+2021-11-30 07:11:28,807: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:11:28,807: DEBUG: found:./requirements.txt
+2021-11-30 07:11:28,807: DEBUG: this file/folder has "."
+2021-11-30 07:11:28,807: DEBUG: found:./runtime.txt
+2021-11-30 07:11:28,807: DEBUG: this file/folder has "."
+2021-11-30 07:11:28,808: DEBUG: found:./test.py
+2021-11-30 07:11:28,808: DEBUG: this file/folder has "."
+2021-11-30 07:11:28,808: DEBUG: found:./test2.py
+2021-11-30 07:11:28,808: DEBUG: this file/folder has "."
+2021-11-30 07:11:28,808: DEBUG: found:./__init__.py
+2021-11-30 07:11:28,808: DEBUG: this file/folder has "."
+2021-11-30 07:11:28,808: DEBUG: found:./__pycache__
+2021-11-30 07:11:28,808: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:11:28,809: INFO: ---------- start get_apps() ----------
+2021-11-30 07:11:28,809: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:11:28,809: DEBUG: found:autorun_manager = True
+2021-11-30 07:11:28,810: DEBUG: found:auto_bt_check = True
+2021-11-30 07:11:28,810: DEBUG: found:auto_mail_check = True
+2021-11-30 07:11:28,810: INFO: ---------- end get_apps() ----------
+2021-11-30 07:11:28,810: WARNING: !!!!! ERROR !!!!!
+2021-11-30 07:11:28,810: WARNING: NameError: name 'dellist' is not defined [autorun_manager/app.py][line:93]
+2021-11-30 07:11:41,947: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:11:41,948: DEBUG: found:./.git
+2021-11-30 07:11:41,948: DEBUG: this file/folder has "."
+2021-11-30 07:11:41,948: DEBUG: found:./.venv
+2021-11-30 07:11:41,948: DEBUG: this file/folder has "."
+2021-11-30 07:11:41,948: DEBUG: found:./app_template
+2021-11-30 07:11:41,948: DEBUG: this file/folder is app_template
+2021-11-30 07:11:41,948: DEBUG: found:./autorun_manager
+2021-11-30 07:11:41,949: DEBUG:     this is APP
+2021-11-30 07:11:41,951: DEBUG:     [autorun_manager/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:11:41,951: DEBUG: found:./auto_bt_check
+2021-11-30 07:11:41,951: DEBUG:     this is APP
+2021-11-30 07:11:41,953: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:11:41,954: DEBUG: found:./auto_mail_check
+2021-11-30 07:11:41,954: DEBUG:     this is APP
+2021-11-30 07:11:41,956: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:11:41,956: DEBUG: found:./config.ini
+2021-11-30 07:11:41,956: DEBUG: this file/folder has "."
+2021-11-30 07:11:41,956: DEBUG: found:./flask_platform
+2021-11-30 07:11:41,957: DEBUG:     this is APP
+2021-11-30 07:11:41,958: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:11:41,958: DEBUG: found:./log
+2021-11-30 07:11:41,959: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:11:41,959: DEBUG: found:./manage.py
+2021-11-30 07:11:41,959: DEBUG: this file/folder has "."
+2021-11-30 07:11:41,959: DEBUG: found:./modules
+2021-11-30 07:11:41,959: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:11:41,959: DEBUG: found:./requirements.txt
+2021-11-30 07:11:41,959: DEBUG: this file/folder has "."
+2021-11-30 07:11:41,959: DEBUG: found:./runtime.txt
+2021-11-30 07:11:41,960: DEBUG: this file/folder has "."
+2021-11-30 07:11:41,960: DEBUG: found:./test.py
+2021-11-30 07:11:41,960: DEBUG: this file/folder has "."
+2021-11-30 07:11:41,960: DEBUG: found:./test2.py
+2021-11-30 07:11:41,960: DEBUG: this file/folder has "."
+2021-11-30 07:11:41,960: DEBUG: found:./__init__.py
+2021-11-30 07:11:41,960: DEBUG: this file/folder has "."
+2021-11-30 07:11:41,960: DEBUG: found:./__pycache__
+2021-11-30 07:11:41,960: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:11:41,960: INFO: ---------- start get_apps() ----------
+2021-11-30 07:11:41,961: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:11:41,961: DEBUG: found:autorun_manager = True
+2021-11-30 07:11:41,961: DEBUG: found:auto_bt_check = True
+2021-11-30 07:11:41,961: DEBUG: found:auto_mail_check = True
+2021-11-30 07:11:41,961: INFO: ---------- end get_apps() ----------
+2021-11-30 07:11:41,961: INFO: ---------- start update_ini() ----------
+2021-11-30 07:11:41,962: INFO: ---------- end update_ini() ----------
+2021-11-30 07:11:41,962: INFO: ---------- end add_newapps() ----------
+2021-11-30 07:18:05,727: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:18:05,728: DEBUG: found:./.git
+2021-11-30 07:18:05,728: DEBUG: this file/folder has "."
+2021-11-30 07:18:05,728: DEBUG: found:./.venv
+2021-11-30 07:18:05,728: DEBUG: this file/folder has "."
+2021-11-30 07:18:05,728: DEBUG: found:./app_template
+2021-11-30 07:18:05,728: DEBUG: this file/folder is app_template
+2021-11-30 07:18:05,728: DEBUG: found:./autorun_manager
+2021-11-30 07:18:05,728: DEBUG: this file/folder is autorun_manager
+2021-11-30 07:18:05,728: DEBUG: found:./auto_bt_check
+2021-11-30 07:18:05,729: DEBUG:     this is APP
+2021-11-30 07:18:05,731: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:18:05,732: DEBUG: found:./auto_mail_check
+2021-11-30 07:18:05,732: DEBUG:     this is APP
+2021-11-30 07:18:05,735: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:18:05,735: DEBUG: found:./config.ini
+2021-11-30 07:18:05,735: DEBUG: this file/folder has "."
+2021-11-30 07:18:05,735: DEBUG: found:./flask_platform
+2021-11-30 07:18:05,736: DEBUG:     this is APP
+2021-11-30 07:18:05,738: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:18:05,738: DEBUG: found:./log
+2021-11-30 07:18:05,738: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:18:05,738: DEBUG: found:./manage.py
+2021-11-30 07:18:05,739: DEBUG: this file/folder has "."
+2021-11-30 07:18:05,739: DEBUG: found:./modules
+2021-11-30 07:18:05,739: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:18:05,739: DEBUG: found:./requirements.txt
+2021-11-30 07:18:05,739: DEBUG: this file/folder has "."
+2021-11-30 07:18:05,739: DEBUG: found:./runtime.txt
+2021-11-30 07:18:05,739: DEBUG: this file/folder has "."
+2021-11-30 07:18:05,739: DEBUG: found:./test.py
+2021-11-30 07:18:05,739: DEBUG: this file/folder has "."
+2021-11-30 07:18:05,739: DEBUG: found:./test2.py
+2021-11-30 07:18:05,740: DEBUG: this file/folder has "."
+2021-11-30 07:18:05,740: DEBUG: found:./__init__.py
+2021-11-30 07:18:05,740: DEBUG: this file/folder has "."
+2021-11-30 07:18:05,740: DEBUG: found:./__pycache__
+2021-11-30 07:18:05,740: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:18:05,740: INFO: ---------- start get_apps() ----------
+2021-11-30 07:18:05,741: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:18:05,741: DEBUG: found:autorun_manager = True
+2021-11-30 07:18:05,741: DEBUG: found:auto_bt_check = True
+2021-11-30 07:18:05,741: DEBUG: found:auto_mail_check = False
+2021-11-30 07:18:05,741: INFO: ---------- end get_apps() ----------
+2021-11-30 07:18:05,741: DEBUG: delete:autorun_manager = True
+2021-11-30 07:18:05,741: INFO: ---------- start update_ini() ----------
+2021-11-30 07:18:05,741: INFO: ---------- end update_ini() ----------
+2021-11-30 07:18:05,741: INFO: ---------- end add_newapps() ----------
+2021-11-30 07:22:32,850: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:22:32,850: DEBUG: found:./.git
+2021-11-30 07:22:32,851: DEBUG: this file/folder has "."
+2021-11-30 07:22:32,851: DEBUG: found:./.venv
+2021-11-30 07:22:32,851: DEBUG: this file/folder has "."
+2021-11-30 07:22:32,851: DEBUG: found:./app_template
+2021-11-30 07:22:32,851: DEBUG: this file/folder is app_template
+2021-11-30 07:22:32,851: DEBUG: found:./autorun_manager
+2021-11-30 07:22:32,851: DEBUG: this file/folder is autorun_manager
+2021-11-30 07:22:32,851: DEBUG: found:./auto_bt_check
+2021-11-30 07:22:32,852: DEBUG:     this is APP
+2021-11-30 07:22:32,854: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:22:32,854: DEBUG: found:./auto_mail_check
+2021-11-30 07:22:32,854: DEBUG:     this is APP
+2021-11-30 07:22:32,856: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:22:32,857: DEBUG: found:./config.ini
+2021-11-30 07:22:32,857: DEBUG: this file/folder has "."
+2021-11-30 07:22:32,857: DEBUG: found:./flask_platform
+2021-11-30 07:22:32,857: DEBUG:     this is APP
+2021-11-30 07:22:32,859: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:22:32,859: DEBUG: found:./log
+2021-11-30 07:22:32,859: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:22:32,859: DEBUG: found:./manage.py
+2021-11-30 07:22:32,859: DEBUG: this file/folder has "."
+2021-11-30 07:22:32,859: DEBUG: found:./modules
+2021-11-30 07:22:32,859: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:22:32,860: DEBUG: found:./requirements.txt
+2021-11-30 07:22:32,860: DEBUG: this file/folder has "."
+2021-11-30 07:22:32,860: DEBUG: found:./runtime.txt
+2021-11-30 07:22:32,860: DEBUG: this file/folder has "."
+2021-11-30 07:22:32,860: DEBUG: found:./test.py
+2021-11-30 07:22:32,860: DEBUG: this file/folder has "."
+2021-11-30 07:22:32,860: DEBUG: found:./test2.py
+2021-11-30 07:22:32,860: DEBUG: this file/folder has "."
+2021-11-30 07:22:32,860: DEBUG: found:./__init__.py
+2021-11-30 07:22:32,860: DEBUG: this file/folder has "."
+2021-11-30 07:22:32,861: DEBUG: found:./__pycache__
+2021-11-30 07:22:32,861: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:22:32,861: INFO: ---------- start get_apps() ----------
+2021-11-30 07:22:32,861: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:22:32,862: DEBUG: found:auto_bt_check = True
+2021-11-30 07:22:32,862: DEBUG: found:auto_mail_check = False
+2021-11-30 07:22:32,862: INFO: ---------- end get_apps() ----------
+2021-11-30 07:22:32,862: INFO: ---------- start update_ini() ----------
+2021-11-30 07:22:32,863: INFO: ---------- end update_ini() ----------
+2021-11-30 07:22:32,863: INFO: ---------- end add_newapps() ----------
+2021-11-30 07:22:33,716: WARNING: !!!!! ERROR !!!!!
+2021-11-30 07:22:33,716: WARNING: NameError: name 'Linux' is not defined [autorun_manager/app.py][line:104]
+2021-11-30 07:23:57,406: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:23:57,407: DEBUG: found:./.git
+2021-11-30 07:23:57,407: DEBUG: this file/folder has "."
+2021-11-30 07:23:57,407: DEBUG: found:./.venv
+2021-11-30 07:23:57,407: DEBUG: this file/folder has "."
+2021-11-30 07:23:57,407: DEBUG: found:./app_template
+2021-11-30 07:23:57,407: DEBUG: this file/folder is app_template
+2021-11-30 07:23:57,407: DEBUG: found:./autorun_manager
+2021-11-30 07:23:57,407: DEBUG: this file/folder is autorun_manager
+2021-11-30 07:23:57,407: DEBUG: found:./auto_bt_check
+2021-11-30 07:23:57,408: DEBUG:     this is APP
+2021-11-30 07:23:57,410: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:23:57,411: DEBUG: found:./auto_mail_check
+2021-11-30 07:23:57,411: DEBUG:     this is APP
+2021-11-30 07:23:57,414: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:23:57,414: DEBUG: found:./config.ini
+2021-11-30 07:23:57,415: DEBUG: this file/folder has "."
+2021-11-30 07:23:57,415: DEBUG: found:./flask_platform
+2021-11-30 07:23:57,415: DEBUG:     this is APP
+2021-11-30 07:23:57,417: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:23:57,417: DEBUG: found:./log
+2021-11-30 07:23:57,418: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:23:57,418: DEBUG: found:./manage.py
+2021-11-30 07:23:57,418: DEBUG: this file/folder has "."
+2021-11-30 07:23:57,418: DEBUG: found:./modules
+2021-11-30 07:23:57,418: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:23:57,418: DEBUG: found:./requirements.txt
+2021-11-30 07:23:57,418: DEBUG: this file/folder has "."
+2021-11-30 07:23:57,418: DEBUG: found:./runtime.txt
+2021-11-30 07:23:57,418: DEBUG: this file/folder has "."
+2021-11-30 07:23:57,419: DEBUG: found:./test.py
+2021-11-30 07:23:57,419: DEBUG: this file/folder has "."
+2021-11-30 07:23:57,419: DEBUG: found:./test2.py
+2021-11-30 07:23:57,419: DEBUG: this file/folder has "."
+2021-11-30 07:23:57,419: DEBUG: found:./__init__.py
+2021-11-30 07:23:57,419: DEBUG: this file/folder has "."
+2021-11-30 07:23:57,419: DEBUG: found:./__pycache__
+2021-11-30 07:23:57,419: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:23:57,419: INFO: ---------- start get_apps() ----------
+2021-11-30 07:23:57,420: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:23:57,420: DEBUG: found:auto_bt_check = True
+2021-11-30 07:23:57,420: DEBUG: found:auto_mail_check = False
+2021-11-30 07:23:57,420: INFO: ---------- end get_apps() ----------
+2021-11-30 07:23:57,420: INFO: ---------- start update_ini() ----------
+2021-11-30 07:23:57,421: INFO: ---------- end update_ini() ----------
+2021-11-30 07:23:57,421: INFO: ---------- end add_newapps() ----------
+2021-11-30 07:24:07,349: WARNING: !!!!! ERROR !!!!!
+2021-11-30 07:24:07,349: WARNING: SystemExit:  [autorun_manager/app.py][line:104]
+2021-11-30 07:29:09,174: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:29:09,175: DEBUG: found:./.git
+2021-11-30 07:29:09,176: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,176: DEBUG: found:./.venv
+2021-11-30 07:29:09,176: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,176: DEBUG: found:./app_template
+2021-11-30 07:29:09,176: DEBUG: this file/folder is app_template
+2021-11-30 07:29:09,176: DEBUG: found:./autorun_manager
+2021-11-30 07:29:09,177: DEBUG: this file/folder is autorun_manager
+2021-11-30 07:29:09,177: DEBUG: found:./auto_bt_check
+2021-11-30 07:29:09,177: DEBUG:     this is APP
+2021-11-30 07:29:09,181: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:29:09,181: DEBUG: found:./auto_mail_check
+2021-11-30 07:29:09,181: DEBUG:     this is APP
+2021-11-30 07:29:09,184: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:29:09,184: DEBUG: found:./config.ini
+2021-11-30 07:29:09,184: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,184: DEBUG: found:./flask_platform
+2021-11-30 07:29:09,184: DEBUG:     this is APP
+2021-11-30 07:29:09,187: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:29:09,187: DEBUG: found:./log
+2021-11-30 07:29:09,187: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:29:09,188: DEBUG: found:./manage.py
+2021-11-30 07:29:09,188: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,188: DEBUG: found:./modules
+2021-11-30 07:29:09,189: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:29:09,189: DEBUG: found:./readme.txt
+2021-11-30 07:29:09,189: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,189: DEBUG: found:./requirements.txt
+2021-11-30 07:29:09,189: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,190: DEBUG: found:./runtime.txt
+2021-11-30 07:29:09,190: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,190: DEBUG: found:./test.py
+2021-11-30 07:29:09,190: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,190: DEBUG: found:./test2.py
+2021-11-30 07:29:09,190: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,190: DEBUG: found:./__init__.py
+2021-11-30 07:29:09,190: DEBUG: this file/folder has "."
+2021-11-30 07:29:09,190: DEBUG: found:./__pycache__
+2021-11-30 07:29:09,191: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:29:09,191: INFO: ---------- start get_apps() ----------
+2021-11-30 07:29:09,191: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:29:09,192: DEBUG: found:auto_bt_check = True
+2021-11-30 07:29:09,192: DEBUG: found:auto_mail_check = False
+2021-11-30 07:29:09,192: INFO: ---------- end get_apps() ----------
+2021-11-30 07:29:09,192: INFO: ---------- start update_ini() ----------
+2021-11-30 07:29:09,193: INFO: ---------- end update_ini() ----------
+2021-11-30 07:29:09,193: INFO: ---------- end add_newapps() ----------
+2021-11-30 07:29:18,983: WARNING: !!!!! ERROR !!!!!
+2021-11-30 07:29:18,984: WARNING: SystemExit:  [autorun_manager/app.py][line:104]
+2021-11-30 07:31:37,584: INFO: ---------- start add_newapps() ----------
+2021-11-30 07:31:37,584: DEBUG: found:./.git
+2021-11-30 07:31:37,584: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,584: DEBUG: found:./.venv
+2021-11-30 07:31:37,584: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,584: DEBUG: found:./app_template
+2021-11-30 07:31:37,585: DEBUG: this file/folder is app_template
+2021-11-30 07:31:37,585: DEBUG: found:./autorun_manager
+2021-11-30 07:31:37,585: DEBUG: this file/folder is autorun_manager
+2021-11-30 07:31:37,585: DEBUG: found:./auto_bt_check
+2021-11-30 07:31:37,585: DEBUG:     this is APP
+2021-11-30 07:31:37,589: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:31:37,590: DEBUG: found:./auto_mail_check
+2021-11-30 07:31:37,591: DEBUG:     this is APP
+2021-11-30 07:31:37,595: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 07:31:37,595: DEBUG: found:./config.ini
+2021-11-30 07:31:37,595: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,595: DEBUG: found:./flask_platform
+2021-11-30 07:31:37,596: DEBUG:     this is APP
+2021-11-30 07:31:37,599: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 07:31:37,599: DEBUG: found:./log
+2021-11-30 07:31:37,600: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:31:37,600: DEBUG: found:./manage.py
+2021-11-30 07:31:37,600: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,600: DEBUG: found:./modules
+2021-11-30 07:31:37,600: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:31:37,600: DEBUG: found:./readme.txt
+2021-11-30 07:31:37,600: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,600: DEBUG: found:./requirements.txt
+2021-11-30 07:31:37,601: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,601: DEBUG: found:./runtime.txt
+2021-11-30 07:31:37,601: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,601: DEBUG: found:./test.py
+2021-11-30 07:31:37,601: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,601: DEBUG: found:./test2.py
+2021-11-30 07:31:37,601: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,601: DEBUG: found:./__init__.py
+2021-11-30 07:31:37,601: DEBUG: this file/folder has "."
+2021-11-30 07:31:37,601: DEBUG: found:./__pycache__
+2021-11-30 07:31:37,602: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 07:31:37,602: INFO: ---------- start get_apps() ----------
+2021-11-30 07:31:37,602: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 07:31:37,602: DEBUG: found:auto_bt_check = True
+2021-11-30 07:31:37,602: DEBUG: found:auto_mail_check = False
+2021-11-30 07:31:37,602: INFO: ---------- end get_apps() ----------
+2021-11-30 07:31:37,602: INFO: ---------- start update_ini() ----------
+2021-11-30 07:31:37,603: INFO: ---------- end update_ini() ----------
+2021-11-30 07:31:37,603: INFO: ---------- end add_newapps() ----------
+2021-11-30 07:32:34,087: WARNING: !!!!! ERROR !!!!!
+2021-11-30 07:32:34,087: WARNING: SystemExit:  [autorun_manager/app.py][line:104]
+2021-11-30 08:13:20,573: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:13:20,573: DEBUG: found:./.git
+2021-11-30 08:13:20,573: DEBUG: this file/folder has "."
+2021-11-30 08:13:20,573: DEBUG: found:./.venv
+2021-11-30 08:13:20,573: DEBUG: this file/folder has "."
+2021-11-30 08:13:20,573: DEBUG: found:./app_template
+2021-11-30 08:13:20,573: DEBUG: this file/folder is app_template
+2021-11-30 08:13:20,573: DEBUG: found:./autorun_manager
+2021-11-30 08:13:20,573: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:13:20,574: DEBUG: found:./auto_bt_check
+2021-11-30 08:13:20,574: DEBUG:     this is APP
+2021-11-30 08:13:20,576: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:13:20,576: DEBUG: found:./auto_mail_check
+2021-11-30 08:13:20,577: DEBUG:     this is APP
+2021-11-30 08:13:20,579: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:13:20,579: DEBUG: found:./flask_platform
+2021-11-30 08:13:20,580: DEBUG:     this is APP
+2021-11-30 08:13:20,582: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:13:20,582: DEBUG: found:./log
+2021-11-30 08:13:20,583: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:13:20,583: DEBUG: found:./manage.py
+2021-11-30 08:13:20,583: DEBUG: this file/folder has "."
+2021-11-30 08:13:20,583: DEBUG: found:./modules
+2021-11-30 08:13:20,583: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:13:20,583: DEBUG: found:./readme.txt
+2021-11-30 08:13:20,584: DEBUG: this file/folder has "."
+2021-11-30 08:13:20,584: DEBUG: found:./requirements.txt
+2021-11-30 08:13:20,584: DEBUG: this file/folder has "."
+2021-11-30 08:13:20,584: DEBUG: found:./runtime.txt
+2021-11-30 08:13:20,584: DEBUG: this file/folder has "."
+2021-11-30 08:13:20,584: DEBUG: found:./test.py
+2021-11-30 08:13:20,584: DEBUG: this file/folder has "."
+2021-11-30 08:13:20,585: DEBUG: found:./__init__.py
+2021-11-30 08:13:20,585: DEBUG: this file/folder has "."
+2021-11-30 08:13:20,585: DEBUG: found:./__pycache__
+2021-11-30 08:13:20,585: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:13:20,585: INFO: ---------- start get_apps() ----------
+2021-11-30 08:13:20,586: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:13:20,586: DEBUG: found:auto_bt_check = True
+2021-11-30 08:13:20,586: DEBUG: found:auto_mail_check = False
+2021-11-30 08:13:20,586: INFO: ---------- end get_apps() ----------
+2021-11-30 08:13:20,586: INFO: ---------- start update_ini() ----------
+2021-11-30 08:13:20,587: INFO: ---------- end update_ini() ----------
+2021-11-30 08:13:20,587: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:13:20,587: WARNING: !!!!! ERROR !!!!!
+2021-11-30 08:13:20,587: WARNING: FileNotFoundError: [Errno 2] No such file or directory: 'log.json' [autorun_manager/app.py][line:123]
+2021-11-30 08:14:47,846: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:14:47,847: DEBUG: found:./.git
+2021-11-30 08:14:47,847: DEBUG: this file/folder has "."
+2021-11-30 08:14:47,847: DEBUG: found:./.venv
+2021-11-30 08:14:47,847: DEBUG: this file/folder has "."
+2021-11-30 08:14:47,847: DEBUG: found:./app_template
+2021-11-30 08:14:47,847: DEBUG: this file/folder is app_template
+2021-11-30 08:14:47,847: DEBUG: found:./autorun_manager
+2021-11-30 08:14:47,847: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:14:47,847: DEBUG: found:./auto_bt_check
+2021-11-30 08:14:47,847: DEBUG:     this is APP
+2021-11-30 08:14:47,849: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:14:47,849: DEBUG: found:./auto_mail_check
+2021-11-30 08:14:47,850: DEBUG:     this is APP
+2021-11-30 08:14:47,851: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:14:47,852: DEBUG: found:./flask_platform
+2021-11-30 08:14:47,852: DEBUG:     this is APP
+2021-11-30 08:14:47,854: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:14:47,854: DEBUG: found:./log
+2021-11-30 08:14:47,854: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:14:47,854: DEBUG: found:./manage.py
+2021-11-30 08:14:47,854: DEBUG: this file/folder has "."
+2021-11-30 08:14:47,854: DEBUG: found:./modules
+2021-11-30 08:14:47,854: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:14:47,854: DEBUG: found:./readme.txt
+2021-11-30 08:14:47,855: DEBUG: this file/folder has "."
+2021-11-30 08:14:47,855: DEBUG: found:./requirements.txt
+2021-11-30 08:14:47,855: DEBUG: this file/folder has "."
+2021-11-30 08:14:47,855: DEBUG: found:./runtime.txt
+2021-11-30 08:14:47,855: DEBUG: this file/folder has "."
+2021-11-30 08:14:47,855: DEBUG: found:./test.py
+2021-11-30 08:14:47,855: DEBUG: this file/folder has "."
+2021-11-30 08:14:47,855: DEBUG: found:./__init__.py
+2021-11-30 08:14:47,855: DEBUG: this file/folder has "."
+2021-11-30 08:14:47,855: DEBUG: found:./__pycache__
+2021-11-30 08:14:47,856: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:14:47,856: INFO: ---------- start get_apps() ----------
+2021-11-30 08:14:47,861: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:14:47,861: DEBUG: found:auto_bt_check = True
+2021-11-30 08:14:47,862: DEBUG: found:auto_mail_check = False
+2021-11-30 08:14:47,862: INFO: ---------- end get_apps() ----------
+2021-11-30 08:14:47,862: INFO: ---------- start update_ini() ----------
+2021-11-30 08:14:47,863: INFO: ---------- end update_ini() ----------
+2021-11-30 08:14:47,864: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:15:09,549: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:15:09,549: DEBUG: found:./.git
+2021-11-30 08:15:09,549: DEBUG: this file/folder has "."
+2021-11-30 08:15:09,549: DEBUG: found:./.venv
+2021-11-30 08:15:09,549: DEBUG: this file/folder has "."
+2021-11-30 08:15:09,550: DEBUG: found:./app_template
+2021-11-30 08:15:09,550: DEBUG: this file/folder is app_template
+2021-11-30 08:15:09,550: DEBUG: found:./autorun_manager
+2021-11-30 08:15:09,550: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:15:09,550: DEBUG: found:./auto_bt_check
+2021-11-30 08:15:09,550: DEBUG:     this is APP
+2021-11-30 08:15:09,552: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:15:09,553: DEBUG: found:./auto_mail_check
+2021-11-30 08:15:09,553: DEBUG:     this is APP
+2021-11-30 08:15:09,555: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:15:09,555: DEBUG: found:./flask_platform
+2021-11-30 08:15:09,555: DEBUG:     this is APP
+2021-11-30 08:15:09,557: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:15:09,557: DEBUG: found:./log
+2021-11-30 08:15:09,557: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:15:09,557: DEBUG: found:./manage.py
+2021-11-30 08:15:09,557: DEBUG: this file/folder has "."
+2021-11-30 08:15:09,558: DEBUG: found:./modules
+2021-11-30 08:15:09,558: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:15:09,558: DEBUG: found:./readme.txt
+2021-11-30 08:15:09,558: DEBUG: this file/folder has "."
+2021-11-30 08:15:09,558: DEBUG: found:./requirements.txt
+2021-11-30 08:15:09,558: DEBUG: this file/folder has "."
+2021-11-30 08:15:09,559: DEBUG: found:./runtime.txt
+2021-11-30 08:15:09,559: DEBUG: this file/folder has "."
+2021-11-30 08:15:09,559: DEBUG: found:./test.py
+2021-11-30 08:15:09,559: DEBUG: this file/folder has "."
+2021-11-30 08:15:09,559: DEBUG: found:./__init__.py
+2021-11-30 08:15:09,559: DEBUG: this file/folder has "."
+2021-11-30 08:15:09,559: DEBUG: found:./__pycache__
+2021-11-30 08:15:09,560: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:15:09,560: INFO: ---------- start get_apps() ----------
+2021-11-30 08:15:09,562: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:15:09,562: DEBUG: found:auto_bt_check = True
+2021-11-30 08:15:09,562: DEBUG: found:auto_mail_check = False
+2021-11-30 08:15:09,562: INFO: ---------- end get_apps() ----------
+2021-11-30 08:15:09,562: INFO: ---------- start update_ini() ----------
+2021-11-30 08:15:09,563: INFO: ---------- end update_ini() ----------
+2021-11-30 08:15:09,563: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:15:53,213: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:15:53,213: DEBUG: found:./.git
+2021-11-30 08:15:53,213: DEBUG: this file/folder has "."
+2021-11-30 08:15:53,213: DEBUG: found:./.venv
+2021-11-30 08:15:53,213: DEBUG: this file/folder has "."
+2021-11-30 08:15:53,213: DEBUG: found:./app_template
+2021-11-30 08:15:53,213: DEBUG: this file/folder is app_template
+2021-11-30 08:15:53,214: DEBUG: found:./autorun_manager
+2021-11-30 08:15:53,214: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:15:53,214: DEBUG: found:./auto_bt_check
+2021-11-30 08:15:53,214: DEBUG:     this is APP
+2021-11-30 08:15:53,216: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:15:53,217: DEBUG: found:./auto_mail_check
+2021-11-30 08:15:53,217: DEBUG:     this is APP
+2021-11-30 08:15:53,219: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:15:53,220: DEBUG: found:./flask_platform
+2021-11-30 08:15:53,220: DEBUG:     this is APP
+2021-11-30 08:15:53,222: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:15:53,222: DEBUG: found:./log
+2021-11-30 08:15:53,222: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:15:53,223: DEBUG: found:./manage.py
+2021-11-30 08:15:53,223: DEBUG: this file/folder has "."
+2021-11-30 08:15:53,223: DEBUG: found:./modules
+2021-11-30 08:15:53,223: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:15:53,223: DEBUG: found:./readme.txt
+2021-11-30 08:15:53,223: DEBUG: this file/folder has "."
+2021-11-30 08:15:53,223: DEBUG: found:./requirements.txt
+2021-11-30 08:15:53,223: DEBUG: this file/folder has "."
+2021-11-30 08:15:53,223: DEBUG: found:./runtime.txt
+2021-11-30 08:15:53,223: DEBUG: this file/folder has "."
+2021-11-30 08:15:53,223: DEBUG: found:./test.py
+2021-11-30 08:15:53,223: DEBUG: this file/folder has "."
+2021-11-30 08:15:53,224: DEBUG: found:./__init__.py
+2021-11-30 08:15:53,224: DEBUG: this file/folder has "."
+2021-11-30 08:15:53,224: DEBUG: found:./__pycache__
+2021-11-30 08:15:53,224: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:15:53,224: INFO: ---------- start get_apps() ----------
+2021-11-30 08:15:53,225: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:15:53,226: DEBUG: found:auto_bt_check = True
+2021-11-30 08:15:53,226: DEBUG: found:auto_mail_check = False
+2021-11-30 08:15:53,226: INFO: ---------- end get_apps() ----------
+2021-11-30 08:15:53,226: INFO: ---------- start update_ini() ----------
+2021-11-30 08:15:53,228: INFO: ---------- end update_ini() ----------
+2021-11-30 08:15:53,228: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:16:38,530: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:16:38,530: DEBUG: found:./.git
+2021-11-30 08:16:38,531: DEBUG: this file/folder has "."
+2021-11-30 08:16:38,531: DEBUG: found:./.venv
+2021-11-30 08:16:38,531: DEBUG: this file/folder has "."
+2021-11-30 08:16:38,531: DEBUG: found:./app_template
+2021-11-30 08:16:38,531: DEBUG: this file/folder is app_template
+2021-11-30 08:16:38,531: DEBUG: found:./autorun_manager
+2021-11-30 08:16:38,531: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:16:38,531: DEBUG: found:./auto_bt_check
+2021-11-30 08:16:38,531: DEBUG:     this is APP
+2021-11-30 08:16:38,534: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:16:38,534: DEBUG: found:./auto_mail_check
+2021-11-30 08:16:38,534: DEBUG:     this is APP
+2021-11-30 08:16:38,536: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:16:38,537: DEBUG: found:./flask_platform
+2021-11-30 08:16:38,537: DEBUG:     this is APP
+2021-11-30 08:16:38,540: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:16:38,541: DEBUG: found:./log
+2021-11-30 08:16:38,541: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:16:38,541: DEBUG: found:./manage.py
+2021-11-30 08:16:38,541: DEBUG: this file/folder has "."
+2021-11-30 08:16:38,541: DEBUG: found:./modules
+2021-11-30 08:16:38,542: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:16:38,542: DEBUG: found:./readme.txt
+2021-11-30 08:16:38,542: DEBUG: this file/folder has "."
+2021-11-30 08:16:38,542: DEBUG: found:./requirements.txt
+2021-11-30 08:16:38,542: DEBUG: this file/folder has "."
+2021-11-30 08:16:38,542: DEBUG: found:./runtime.txt
+2021-11-30 08:16:38,542: DEBUG: this file/folder has "."
+2021-11-30 08:16:38,543: DEBUG: found:./test.py
+2021-11-30 08:16:38,543: DEBUG: this file/folder has "."
+2021-11-30 08:16:38,543: DEBUG: found:./__init__.py
+2021-11-30 08:16:38,543: DEBUG: this file/folder has "."
+2021-11-30 08:16:38,543: DEBUG: found:./__pycache__
+2021-11-30 08:16:38,543: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:16:38,543: INFO: ---------- start get_apps() ----------
+2021-11-30 08:16:38,544: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:16:38,544: DEBUG: found:auto_bt_check = True
+2021-11-30 08:16:38,544: DEBUG: found:auto_mail_check = False
+2021-11-30 08:16:38,544: INFO: ---------- end get_apps() ----------
+2021-11-30 08:16:38,544: INFO: ---------- start update_ini() ----------
+2021-11-30 08:16:38,545: INFO: ---------- end update_ini() ----------
+2021-11-30 08:16:38,545: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:17:06,673: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:17:06,674: DEBUG: found:./.git
+2021-11-30 08:17:06,674: DEBUG: this file/folder has "."
+2021-11-30 08:17:06,674: DEBUG: found:./.venv
+2021-11-30 08:17:06,674: DEBUG: this file/folder has "."
+2021-11-30 08:17:06,674: DEBUG: found:./app_template
+2021-11-30 08:17:06,674: DEBUG: this file/folder is app_template
+2021-11-30 08:17:06,674: DEBUG: found:./autorun_manager
+2021-11-30 08:17:06,674: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:17:06,675: DEBUG: found:./auto_bt_check
+2021-11-30 08:17:06,675: DEBUG:     this is APP
+2021-11-30 08:17:06,677: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:17:06,677: DEBUG: found:./auto_mail_check
+2021-11-30 08:17:06,678: DEBUG:     this is APP
+2021-11-30 08:17:06,680: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:17:06,680: DEBUG: found:./flask_platform
+2021-11-30 08:17:06,681: DEBUG:     this is APP
+2021-11-30 08:17:06,683: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:17:06,684: DEBUG: found:./log
+2021-11-30 08:17:06,684: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:17:06,684: DEBUG: found:./manage.py
+2021-11-30 08:17:06,684: DEBUG: this file/folder has "."
+2021-11-30 08:17:06,684: DEBUG: found:./modules
+2021-11-30 08:17:06,684: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:17:06,684: DEBUG: found:./readme.txt
+2021-11-30 08:17:06,685: DEBUG: this file/folder has "."
+2021-11-30 08:17:06,685: DEBUG: found:./requirements.txt
+2021-11-30 08:17:06,685: DEBUG: this file/folder has "."
+2021-11-30 08:17:06,685: DEBUG: found:./runtime.txt
+2021-11-30 08:17:06,685: DEBUG: this file/folder has "."
+2021-11-30 08:17:06,685: DEBUG: found:./test.py
+2021-11-30 08:17:06,685: DEBUG: this file/folder has "."
+2021-11-30 08:17:06,685: DEBUG: found:./__init__.py
+2021-11-30 08:17:06,685: DEBUG: this file/folder has "."
+2021-11-30 08:17:06,685: DEBUG: found:./__pycache__
+2021-11-30 08:17:06,686: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:17:06,686: INFO: ---------- start get_apps() ----------
+2021-11-30 08:17:06,686: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:17:06,687: DEBUG: found:auto_bt_check = True
+2021-11-30 08:17:06,687: DEBUG: found:auto_mail_check = False
+2021-11-30 08:17:06,687: INFO: ---------- end get_apps() ----------
+2021-11-30 08:17:06,687: INFO: ---------- start update_ini() ----------
+2021-11-30 08:17:06,688: INFO: ---------- end update_ini() ----------
+2021-11-30 08:17:06,688: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:19:00,886: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:19:00,886: DEBUG: found:./.git
+2021-11-30 08:19:00,886: DEBUG: this file/folder has "."
+2021-11-30 08:19:00,887: DEBUG: found:./.venv
+2021-11-30 08:19:00,887: DEBUG: this file/folder has "."
+2021-11-30 08:19:00,887: DEBUG: found:./app_template
+2021-11-30 08:19:00,887: DEBUG: this file/folder is app_template
+2021-11-30 08:19:00,887: DEBUG: found:./autorun_manager
+2021-11-30 08:19:00,887: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:19:00,887: DEBUG: found:./auto_bt_check
+2021-11-30 08:19:00,888: DEBUG:     this is APP
+2021-11-30 08:19:00,890: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:19:00,890: DEBUG: found:./auto_mail_check
+2021-11-30 08:19:00,890: DEBUG:     this is APP
+2021-11-30 08:19:00,893: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:19:00,893: DEBUG: found:./flask_platform
+2021-11-30 08:19:00,893: DEBUG:     this is APP
+2021-11-30 08:19:00,895: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:19:00,895: DEBUG: found:./log
+2021-11-30 08:19:00,896: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:19:00,896: DEBUG: found:./manage.py
+2021-11-30 08:19:00,896: DEBUG: this file/folder has "."
+2021-11-30 08:19:00,896: DEBUG: found:./modules
+2021-11-30 08:19:00,896: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:19:00,896: DEBUG: found:./readme.txt
+2021-11-30 08:19:00,896: DEBUG: this file/folder has "."
+2021-11-30 08:19:00,896: DEBUG: found:./requirements.txt
+2021-11-30 08:19:00,896: DEBUG: this file/folder has "."
+2021-11-30 08:19:00,896: DEBUG: found:./runtime.txt
+2021-11-30 08:19:00,897: DEBUG: this file/folder has "."
+2021-11-30 08:19:00,897: DEBUG: found:./test.py
+2021-11-30 08:19:00,897: DEBUG: this file/folder has "."
+2021-11-30 08:19:00,897: DEBUG: found:./__init__.py
+2021-11-30 08:19:00,897: DEBUG: this file/folder has "."
+2021-11-30 08:19:00,897: DEBUG: found:./__pycache__
+2021-11-30 08:19:00,897: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:19:00,897: INFO: ---------- start get_apps() ----------
+2021-11-30 08:19:00,898: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:19:00,898: DEBUG: found:auto_bt_check = True
+2021-11-30 08:19:00,898: DEBUG: found:auto_mail_check = False
+2021-11-30 08:19:00,898: INFO: ---------- end get_apps() ----------
+2021-11-30 08:19:00,898: INFO: ---------- start update_ini() ----------
+2021-11-30 08:19:00,900: INFO: ---------- end update_ini() ----------
+2021-11-30 08:19:00,900: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:20:43,954: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:20:43,954: DEBUG: found:./.git
+2021-11-30 08:20:43,955: DEBUG: this file/folder has "."
+2021-11-30 08:20:43,955: DEBUG: found:./.venv
+2021-11-30 08:20:43,955: DEBUG: this file/folder has "."
+2021-11-30 08:20:43,955: DEBUG: found:./app_template
+2021-11-30 08:20:43,955: DEBUG: this file/folder is app_template
+2021-11-30 08:20:43,955: DEBUG: found:./autorun_manager
+2021-11-30 08:20:43,956: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:20:43,956: DEBUG: found:./auto_bt_check
+2021-11-30 08:20:43,956: DEBUG:     this is APP
+2021-11-30 08:20:43,959: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:20:43,959: DEBUG: found:./auto_mail_check
+2021-11-30 08:20:43,959: DEBUG:     this is APP
+2021-11-30 08:20:43,962: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:20:43,963: DEBUG: found:./flask_platform
+2021-11-30 08:20:43,963: DEBUG:     this is APP
+2021-11-30 08:20:43,965: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:20:43,966: DEBUG: found:./log
+2021-11-30 08:20:43,966: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:20:43,966: DEBUG: found:./manage.py
+2021-11-30 08:20:43,966: DEBUG: this file/folder has "."
+2021-11-30 08:20:43,966: DEBUG: found:./modules
+2021-11-30 08:20:43,966: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:20:43,966: DEBUG: found:./readme.txt
+2021-11-30 08:20:43,966: DEBUG: this file/folder has "."
+2021-11-30 08:20:43,967: DEBUG: found:./requirements.txt
+2021-11-30 08:20:43,967: DEBUG: this file/folder has "."
+2021-11-30 08:20:43,967: DEBUG: found:./runtime.txt
+2021-11-30 08:20:43,967: DEBUG: this file/folder has "."
+2021-11-30 08:20:43,967: DEBUG: found:./test.py
+2021-11-30 08:20:43,967: DEBUG: this file/folder has "."
+2021-11-30 08:20:43,967: DEBUG: found:./__init__.py
+2021-11-30 08:20:43,967: DEBUG: this file/folder has "."
+2021-11-30 08:20:43,967: DEBUG: found:./__pycache__
+2021-11-30 08:20:43,967: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:20:43,968: INFO: ---------- start get_apps() ----------
+2021-11-30 08:21:45,376: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:21:45,376: DEBUG: found:./.git
+2021-11-30 08:21:45,376: DEBUG: this file/folder has "."
+2021-11-30 08:21:45,376: DEBUG: found:./.venv
+2021-11-30 08:21:45,376: DEBUG: this file/folder has "."
+2021-11-30 08:21:45,377: DEBUG: found:./app_template
+2021-11-30 08:21:45,377: DEBUG: this file/folder is app_template
+2021-11-30 08:21:45,377: DEBUG: found:./autorun_manager
+2021-11-30 08:21:45,377: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:21:45,377: DEBUG: found:./auto_bt_check
+2021-11-30 08:21:45,377: DEBUG:     this is APP
+2021-11-30 08:21:45,380: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:21:45,380: DEBUG: found:./auto_mail_check
+2021-11-30 08:21:45,380: DEBUG:     this is APP
+2021-11-30 08:21:45,383: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:21:45,383: DEBUG: found:./flask_platform
+2021-11-30 08:21:45,384: DEBUG:     this is APP
+2021-11-30 08:21:45,386: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:21:45,386: DEBUG: found:./log
+2021-11-30 08:21:45,387: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:21:45,387: DEBUG: found:./manage.py
+2021-11-30 08:21:45,387: DEBUG: this file/folder has "."
+2021-11-30 08:21:45,387: DEBUG: found:./modules
+2021-11-30 08:21:45,388: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:21:45,388: DEBUG: found:./readme.txt
+2021-11-30 08:21:45,388: DEBUG: this file/folder has "."
+2021-11-30 08:21:45,388: DEBUG: found:./requirements.txt
+2021-11-30 08:21:45,388: DEBUG: this file/folder has "."
+2021-11-30 08:21:45,388: DEBUG: found:./runtime.txt
+2021-11-30 08:21:45,388: DEBUG: this file/folder has "."
+2021-11-30 08:21:45,389: DEBUG: found:./test.py
+2021-11-30 08:21:45,389: DEBUG: this file/folder has "."
+2021-11-30 08:21:45,389: DEBUG: found:./__init__.py
+2021-11-30 08:21:45,389: DEBUG: this file/folder has "."
+2021-11-30 08:21:45,389: DEBUG: found:./__pycache__
+2021-11-30 08:21:45,390: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:21:45,390: INFO: ---------- start get_apps() ----------
+2021-11-30 08:22:03,510: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:22:03,511: DEBUG: found:./.git
+2021-11-30 08:22:03,511: DEBUG: this file/folder has "."
+2021-11-30 08:22:03,511: DEBUG: found:./.venv
+2021-11-30 08:22:03,512: DEBUG: this file/folder has "."
+2021-11-30 08:22:03,512: DEBUG: found:./app_template
+2021-11-30 08:22:03,512: DEBUG: this file/folder is app_template
+2021-11-30 08:22:03,512: DEBUG: found:./autorun_manager
+2021-11-30 08:22:03,512: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:22:03,512: DEBUG: found:./auto_bt_check
+2021-11-30 08:22:03,513: DEBUG:     this is APP
+2021-11-30 08:22:03,516: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:22:03,516: DEBUG: found:./auto_mail_check
+2021-11-30 08:22:03,516: DEBUG:     this is APP
+2021-11-30 08:22:03,518: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:22:03,518: DEBUG: found:./flask_platform
+2021-11-30 08:22:03,519: DEBUG:     this is APP
+2021-11-30 08:22:03,521: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:22:03,521: DEBUG: found:./log
+2021-11-30 08:22:03,521: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:22:03,522: DEBUG: found:./manage.py
+2021-11-30 08:22:03,522: DEBUG: this file/folder has "."
+2021-11-30 08:22:03,522: DEBUG: found:./modules
+2021-11-30 08:22:03,522: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:22:03,523: DEBUG: found:./readme.txt
+2021-11-30 08:22:03,523: DEBUG: this file/folder has "."
+2021-11-30 08:22:03,523: DEBUG: found:./requirements.txt
+2021-11-30 08:22:03,523: DEBUG: this file/folder has "."
+2021-11-30 08:22:03,524: DEBUG: found:./runtime.txt
+2021-11-30 08:22:03,524: DEBUG: this file/folder has "."
+2021-11-30 08:22:03,524: DEBUG: found:./test.py
+2021-11-30 08:22:03,524: DEBUG: this file/folder has "."
+2021-11-30 08:22:03,524: DEBUG: found:./__init__.py
+2021-11-30 08:22:03,524: DEBUG: this file/folder has "."
+2021-11-30 08:22:03,524: DEBUG: found:./__pycache__
+2021-11-30 08:22:03,524: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:22:03,525: INFO: ---------- start get_apps() ----------
+2021-11-30 08:22:03,525: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:22:03,525: INFO: ---------- end get_apps() ----------
+2021-11-30 08:22:03,526: DEBUG: add:auto_bt_check = True
+2021-11-30 08:22:03,526: DEBUG: add:auto_mail_check = True
+2021-11-30 08:22:03,526: INFO: ---------- start update_ini() ----------
+2021-11-30 08:22:03,527: INFO: ---------- end update_ini() ----------
+2021-11-30 08:22:03,528: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:24:45,860: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:24:45,861: DEBUG: found:./.git
+2021-11-30 08:24:45,861: DEBUG: this file/folder has "."
+2021-11-30 08:24:45,861: DEBUG: found:./.venv
+2021-11-30 08:24:45,861: DEBUG: this file/folder has "."
+2021-11-30 08:24:45,861: DEBUG: found:./app_template
+2021-11-30 08:24:45,861: DEBUG: this file/folder is app_template
+2021-11-30 08:24:45,861: DEBUG: found:./autorun_manager
+2021-11-30 08:24:45,861: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:24:45,861: DEBUG: found:./auto_bt_check
+2021-11-30 08:24:45,862: DEBUG:     this is APP
+2021-11-30 08:24:45,865: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:24:45,865: DEBUG: found:./auto_mail_check
+2021-11-30 08:24:45,865: DEBUG:     this is APP
+2021-11-30 08:24:45,868: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:24:45,868: DEBUG: found:./flask_platform
+2021-11-30 08:24:45,868: DEBUG:     this is APP
+2021-11-30 08:24:45,871: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:24:45,871: DEBUG: found:./log
+2021-11-30 08:24:45,871: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:24:45,871: DEBUG: found:./manage.py
+2021-11-30 08:24:45,872: DEBUG: this file/folder has "."
+2021-11-30 08:24:45,872: DEBUG: found:./modules
+2021-11-30 08:24:45,872: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:24:45,872: DEBUG: found:./readme.txt
+2021-11-30 08:24:45,872: DEBUG: this file/folder has "."
+2021-11-30 08:24:45,873: DEBUG: found:./requirements.txt
+2021-11-30 08:24:45,873: DEBUG: this file/folder has "."
+2021-11-30 08:24:45,873: DEBUG: found:./runtime.txt
+2021-11-30 08:24:45,873: DEBUG: this file/folder has "."
+2021-11-30 08:24:45,873: DEBUG: found:./test.py
+2021-11-30 08:24:45,873: DEBUG: this file/folder has "."
+2021-11-30 08:24:45,873: DEBUG: found:./__init__.py
+2021-11-30 08:24:45,873: DEBUG: this file/folder has "."
+2021-11-30 08:24:45,874: DEBUG: found:./__pycache__
+2021-11-30 08:24:45,874: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:24:45,874: INFO: ---------- start get_apps() ----------
+2021-11-30 08:24:45,875: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:24:45,875: DEBUG: found:auto_bt_check = True
+2021-11-30 08:24:45,875: DEBUG: found:auto_mail_check = True
+2021-11-30 08:24:45,876: INFO: ---------- end get_apps() ----------
+2021-11-30 08:24:45,876: INFO: ---------- start update_ini() ----------
+2021-11-30 08:24:45,877: INFO: ---------- end update_ini() ----------
+2021-11-30 08:24:45,878: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:25:22,067: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:25:22,067: DEBUG: found:./.git
+2021-11-30 08:25:22,068: DEBUG: this file/folder has "."
+2021-11-30 08:25:22,068: DEBUG: found:./.venv
+2021-11-30 08:25:22,068: DEBUG: this file/folder has "."
+2021-11-30 08:25:22,068: DEBUG: found:./app_template
+2021-11-30 08:25:22,068: DEBUG: this file/folder is app_template
+2021-11-30 08:25:22,068: DEBUG: found:./autorun_manager
+2021-11-30 08:25:22,068: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:25:22,068: DEBUG: found:./auto_bt_check
+2021-11-30 08:25:22,068: DEBUG:     this is APP
+2021-11-30 08:25:22,071: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:25:22,071: DEBUG: found:./auto_mail_check
+2021-11-30 08:25:22,072: DEBUG:     this is APP
+2021-11-30 08:25:22,074: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:25:22,074: DEBUG: found:./flask_platform
+2021-11-30 08:25:22,075: DEBUG:     this is APP
+2021-11-30 08:25:22,076: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:25:22,077: DEBUG: found:./log
+2021-11-30 08:25:22,077: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:25:22,077: DEBUG: found:./manage.py
+2021-11-30 08:25:22,078: DEBUG: this file/folder has "."
+2021-11-30 08:25:22,078: DEBUG: found:./modules
+2021-11-30 08:25:22,078: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:25:22,078: DEBUG: found:./readme.txt
+2021-11-30 08:25:22,078: DEBUG: this file/folder has "."
+2021-11-30 08:25:22,078: DEBUG: found:./requirements.txt
+2021-11-30 08:25:22,079: DEBUG: this file/folder has "."
+2021-11-30 08:25:22,079: DEBUG: found:./runtime.txt
+2021-11-30 08:25:22,079: DEBUG: this file/folder has "."
+2021-11-30 08:25:22,079: DEBUG: found:./test.py
+2021-11-30 08:25:22,079: DEBUG: this file/folder has "."
+2021-11-30 08:25:22,079: DEBUG: found:./__init__.py
+2021-11-30 08:25:22,079: DEBUG: this file/folder has "."
+2021-11-30 08:25:22,079: DEBUG: found:./__pycache__
+2021-11-30 08:25:22,080: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:25:22,080: INFO: ---------- start get_apps() ----------
+2021-11-30 08:25:22,081: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:25:22,081: DEBUG: found:auto_bt_check = True
+2021-11-30 08:25:22,081: DEBUG: found:auto_mail_check = True
+2021-11-30 08:25:22,081: INFO: ---------- end get_apps() ----------
+2021-11-30 08:25:22,081: INFO: ---------- start update_ini() ----------
+2021-11-30 08:25:22,083: INFO: ---------- end update_ini() ----------
+2021-11-30 08:25:22,083: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:28:08,692: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:28:08,693: DEBUG: found:./.git
+2021-11-30 08:28:08,693: DEBUG: this file/folder has "."
+2021-11-30 08:28:08,693: DEBUG: found:./.venv
+2021-11-30 08:28:08,693: DEBUG: this file/folder has "."
+2021-11-30 08:28:08,693: DEBUG: found:./app_template
+2021-11-30 08:28:08,693: DEBUG: this file/folder is app_template
+2021-11-30 08:28:08,693: DEBUG: found:./autorun_manager
+2021-11-30 08:28:08,693: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:28:08,693: DEBUG: found:./auto_bt_check
+2021-11-30 08:28:08,694: DEBUG:     this is APP
+2021-11-30 08:28:08,696: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:28:08,696: DEBUG: found:./auto_mail_check
+2021-11-30 08:28:08,697: DEBUG:     this is APP
+2021-11-30 08:28:08,699: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:28:08,699: DEBUG: found:./flask_platform
+2021-11-30 08:28:08,700: DEBUG:     this is APP
+2021-11-30 08:28:08,702: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:28:08,703: DEBUG: found:./log
+2021-11-30 08:28:08,703: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:28:08,703: DEBUG: found:./manage.py
+2021-11-30 08:28:08,703: DEBUG: this file/folder has "."
+2021-11-30 08:28:08,703: DEBUG: found:./modules
+2021-11-30 08:28:08,704: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:28:08,704: DEBUG: found:./readme.txt
+2021-11-30 08:28:08,704: DEBUG: this file/folder has "."
+2021-11-30 08:28:08,704: DEBUG: found:./requirements.txt
+2021-11-30 08:28:08,704: DEBUG: this file/folder has "."
+2021-11-30 08:28:08,704: DEBUG: found:./runtime.txt
+2021-11-30 08:28:08,704: DEBUG: this file/folder has "."
+2021-11-30 08:28:08,704: DEBUG: found:./test.py
+2021-11-30 08:28:08,705: DEBUG: this file/folder has "."
+2021-11-30 08:28:08,705: DEBUG: found:./__init__.py
+2021-11-30 08:28:08,705: DEBUG: this file/folder has "."
+2021-11-30 08:28:08,705: DEBUG: found:./__pycache__
+2021-11-30 08:28:08,705: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:28:08,705: INFO: ---------- start get_apps() ----------
+2021-11-30 08:28:08,706: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:28:08,706: DEBUG: found:auto_bt_check = True
+2021-11-30 08:28:08,706: DEBUG: found:auto_mail_check = True
+2021-11-30 08:28:08,706: INFO: ---------- end get_apps() ----------
+2021-11-30 08:28:08,706: INFO: ---------- start update_ini() ----------
+2021-11-30 08:28:08,707: INFO: ---------- end update_ini() ----------
+2021-11-30 08:28:08,707: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:28:08,708: DEBUG: {'auto_bt_check': []}
+2021-11-30 08:31:23,951: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:31:23,952: DEBUG: found:./.git
+2021-11-30 08:31:23,952: DEBUG: this file/folder has "."
+2021-11-30 08:31:23,952: DEBUG: found:./.venv
+2021-11-30 08:31:23,953: DEBUG: this file/folder has "."
+2021-11-30 08:31:23,953: DEBUG: found:./app_template
+2021-11-30 08:31:23,953: DEBUG: this file/folder is app_template
+2021-11-30 08:31:23,953: DEBUG: found:./autorun_manager
+2021-11-30 08:31:23,953: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:31:23,953: DEBUG: found:./auto_bt_check
+2021-11-30 08:31:23,953: DEBUG:     this is APP
+2021-11-30 08:31:23,956: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:31:23,956: DEBUG: found:./auto_mail_check
+2021-11-30 08:31:23,957: DEBUG:     this is APP
+2021-11-30 08:31:23,959: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:31:23,960: DEBUG: found:./flask_platform
+2021-11-30 08:31:23,960: DEBUG:     this is APP
+2021-11-30 08:31:23,962: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:31:23,963: DEBUG: found:./log
+2021-11-30 08:31:23,963: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:31:23,963: DEBUG: found:./manage.py
+2021-11-30 08:31:23,963: DEBUG: this file/folder has "."
+2021-11-30 08:31:23,963: DEBUG: found:./modules
+2021-11-30 08:31:23,963: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:31:23,963: DEBUG: found:./readme.txt
+2021-11-30 08:31:23,964: DEBUG: this file/folder has "."
+2021-11-30 08:31:23,964: DEBUG: found:./requirements.txt
+2021-11-30 08:31:23,964: DEBUG: this file/folder has "."
+2021-11-30 08:31:23,964: DEBUG: found:./runtime.txt
+2021-11-30 08:31:23,964: DEBUG: this file/folder has "."
+2021-11-30 08:31:23,964: DEBUG: found:./test.py
+2021-11-30 08:31:23,964: DEBUG: this file/folder has "."
+2021-11-30 08:31:23,964: DEBUG: found:./__init__.py
+2021-11-30 08:31:23,964: DEBUG: this file/folder has "."
+2021-11-30 08:31:23,964: DEBUG: found:./__pycache__
+2021-11-30 08:31:23,964: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:31:23,965: INFO: ---------- start get_apps() ----------
+2021-11-30 08:31:23,965: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:31:23,965: DEBUG: found:auto_bt_check = True
+2021-11-30 08:31:23,965: DEBUG: found:auto_mail_check = True
+2021-11-30 08:31:23,965: INFO: ---------- end get_apps() ----------
+2021-11-30 08:31:23,966: INFO: ---------- start update_ini() ----------
+2021-11-30 08:31:23,966: INFO: ---------- end update_ini() ----------
+2021-11-30 08:31:23,967: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:31:23,967: DEBUG: {'auto_bt_check': []}
+2021-11-30 08:33:42,023: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:33:42,023: DEBUG: found:./.git
+2021-11-30 08:33:42,023: DEBUG: this file/folder has "."
+2021-11-30 08:33:42,023: DEBUG: found:./.venv
+2021-11-30 08:33:42,023: DEBUG: this file/folder has "."
+2021-11-30 08:33:42,023: DEBUG: found:./app_template
+2021-11-30 08:33:42,023: DEBUG: this file/folder is app_template
+2021-11-30 08:33:42,024: DEBUG: found:./autorun_manager
+2021-11-30 08:33:42,024: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:33:42,024: DEBUG: found:./auto_bt_check
+2021-11-30 08:33:42,024: DEBUG:     this is APP
+2021-11-30 08:33:42,026: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:33:42,026: DEBUG: found:./auto_mail_check
+2021-11-30 08:33:42,027: DEBUG:     this is APP
+2021-11-30 08:33:42,029: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:33:42,029: DEBUG: found:./flask_platform
+2021-11-30 08:33:42,029: DEBUG:     this is APP
+2021-11-30 08:33:42,031: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:33:42,031: DEBUG: found:./log
+2021-11-30 08:33:42,031: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:33:42,032: DEBUG: found:./manage.py
+2021-11-30 08:33:42,032: DEBUG: this file/folder has "."
+2021-11-30 08:33:42,032: DEBUG: found:./modules
+2021-11-30 08:33:42,032: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:33:42,032: DEBUG: found:./readme.txt
+2021-11-30 08:33:42,032: DEBUG: this file/folder has "."
+2021-11-30 08:33:42,032: DEBUG: found:./requirements.txt
+2021-11-30 08:33:42,032: DEBUG: this file/folder has "."
+2021-11-30 08:33:42,032: DEBUG: found:./runtime.txt
+2021-11-30 08:33:42,033: DEBUG: this file/folder has "."
+2021-11-30 08:33:42,033: DEBUG: found:./test.py
+2021-11-30 08:33:42,033: DEBUG: this file/folder has "."
+2021-11-30 08:33:42,033: DEBUG: found:./__init__.py
+2021-11-30 08:33:42,033: DEBUG: this file/folder has "."
+2021-11-30 08:33:42,033: DEBUG: found:./__pycache__
+2021-11-30 08:33:42,034: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:33:42,034: INFO: ---------- start get_apps() ----------
+2021-11-30 08:33:42,036: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:33:42,036: DEBUG: found:auto_bt_check = True
+2021-11-30 08:33:42,036: DEBUG: found:auto_mail_check = True
+2021-11-30 08:33:42,036: INFO: ---------- end get_apps() ----------
+2021-11-30 08:33:42,036: INFO: ---------- start update_ini() ----------
+2021-11-30 08:33:42,037: INFO: ---------- end update_ini() ----------
+2021-11-30 08:33:42,037: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:33:42,038: DEBUG: {'auto_bt_check': []}
+2021-11-30 08:36:34,356: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:36:34,356: DEBUG: found:./.git
+2021-11-30 08:36:34,357: DEBUG: this file/folder has "."
+2021-11-30 08:36:34,357: DEBUG: found:./.venv
+2021-11-30 08:36:34,357: DEBUG: this file/folder has "."
+2021-11-30 08:36:34,357: DEBUG: found:./app_template
+2021-11-30 08:36:34,357: DEBUG: this file/folder is app_template
+2021-11-30 08:36:34,357: DEBUG: found:./autorun_manager
+2021-11-30 08:36:34,358: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:36:34,358: DEBUG: found:./auto_bt_check
+2021-11-30 08:36:34,358: DEBUG:     this is APP
+2021-11-30 08:36:34,362: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:36:34,362: DEBUG: found:./auto_mail_check
+2021-11-30 08:36:34,362: DEBUG:     this is APP
+2021-11-30 08:36:34,365: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:36:34,365: DEBUG: found:./flask_platform
+2021-11-30 08:36:34,365: DEBUG:     this is APP
+2021-11-30 08:36:34,367: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:36:34,368: DEBUG: found:./log
+2021-11-30 08:36:34,368: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:36:34,368: DEBUG: found:./manage.py
+2021-11-30 08:36:34,368: DEBUG: this file/folder has "."
+2021-11-30 08:36:34,369: DEBUG: found:./modules
+2021-11-30 08:36:34,369: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:36:34,369: DEBUG: found:./readme.txt
+2021-11-30 08:36:34,369: DEBUG: this file/folder has "."
+2021-11-30 08:36:34,369: DEBUG: found:./requirements.txt
+2021-11-30 08:36:34,369: DEBUG: this file/folder has "."
+2021-11-30 08:36:34,369: DEBUG: found:./runtime.txt
+2021-11-30 08:36:34,370: DEBUG: this file/folder has "."
+2021-11-30 08:36:34,370: DEBUG: found:./test.py
+2021-11-30 08:36:34,370: DEBUG: this file/folder has "."
+2021-11-30 08:36:34,370: DEBUG: found:./__init__.py
+2021-11-30 08:36:34,370: DEBUG: this file/folder has "."
+2021-11-30 08:36:34,370: DEBUG: found:./__pycache__
+2021-11-30 08:36:34,370: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:36:34,371: INFO: ---------- start get_apps() ----------
+2021-11-30 08:36:34,373: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:36:34,373: DEBUG: found:auto_bt_check = True
+2021-11-30 08:36:34,373: DEBUG: found:auto_mail_check = True
+2021-11-30 08:36:34,373: INFO: ---------- end get_apps() ----------
+2021-11-30 08:36:34,373: INFO: ---------- start update_ini() ----------
+2021-11-30 08:36:34,374: INFO: ---------- end update_ini() ----------
+2021-11-30 08:36:34,374: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:36:34,375: DEBUG: {'auto_bt_check': []}
+2021-11-30 08:37:33,210: DEBUG: [['2021/11/30 08:37', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-11-30 08:37:33,211: DEBUG: None
+2021-11-30 08:39:31,263: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:39:31,263: DEBUG: found:./.git
+2021-11-30 08:39:31,263: DEBUG: this file/folder has "."
+2021-11-30 08:39:31,263: DEBUG: found:./.venv
+2021-11-30 08:39:31,263: DEBUG: this file/folder has "."
+2021-11-30 08:39:31,263: DEBUG: found:./app_template
+2021-11-30 08:39:31,263: DEBUG: this file/folder is app_template
+2021-11-30 08:39:31,264: DEBUG: found:./autorun_manager
+2021-11-30 08:39:31,264: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:39:31,264: DEBUG: found:./auto_bt_check
+2021-11-30 08:39:31,264: DEBUG:     this is APP
+2021-11-30 08:39:31,266: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:39:31,266: DEBUG: found:./auto_mail_check
+2021-11-30 08:39:31,267: DEBUG:     this is APP
+2021-11-30 08:39:31,269: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:39:31,269: DEBUG: found:./flask_platform
+2021-11-30 08:39:31,270: DEBUG:     this is APP
+2021-11-30 08:39:31,272: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:39:31,272: DEBUG: found:./log
+2021-11-30 08:39:31,272: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:39:31,272: DEBUG: found:./manage.py
+2021-11-30 08:39:31,272: DEBUG: this file/folder has "."
+2021-11-30 08:39:31,272: DEBUG: found:./modules
+2021-11-30 08:39:31,273: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:39:31,273: DEBUG: found:./readme.txt
+2021-11-30 08:39:31,273: DEBUG: this file/folder has "."
+2021-11-30 08:39:31,273: DEBUG: found:./requirements.txt
+2021-11-30 08:39:31,273: DEBUG: this file/folder has "."
+2021-11-30 08:39:31,273: DEBUG: found:./runtime.txt
+2021-11-30 08:39:31,273: DEBUG: this file/folder has "."
+2021-11-30 08:39:31,273: DEBUG: found:./test.py
+2021-11-30 08:39:31,273: DEBUG: this file/folder has "."
+2021-11-30 08:39:31,273: DEBUG: found:./__init__.py
+2021-11-30 08:39:31,273: DEBUG: this file/folder has "."
+2021-11-30 08:39:31,274: DEBUG: found:./__pycache__
+2021-11-30 08:39:31,274: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:39:31,274: INFO: ---------- start get_apps() ----------
+2021-11-30 08:39:31,276: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:39:31,276: DEBUG: found:auto_bt_check = True
+2021-11-30 08:39:31,276: DEBUG: found:auto_mail_check = True
+2021-11-30 08:39:31,276: INFO: ---------- end get_apps() ----------
+2021-11-30 08:39:31,276: INFO: ---------- start update_ini() ----------
+2021-11-30 08:39:31,277: INFO: ---------- end update_ini() ----------
+2021-11-30 08:39:31,277: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:39:31,278: DEBUG: {'auto_bt_check': []}
+2021-11-30 08:39:51,355: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:39:51,355: DEBUG: found:./.git
+2021-11-30 08:39:51,355: DEBUG: this file/folder has "."
+2021-11-30 08:39:51,356: DEBUG: found:./.venv
+2021-11-30 08:39:51,356: DEBUG: this file/folder has "."
+2021-11-30 08:39:51,356: DEBUG: found:./app_template
+2021-11-30 08:39:51,356: DEBUG: this file/folder is app_template
+2021-11-30 08:39:51,356: DEBUG: found:./autorun_manager
+2021-11-30 08:39:51,356: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:39:51,357: DEBUG: found:./auto_bt_check
+2021-11-30 08:39:51,357: DEBUG:     this is APP
+2021-11-30 08:39:51,360: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:39:51,360: DEBUG: found:./auto_mail_check
+2021-11-30 08:39:51,360: DEBUG:     this is APP
+2021-11-30 08:39:51,364: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:39:51,364: DEBUG: found:./flask_platform
+2021-11-30 08:39:51,365: DEBUG:     this is APP
+2021-11-30 08:39:51,368: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:39:51,369: DEBUG: found:./log
+2021-11-30 08:39:51,369: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:39:51,369: DEBUG: found:./manage.py
+2021-11-30 08:39:51,370: DEBUG: this file/folder has "."
+2021-11-30 08:39:51,370: DEBUG: found:./modules
+2021-11-30 08:39:51,370: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:39:51,370: DEBUG: found:./readme.txt
+2021-11-30 08:39:51,371: DEBUG: this file/folder has "."
+2021-11-30 08:39:51,371: DEBUG: found:./requirements.txt
+2021-11-30 08:39:51,371: DEBUG: this file/folder has "."
+2021-11-30 08:39:51,371: DEBUG: found:./runtime.txt
+2021-11-30 08:39:51,372: DEBUG: this file/folder has "."
+2021-11-30 08:39:51,372: DEBUG: found:./test.py
+2021-11-30 08:39:51,372: DEBUG: this file/folder has "."
+2021-11-30 08:39:51,372: DEBUG: found:./__init__.py
+2021-11-30 08:39:51,372: DEBUG: this file/folder has "."
+2021-11-30 08:39:51,373: DEBUG: found:./__pycache__
+2021-11-30 08:39:51,373: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:39:51,373: INFO: ---------- start get_apps() ----------
+2021-11-30 08:39:51,376: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:39:51,376: DEBUG: found:auto_bt_check = True
+2021-11-30 08:39:51,376: DEBUG: found:auto_mail_check = True
+2021-11-30 08:39:51,376: INFO: ---------- end get_apps() ----------
+2021-11-30 08:39:51,376: INFO: ---------- start update_ini() ----------
+2021-11-30 08:39:51,377: INFO: ---------- end update_ini() ----------
+2021-11-30 08:39:51,377: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:39:51,378: DEBUG: {'auto_bt_check': []}
+2021-11-30 08:39:52,930: DEBUG: [['2021/11/30 08:39', None]]
+2021-11-30 08:39:52,930: DEBUG: None
+2021-11-30 08:40:38,625: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:40:38,626: DEBUG: found:./.git
+2021-11-30 08:40:38,626: DEBUG: this file/folder has "."
+2021-11-30 08:40:38,626: DEBUG: found:./.venv
+2021-11-30 08:40:38,626: DEBUG: this file/folder has "."
+2021-11-30 08:40:38,626: DEBUG: found:./app_template
+2021-11-30 08:40:38,626: DEBUG: this file/folder is app_template
+2021-11-30 08:40:38,626: DEBUG: found:./autorun_manager
+2021-11-30 08:40:38,626: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:40:38,626: DEBUG: found:./auto_bt_check
+2021-11-30 08:40:38,627: DEBUG:     this is APP
+2021-11-30 08:40:38,629: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:40:38,629: DEBUG: found:./auto_mail_check
+2021-11-30 08:40:38,629: DEBUG:     this is APP
+2021-11-30 08:40:38,632: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:40:38,632: DEBUG: found:./flask_platform
+2021-11-30 08:40:38,633: DEBUG:     this is APP
+2021-11-30 08:40:38,635: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:40:38,635: DEBUG: found:./log
+2021-11-30 08:40:38,635: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:40:38,636: DEBUG: found:./manage.py
+2021-11-30 08:40:38,636: DEBUG: this file/folder has "."
+2021-11-30 08:40:38,636: DEBUG: found:./modules
+2021-11-30 08:40:38,636: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:40:38,636: DEBUG: found:./readme.txt
+2021-11-30 08:40:38,636: DEBUG: this file/folder has "."
+2021-11-30 08:40:38,636: DEBUG: found:./requirements.txt
+2021-11-30 08:40:38,636: DEBUG: this file/folder has "."
+2021-11-30 08:40:38,636: DEBUG: found:./runtime.txt
+2021-11-30 08:40:38,636: DEBUG: this file/folder has "."
+2021-11-30 08:40:38,636: DEBUG: found:./test.py
+2021-11-30 08:40:38,637: DEBUG: this file/folder has "."
+2021-11-30 08:40:38,637: DEBUG: found:./__init__.py
+2021-11-30 08:40:38,637: DEBUG: this file/folder has "."
+2021-11-30 08:40:38,637: DEBUG: found:./__pycache__
+2021-11-30 08:40:38,637: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:40:38,637: INFO: ---------- start get_apps() ----------
+2021-11-30 08:40:38,639: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:40:38,639: DEBUG: found:auto_bt_check = True
+2021-11-30 08:40:38,639: DEBUG: found:auto_mail_check = True
+2021-11-30 08:40:38,639: INFO: ---------- end get_apps() ----------
+2021-11-30 08:40:38,639: INFO: ---------- start update_ini() ----------
+2021-11-30 08:40:38,640: INFO: ---------- end update_ini() ----------
+2021-11-30 08:40:38,640: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:40:38,640: DEBUG: {'auto_bt_check': []}
+2021-11-30 08:41:03,835: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:41:03,836: DEBUG: found:./.git
+2021-11-30 08:41:03,836: DEBUG: this file/folder has "."
+2021-11-30 08:41:03,836: DEBUG: found:./.venv
+2021-11-30 08:41:03,836: DEBUG: this file/folder has "."
+2021-11-30 08:41:03,836: DEBUG: found:./app_template
+2021-11-30 08:41:03,837: DEBUG: this file/folder is app_template
+2021-11-30 08:41:03,837: DEBUG: found:./autorun_manager
+2021-11-30 08:41:03,837: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:41:03,837: DEBUG: found:./auto_bt_check
+2021-11-30 08:41:03,837: DEBUG:     this is APP
+2021-11-30 08:41:03,840: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:41:03,840: DEBUG: found:./auto_mail_check
+2021-11-30 08:41:03,840: DEBUG:     this is APP
+2021-11-30 08:41:03,842: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:41:03,842: DEBUG: found:./flask_platform
+2021-11-30 08:41:03,843: DEBUG:     this is APP
+2021-11-30 08:41:03,844: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:41:03,844: DEBUG: found:./log
+2021-11-30 08:41:03,845: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:41:03,845: DEBUG: found:./manage.py
+2021-11-30 08:41:03,845: DEBUG: this file/folder has "."
+2021-11-30 08:41:03,845: DEBUG: found:./modules
+2021-11-30 08:41:03,845: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:41:03,845: DEBUG: found:./readme.txt
+2021-11-30 08:41:03,845: DEBUG: this file/folder has "."
+2021-11-30 08:41:03,845: DEBUG: found:./requirements.txt
+2021-11-30 08:41:03,845: DEBUG: this file/folder has "."
+2021-11-30 08:41:03,846: DEBUG: found:./runtime.txt
+2021-11-30 08:41:03,846: DEBUG: this file/folder has "."
+2021-11-30 08:41:03,846: DEBUG: found:./test.py
+2021-11-30 08:41:03,846: DEBUG: this file/folder has "."
+2021-11-30 08:41:03,846: DEBUG: found:./__init__.py
+2021-11-30 08:41:03,846: DEBUG: this file/folder has "."
+2021-11-30 08:41:03,846: DEBUG: found:./__pycache__
+2021-11-30 08:41:03,846: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:41:03,846: INFO: ---------- start get_apps() ----------
+2021-11-30 08:41:03,849: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:41:03,849: DEBUG: found:auto_bt_check = True
+2021-11-30 08:41:03,849: DEBUG: found:auto_mail_check = True
+2021-11-30 08:41:03,849: INFO: ---------- end get_apps() ----------
+2021-11-30 08:41:03,850: INFO: ---------- start update_ini() ----------
+2021-11-30 08:41:03,850: INFO: ---------- end update_ini() ----------
+2021-11-30 08:41:03,851: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:41:03,851: DEBUG: {'auto_bt_check': []}
+2021-11-30 08:41:05,356: DEBUG: [['2021/11/30 08:41', None]]
+2021-11-30 08:41:05,356: DEBUG: None
+2021-11-30 08:42:08,889: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:42:08,890: DEBUG: found:./.git
+2021-11-30 08:42:08,890: DEBUG: this file/folder has "."
+2021-11-30 08:42:08,890: DEBUG: found:./.venv
+2021-11-30 08:42:08,890: DEBUG: this file/folder has "."
+2021-11-30 08:42:08,890: DEBUG: found:./app_template
+2021-11-30 08:42:08,890: DEBUG: this file/folder is app_template
+2021-11-30 08:42:08,890: DEBUG: found:./autorun_manager
+2021-11-30 08:42:08,890: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:42:08,890: DEBUG: found:./auto_bt_check
+2021-11-30 08:42:08,890: DEBUG:     this is APP
+2021-11-30 08:42:08,893: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:42:08,893: DEBUG: found:./auto_mail_check
+2021-11-30 08:42:08,894: DEBUG:     this is APP
+2021-11-30 08:42:08,897: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:42:08,897: DEBUG: found:./flask_platform
+2021-11-30 08:42:08,897: DEBUG:     this is APP
+2021-11-30 08:42:08,899: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:42:08,900: DEBUG: found:./log
+2021-11-30 08:42:08,900: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:42:08,900: DEBUG: found:./manage.py
+2021-11-30 08:42:08,900: DEBUG: this file/folder has "."
+2021-11-30 08:42:08,900: DEBUG: found:./modules
+2021-11-30 08:42:08,900: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:42:08,900: DEBUG: found:./readme.txt
+2021-11-30 08:42:08,900: DEBUG: this file/folder has "."
+2021-11-30 08:42:08,901: DEBUG: found:./requirements.txt
+2021-11-30 08:42:08,901: DEBUG: this file/folder has "."
+2021-11-30 08:42:08,901: DEBUG: found:./runtime.txt
+2021-11-30 08:42:08,901: DEBUG: this file/folder has "."
+2021-11-30 08:42:08,901: DEBUG: found:./test.py
+2021-11-30 08:42:08,901: DEBUG: this file/folder has "."
+2021-11-30 08:42:08,901: DEBUG: found:./__init__.py
+2021-11-30 08:42:08,901: DEBUG: this file/folder has "."
+2021-11-30 08:42:08,901: DEBUG: found:./__pycache__
+2021-11-30 08:42:08,902: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:42:08,902: INFO: ---------- start get_apps() ----------
+2021-11-30 08:42:08,905: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:42:08,905: DEBUG: found:auto_bt_check = True
+2021-11-30 08:42:08,905: DEBUG: found:auto_mail_check = True
+2021-11-30 08:42:08,906: INFO: ---------- end get_apps() ----------
+2021-11-30 08:42:08,906: INFO: ---------- start update_ini() ----------
+2021-11-30 08:42:08,907: INFO: ---------- end update_ini() ----------
+2021-11-30 08:42:08,907: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:42:08,908: DEBUG: {'auto_bt_check': []}
+2021-11-30 08:42:10,477: DEBUG: [['2021/11/30 08:42', None]]
+2021-11-30 08:42:10,477: DEBUG: [['2021/11/30 08:42', None]]
+2021-11-30 08:42:10,477: DEBUG: {'auto_bt_check': [['2021/11/30 08:42', None]]}
+2021-11-30 08:42:10,482: DEBUG: {'auto_bt_check': [['2021/11/30 08:42', None]], 'auto_mail_check': []}
+2021-11-30 08:44:03,931: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:44:03,931: DEBUG: found:./.git
+2021-11-30 08:44:03,931: DEBUG: this file/folder has "."
+2021-11-30 08:44:03,932: DEBUG: found:./.venv
+2021-11-30 08:44:03,932: DEBUG: this file/folder has "."
+2021-11-30 08:44:03,932: DEBUG: found:./app_template
+2021-11-30 08:44:03,932: DEBUG: this file/folder is app_template
+2021-11-30 08:44:03,932: DEBUG: found:./autorun_manager
+2021-11-30 08:44:03,932: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:44:03,932: DEBUG: found:./auto_bt_check
+2021-11-30 08:44:03,933: DEBUG:     this is APP
+2021-11-30 08:44:03,935: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:03,935: DEBUG: found:./auto_mail_check
+2021-11-30 08:44:03,936: DEBUG:     this is APP
+2021-11-30 08:44:03,938: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:03,938: DEBUG: found:./flask_platform
+2021-11-30 08:44:03,939: DEBUG:     this is APP
+2021-11-30 08:44:03,942: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:44:03,942: DEBUG: found:./log
+2021-11-30 08:44:03,943: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:03,943: DEBUG: found:./manage.py
+2021-11-30 08:44:03,943: DEBUG: this file/folder has "."
+2021-11-30 08:44:03,943: DEBUG: found:./modules
+2021-11-30 08:44:03,944: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:03,944: DEBUG: found:./readme.txt
+2021-11-30 08:44:03,944: DEBUG: this file/folder has "."
+2021-11-30 08:44:03,944: DEBUG: found:./requirements.txt
+2021-11-30 08:44:03,944: DEBUG: this file/folder has "."
+2021-11-30 08:44:03,944: DEBUG: found:./runtime.txt
+2021-11-30 08:44:03,944: DEBUG: this file/folder has "."
+2021-11-30 08:44:03,944: DEBUG: found:./test.py
+2021-11-30 08:44:03,944: DEBUG: this file/folder has "."
+2021-11-30 08:44:03,945: DEBUG: found:./__init__.py
+2021-11-30 08:44:03,945: DEBUG: this file/folder has "."
+2021-11-30 08:44:03,945: DEBUG: found:./__pycache__
+2021-11-30 08:44:03,945: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:03,945: INFO: ---------- start get_apps() ----------
+2021-11-30 08:44:03,946: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:44:03,946: DEBUG: found:auto_bt_check = True
+2021-11-30 08:44:03,946: DEBUG: found:auto_mail_check = False
+2021-11-30 08:44:03,946: INFO: ---------- end get_apps() ----------
+2021-11-30 08:44:03,946: INFO: ---------- start update_ini() ----------
+2021-11-30 08:44:03,947: INFO: ---------- end update_ini() ----------
+2021-11-30 08:44:03,947: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:44:03,947: DEBUG: {'auto_bt_check': [['2021/11/30 08:42', None]]}
+2021-11-30 08:44:05,449: DEBUG: [['2021/11/30 08:44', None]]
+2021-11-30 08:44:05,449: DEBUG: [['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]
+2021-11-30 08:44:05,449: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]}
+2021-11-30 08:44:15,079: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:44:15,080: DEBUG: found:./.git
+2021-11-30 08:44:15,080: DEBUG: this file/folder has "."
+2021-11-30 08:44:15,081: DEBUG: found:./.venv
+2021-11-30 08:44:15,081: DEBUG: this file/folder has "."
+2021-11-30 08:44:15,081: DEBUG: found:./app_template
+2021-11-30 08:44:15,081: DEBUG: this file/folder is app_template
+2021-11-30 08:44:15,081: DEBUG: found:./autorun_manager
+2021-11-30 08:44:15,082: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:44:15,082: DEBUG: found:./auto_bt_check
+2021-11-30 08:44:15,083: DEBUG:     this is APP
+2021-11-30 08:44:15,086: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:15,087: DEBUG: found:./auto_mail_check
+2021-11-30 08:44:15,087: DEBUG:     this is APP
+2021-11-30 08:44:15,091: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:15,091: DEBUG: found:./flask_platform
+2021-11-30 08:44:15,092: DEBUG:     this is APP
+2021-11-30 08:44:15,094: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:44:15,095: DEBUG: found:./log
+2021-11-30 08:44:15,095: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:15,095: DEBUG: found:./manage.py
+2021-11-30 08:44:15,095: DEBUG: this file/folder has "."
+2021-11-30 08:44:15,095: DEBUG: found:./modules
+2021-11-30 08:44:15,095: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:15,095: DEBUG: found:./readme.txt
+2021-11-30 08:44:15,096: DEBUG: this file/folder has "."
+2021-11-30 08:44:15,096: DEBUG: found:./requirements.txt
+2021-11-30 08:44:15,096: DEBUG: this file/folder has "."
+2021-11-30 08:44:15,096: DEBUG: found:./runtime.txt
+2021-11-30 08:44:15,096: DEBUG: this file/folder has "."
+2021-11-30 08:44:15,096: DEBUG: found:./test.py
+2021-11-30 08:44:15,096: DEBUG: this file/folder has "."
+2021-11-30 08:44:15,097: DEBUG: found:./__init__.py
+2021-11-30 08:44:15,097: DEBUG: this file/folder has "."
+2021-11-30 08:44:15,097: DEBUG: found:./__pycache__
+2021-11-30 08:44:15,097: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:15,097: INFO: ---------- start get_apps() ----------
+2021-11-30 08:44:15,125: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:44:15,125: DEBUG: found:auto_bt_check = True
+2021-11-30 08:44:15,126: DEBUG: found:auto_mail_check = False
+2021-11-30 08:44:15,126: INFO: ---------- end get_apps() ----------
+2021-11-30 08:44:15,126: INFO: ---------- start update_ini() ----------
+2021-11-30 08:44:15,127: INFO: ---------- end update_ini() ----------
+2021-11-30 08:44:15,127: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:44:15,127: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]}
+2021-11-30 08:44:16,619: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:44:16,619: DEBUG: found:./.git
+2021-11-30 08:44:16,619: DEBUG: this file/folder has "."
+2021-11-30 08:44:16,619: DEBUG: found:./.venv
+2021-11-30 08:44:16,619: DEBUG: this file/folder has "."
+2021-11-30 08:44:16,619: DEBUG: found:./app_template
+2021-11-30 08:44:16,620: DEBUG: this file/folder is app_template
+2021-11-30 08:44:16,620: DEBUG: found:./autorun_manager
+2021-11-30 08:44:16,620: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:44:16,620: DEBUG: found:./auto_bt_check
+2021-11-30 08:44:16,620: DEBUG:     this is APP
+2021-11-30 08:44:16,623: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:16,623: DEBUG: found:./auto_mail_check
+2021-11-30 08:44:16,624: DEBUG:     this is APP
+2021-11-30 08:44:16,626: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:16,626: DEBUG: found:./flask_platform
+2021-11-30 08:44:16,627: DEBUG:     this is APP
+2021-11-30 08:44:16,630: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:44:16,635: DEBUG: found:./log
+2021-11-30 08:44:16,639: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:16,639: DEBUG: found:./manage.py
+2021-11-30 08:44:16,639: DEBUG: this file/folder has "."
+2021-11-30 08:44:16,640: DEBUG: found:./modules
+2021-11-30 08:44:16,640: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:16,641: DEBUG: found:./readme.txt
+2021-11-30 08:44:16,641: DEBUG: this file/folder has "."
+2021-11-30 08:44:16,641: DEBUG: found:./requirements.txt
+2021-11-30 08:44:16,641: DEBUG: this file/folder has "."
+2021-11-30 08:44:16,642: DEBUG: found:./runtime.txt
+2021-11-30 08:44:16,642: DEBUG: this file/folder has "."
+2021-11-30 08:44:16,642: DEBUG: found:./test.py
+2021-11-30 08:44:16,642: DEBUG: this file/folder has "."
+2021-11-30 08:44:16,642: DEBUG: found:./__init__.py
+2021-11-30 08:44:16,642: DEBUG: this file/folder has "."
+2021-11-30 08:44:16,642: DEBUG: found:./__pycache__
+2021-11-30 08:44:16,643: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:16,643: INFO: ---------- start get_apps() ----------
+2021-11-30 08:44:16,644: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:44:16,645: DEBUG: found:auto_bt_check = True
+2021-11-30 08:44:16,645: DEBUG: found:auto_mail_check = False
+2021-11-30 08:44:16,645: INFO: ---------- end get_apps() ----------
+2021-11-30 08:44:16,645: INFO: ---------- start update_ini() ----------
+2021-11-30 08:44:16,647: INFO: ---------- end update_ini() ----------
+2021-11-30 08:44:16,647: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:44:16,648: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]}
+2021-11-30 08:44:18,197: DEBUG: [['2021/11/30 08:44', None]]
+2021-11-30 08:44:18,198: DEBUG: [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]
+2021-11-30 08:44:18,198: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]}
+2021-11-30 08:44:19,391: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:44:19,391: DEBUG: found:./.git
+2021-11-30 08:44:19,391: DEBUG: this file/folder has "."
+2021-11-30 08:44:19,391: DEBUG: found:./.venv
+2021-11-30 08:44:19,392: DEBUG: this file/folder has "."
+2021-11-30 08:44:19,392: DEBUG: found:./app_template
+2021-11-30 08:44:19,392: DEBUG: this file/folder is app_template
+2021-11-30 08:44:19,392: DEBUG: found:./autorun_manager
+2021-11-30 08:44:19,392: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:44:19,392: DEBUG: found:./auto_bt_check
+2021-11-30 08:44:19,392: DEBUG:     this is APP
+2021-11-30 08:44:19,395: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:19,395: DEBUG: found:./auto_mail_check
+2021-11-30 08:44:19,396: DEBUG:     this is APP
+2021-11-30 08:44:19,399: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:19,399: DEBUG: found:./flask_platform
+2021-11-30 08:44:19,399: DEBUG:     this is APP
+2021-11-30 08:44:19,402: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:44:19,402: DEBUG: found:./log
+2021-11-30 08:44:19,402: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:19,402: DEBUG: found:./manage.py
+2021-11-30 08:44:19,402: DEBUG: this file/folder has "."
+2021-11-30 08:44:19,403: DEBUG: found:./modules
+2021-11-30 08:44:19,403: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:19,403: DEBUG: found:./readme.txt
+2021-11-30 08:44:19,403: DEBUG: this file/folder has "."
+2021-11-30 08:44:19,403: DEBUG: found:./requirements.txt
+2021-11-30 08:44:19,403: DEBUG: this file/folder has "."
+2021-11-30 08:44:19,403: DEBUG: found:./runtime.txt
+2021-11-30 08:44:19,403: DEBUG: this file/folder has "."
+2021-11-30 08:44:19,403: DEBUG: found:./test.py
+2021-11-30 08:44:19,403: DEBUG: this file/folder has "."
+2021-11-30 08:44:19,403: DEBUG: found:./__init__.py
+2021-11-30 08:44:19,404: DEBUG: this file/folder has "."
+2021-11-30 08:44:19,404: DEBUG: found:./__pycache__
+2021-11-30 08:44:19,404: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:19,404: INFO: ---------- start get_apps() ----------
+2021-11-30 08:44:19,405: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:44:19,405: DEBUG: found:auto_bt_check = True
+2021-11-30 08:44:19,406: DEBUG: found:auto_mail_check = False
+2021-11-30 08:44:19,406: INFO: ---------- end get_apps() ----------
+2021-11-30 08:44:19,406: INFO: ---------- start update_ini() ----------
+2021-11-30 08:44:19,407: INFO: ---------- end update_ini() ----------
+2021-11-30 08:44:19,407: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:44:19,408: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]}
+2021-11-30 08:44:20,956: DEBUG: [['2021/11/30 08:44', None]]
+2021-11-30 08:44:20,956: DEBUG: [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]
+2021-11-30 08:44:20,956: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]}
+2021-11-30 08:44:22,024: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:44:22,024: DEBUG: found:./.git
+2021-11-30 08:44:22,025: DEBUG: this file/folder has "."
+2021-11-30 08:44:22,025: DEBUG: found:./.venv
+2021-11-30 08:44:22,025: DEBUG: this file/folder has "."
+2021-11-30 08:44:22,025: DEBUG: found:./app_template
+2021-11-30 08:44:22,025: DEBUG: this file/folder is app_template
+2021-11-30 08:44:22,025: DEBUG: found:./autorun_manager
+2021-11-30 08:44:22,025: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:44:22,025: DEBUG: found:./auto_bt_check
+2021-11-30 08:44:22,026: DEBUG:     this is APP
+2021-11-30 08:44:22,028: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:22,028: DEBUG: found:./auto_mail_check
+2021-11-30 08:44:22,029: DEBUG:     this is APP
+2021-11-30 08:44:22,031: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:22,031: DEBUG: found:./flask_platform
+2021-11-30 08:44:22,031: DEBUG:     this is APP
+2021-11-30 08:44:22,033: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:44:22,033: DEBUG: found:./log
+2021-11-30 08:44:22,034: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:22,034: DEBUG: found:./manage.py
+2021-11-30 08:44:22,034: DEBUG: this file/folder has "."
+2021-11-30 08:44:22,034: DEBUG: found:./modules
+2021-11-30 08:44:22,034: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:22,034: DEBUG: found:./readme.txt
+2021-11-30 08:44:22,034: DEBUG: this file/folder has "."
+2021-11-30 08:44:22,034: DEBUG: found:./requirements.txt
+2021-11-30 08:44:22,034: DEBUG: this file/folder has "."
+2021-11-30 08:44:22,034: DEBUG: found:./runtime.txt
+2021-11-30 08:44:22,035: DEBUG: this file/folder has "."
+2021-11-30 08:44:22,035: DEBUG: found:./test.py
+2021-11-30 08:44:22,035: DEBUG: this file/folder has "."
+2021-11-30 08:44:22,035: DEBUG: found:./__init__.py
+2021-11-30 08:44:22,035: DEBUG: this file/folder has "."
+2021-11-30 08:44:22,035: DEBUG: found:./__pycache__
+2021-11-30 08:44:22,035: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:22,035: INFO: ---------- start get_apps() ----------
+2021-11-30 08:44:22,037: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:44:22,037: DEBUG: found:auto_bt_check = True
+2021-11-30 08:44:22,037: DEBUG: found:auto_mail_check = False
+2021-11-30 08:44:22,037: INFO: ---------- end get_apps() ----------
+2021-11-30 08:44:22,037: INFO: ---------- start update_ini() ----------
+2021-11-30 08:44:22,038: INFO: ---------- end update_ini() ----------
+2021-11-30 08:44:22,038: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:44:22,038: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]}
+2021-11-30 08:44:23,630: DEBUG: [['2021/11/30 08:44', None]]
+2021-11-30 08:44:23,630: DEBUG: [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]
+2021-11-30 08:44:23,630: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]}
+2021-11-30 08:44:27,580: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:44:27,581: DEBUG: found:./.git
+2021-11-30 08:44:27,581: DEBUG: this file/folder has "."
+2021-11-30 08:44:27,581: DEBUG: found:./.venv
+2021-11-30 08:44:27,581: DEBUG: this file/folder has "."
+2021-11-30 08:44:27,581: DEBUG: found:./app_template
+2021-11-30 08:44:27,581: DEBUG: this file/folder is app_template
+2021-11-30 08:44:27,581: DEBUG: found:./autorun_manager
+2021-11-30 08:44:27,581: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:44:27,581: DEBUG: found:./auto_bt_check
+2021-11-30 08:44:27,581: DEBUG:     this is APP
+2021-11-30 08:44:27,584: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:27,584: DEBUG: found:./auto_mail_check
+2021-11-30 08:44:27,584: DEBUG:     this is APP
+2021-11-30 08:44:27,586: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:27,586: DEBUG: found:./flask_platform
+2021-11-30 08:44:27,587: DEBUG:     this is APP
+2021-11-30 08:44:27,588: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:44:27,589: DEBUG: found:./log
+2021-11-30 08:44:27,589: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:27,589: DEBUG: found:./manage.py
+2021-11-30 08:44:27,589: DEBUG: this file/folder has "."
+2021-11-30 08:44:27,589: DEBUG: found:./modules
+2021-11-30 08:44:27,590: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:27,590: DEBUG: found:./readme.txt
+2021-11-30 08:44:27,590: DEBUG: this file/folder has "."
+2021-11-30 08:44:27,590: DEBUG: found:./requirements.txt
+2021-11-30 08:44:27,590: DEBUG: this file/folder has "."
+2021-11-30 08:44:27,590: DEBUG: found:./runtime.txt
+2021-11-30 08:44:27,590: DEBUG: this file/folder has "."
+2021-11-30 08:44:27,590: DEBUG: found:./test.py
+2021-11-30 08:44:27,590: DEBUG: this file/folder has "."
+2021-11-30 08:44:27,590: DEBUG: found:./__init__.py
+2021-11-30 08:44:27,590: DEBUG: this file/folder has "."
+2021-11-30 08:44:27,590: DEBUG: found:./__pycache__
+2021-11-30 08:44:27,591: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:27,591: INFO: ---------- start get_apps() ----------
+2021-11-30 08:44:27,593: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:44:27,593: DEBUG: found:auto_bt_check = True
+2021-11-30 08:44:27,593: DEBUG: found:auto_mail_check = False
+2021-11-30 08:44:27,593: INFO: ---------- end get_apps() ----------
+2021-11-30 08:44:27,593: INFO: ---------- start update_ini() ----------
+2021-11-30 08:44:27,594: INFO: ---------- end update_ini() ----------
+2021-11-30 08:44:27,594: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:44:27,595: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]}
+2021-11-30 08:44:29,224: DEBUG: [['2021/11/30 08:44', None]]
+2021-11-30 08:44:29,224: DEBUG: [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:42', None]]
+2021-11-30 08:44:29,225: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]}
+2021-11-30 08:44:59,357: INFO: ---------- start add_newapps() ----------
+2021-11-30 08:44:59,358: DEBUG: found:./.git
+2021-11-30 08:44:59,358: DEBUG: this file/folder has "."
+2021-11-30 08:44:59,358: DEBUG: found:./.venv
+2021-11-30 08:44:59,358: DEBUG: this file/folder has "."
+2021-11-30 08:44:59,358: DEBUG: found:./app_template
+2021-11-30 08:44:59,358: DEBUG: this file/folder is app_template
+2021-11-30 08:44:59,359: DEBUG: found:./autorun_manager
+2021-11-30 08:44:59,359: DEBUG: this file/folder is autorun_manager
+2021-11-30 08:44:59,359: DEBUG: found:./auto_bt_check
+2021-11-30 08:44:59,359: DEBUG:     this is APP
+2021-11-30 08:44:59,362: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:59,363: DEBUG: found:./auto_mail_check
+2021-11-30 08:44:59,363: DEBUG:     this is APP
+2021-11-30 08:44:59,367: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 08:44:59,367: DEBUG: found:./flask_platform
+2021-11-30 08:44:59,368: DEBUG:     this is APP
+2021-11-30 08:44:59,371: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 08:44:59,371: DEBUG: found:./log
+2021-11-30 08:44:59,371: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:59,371: DEBUG: found:./manage.py
+2021-11-30 08:44:59,371: DEBUG: this file/folder has "."
+2021-11-30 08:44:59,371: DEBUG: found:./modules
+2021-11-30 08:44:59,371: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:59,372: DEBUG: found:./readme.txt
+2021-11-30 08:44:59,372: DEBUG: this file/folder has "."
+2021-11-30 08:44:59,372: DEBUG: found:./requirements.txt
+2021-11-30 08:44:59,372: DEBUG: this file/folder has "."
+2021-11-30 08:44:59,372: DEBUG: found:./runtime.txt
+2021-11-30 08:44:59,372: DEBUG: this file/folder has "."
+2021-11-30 08:44:59,372: DEBUG: found:./test.py
+2021-11-30 08:44:59,372: DEBUG: this file/folder has "."
+2021-11-30 08:44:59,373: DEBUG: found:./__init__.py
+2021-11-30 08:44:59,373: DEBUG: this file/folder has "."
+2021-11-30 08:44:59,373: DEBUG: found:./__pycache__
+2021-11-30 08:44:59,373: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 08:44:59,373: INFO: ---------- start get_apps() ----------
+2021-11-30 08:44:59,375: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 08:44:59,375: DEBUG: found:auto_bt_check = True
+2021-11-30 08:44:59,375: DEBUG: found:auto_mail_check = False
+2021-11-30 08:44:59,375: INFO: ---------- end get_apps() ----------
+2021-11-30 08:44:59,375: INFO: ---------- start update_ini() ----------
+2021-11-30 08:44:59,376: INFO: ---------- end update_ini() ----------
+2021-11-30 08:44:59,376: INFO: ---------- end add_newapps() ----------
+2021-11-30 08:44:59,377: DEBUG: {'auto_bt_check': [['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]}
+2021-11-30 08:45:58,000: DEBUG: [['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-11-30 08:45:58,001: DEBUG: [['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]
+2021-11-30 08:45:58,001: DEBUG: {'auto_bt_check': [['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]}
+2021-11-30 09:32:59,756: INFO: ---------- start get_apps() ----------
+2021-11-30 09:32:59,759: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 09:32:59,759: DEBUG: found:auto_bt_check = True
+2021-11-30 09:32:59,759: DEBUG: found:auto_mail_check = False
+2021-11-30 09:32:59,759: INFO: ---------- end get_apps() ----------
+2021-11-30 09:32:59,760: DEBUG: {'auto_bt_check': [['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]}
+2021-11-30 09:34:02,703: DEBUG: [['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-11-30 09:34:02,703: DEBUG: [['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]
+2021-11-30 09:34:02,703: DEBUG: {'auto_bt_check': [['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]}
+2021-11-30 09:34:44,956: INFO: ---------- start get_apps() ----------
+2021-11-30 09:34:44,957: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 09:34:44,957: DEBUG: found:auto_bt_check = True
+2021-11-30 09:34:44,957: DEBUG: found:auto_mail_check = False
+2021-11-30 09:34:44,957: INFO: ---------- end get_apps() ----------
+2021-11-30 09:34:44,958: DEBUG: {'auto_bt_check': [['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]}
+2021-11-30 09:35:47,970: DEBUG: [['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-11-30 09:35:47,970: DEBUG: [['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]
+2021-11-30 09:35:47,970: DEBUG: {'auto_bt_check': [['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]}
+2021-11-30 09:43:46,669: INFO: ---------- start get_apps() ----------
+2021-11-30 09:43:46,669: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 09:43:46,669: DEBUG: found:auto_bt_check = True
+2021-11-30 09:43:46,670: DEBUG: found:auto_mail_check = False
+2021-11-30 09:43:46,670: INFO: ---------- end get_apps() ----------
+2021-11-30 09:43:46,670: DEBUG: {'auto_bt_check': [['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]}
+2021-11-30 09:44:48,480: DEBUG: [['2021/11/30 09:44', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-11-30 09:44:48,480: DEBUG: [['2021/11/30 09:44', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None], ['2021/11/30 08:44', None]]
+2021-11-30 09:44:48,480: DEBUG: {'auto_bt_check': [['2021/11/30 09:44', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None]]}
+2021-11-30 09:45:14,182: INFO: ---------- start get_apps() ----------
+2021-11-30 09:45:14,183: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 09:45:14,183: DEBUG: found:auto_bt_check = True
+2021-11-30 09:45:14,183: DEBUG: found:auto_mail_check = False
+2021-11-30 09:45:14,183: INFO: ---------- end get_apps() ----------
+2021-11-30 09:45:14,184: DEBUG: {'auto_bt_check': [['2021/11/30 09:44', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None]]}
+2021-11-30 09:46:13,508: DEBUG: [['2021/11/30 09:46', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-11-30 09:46:13,508: DEBUG: [['2021/11/30 09:46', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:44', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None]]
+2021-11-30 09:46:13,508: DEBUG: {'auto_bt_check': [['2021/11/30 09:46', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:44', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]}

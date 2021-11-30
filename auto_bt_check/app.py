@@ -4,15 +4,19 @@ import math
 import random
 import sys
 import os
+import platform
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from modules import easyselenium
 from modules import sendtoline as stl
 from modules import easylogger
 
-es = easyselenium.EasySelenium(headless=False)
+es = easyselenium.EasySelenium(headless=True)
 el = easylogger.EasyLogger('auto_bt_check')
-sendline = stl.SendToLine('health_check')
+if platform.system() == 'Linux':
+    sendline = stl.SendToLine('health_check')
+elif platform.system() == 'Windows':
+    sendline = stl.SendToLine('test')
 sendtome = stl.SendToLine('test')
 
 user_dict = {'堀見':['05-4760','dn8350',36.5],'井谷':['05-5277','yoshiro1231',36.4],'石塚':['05-5276','fe2008',36.4],'椋下':['05-4791','xq5879',36.4]}
@@ -84,21 +88,25 @@ def health_check(name,true_list):
 
 
 ##########
-sendline.send('健康チェック開始 オンライン完結型試作中')
+def run():
+    sendline.send('健康チェック開始 オンライン完結型試作中')
+    try:
+        es.get(URL)
+        result = ['','','']
+        for name,value in user_dict.items():
+            list = true_list(value)
+            status = health_check(name,list)
+            result[status[0]] += '「' + status[1] + '」'
+        for i in range(3):
+            if result[i] == '':
+                result[i] = 'なし'
+        text = '\n既に入力済み：{}\n入力完了：{}\nエラー：{}'.format(result[0],result[1],result[2])
+        sendline.send(text)
+    except:
+        text = el.error_info()
+        sendline.send(text)
+    es.quit()
+    return text
 
-try:
-    es.get(URL)
-    result = ['','','']
-    for name,value in user_dict.items():
-        list = true_list(value)
-        status = health_check(name,list)
-        result[status[0]] += '「' + status[1] + '」'
-    for i in range(3):
-        if result[i] == '':
-            result[i] = 'なし'
-    text = '\n既に入力済み：{}\n入力完了：{}\nエラー：{}'.format(result[0],result[1],result[2])
-    sendline.send(text)
-except:
-    text = el.error_info()
-    sendline.send(text)
-es.quit()
+if __name__ == "__main__":
+    run()

@@ -19,10 +19,15 @@ log_autorun = get_log_autorun()
 # -------------------------- #
 # ---------- page ---------- #
 # -------------------------- #
+@app.route("/")
+def index():
+    success_info = request.args.get('successinfo')
+    return render_template("index.html",title="success!",log_autorun=log_autorun,success_info=success_info)
+
 @app.route("/login/")
 def login():
     return render_template("login.html",title="login")
-
+'''
 @app.route("/")
 def index():
     success_info = request.args.get('successinfo')
@@ -39,7 +44,7 @@ def index():
         if os.path.exists(path+f+'/app.py') and os.path.exists(path+f+'/settings.py'):
             applist.append(f)
     return render_template("index.html",title="success!",log_autorun=log_autorun,applist=applist,success_info=success_info)
-'''
+
 @app.route("/",methods=['get'])
 def result():
     success_info = request.args.get('successinfo')

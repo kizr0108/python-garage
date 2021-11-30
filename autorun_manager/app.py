@@ -10,7 +10,7 @@ LOG_PATH = os.path.join(os.path.dirname(__file__), 'log.json')
 
 from modules import easylogger
 
-el = easylogger.EasyLogger(rootname='autorun_manager', level='debug')
+el = easylogger.EasyLogger(rootname='autorun_manager', level='info')
 
 def get_apps():
     #自動実行するアプリと自動実行するかを取得
@@ -40,7 +40,7 @@ def update_ini(dict):
     for i,j in dict.items():
         config_ini.set(section,i,j)
 
-    with open(INI_PATH, 'w') as file:
+    with open(INI_PATH, 'w', encoding='utf-8') as file:
         config_ini.write(file)
     el.info('---------- end update_ini() ----------')
 
@@ -97,7 +97,7 @@ def update_apps():
 def run_all(dict):
     for key,value in dict.items():
         if value == True:
-            with open(LOG_PATH,'r') as log_json:
+            with open(LOG_PATH,'r', encoding='utf-8') as log_json:
                 log_dict = json.load(log_json)
             if key not in log_dict:
                 log_dict[key] = []
@@ -116,11 +116,11 @@ def run_all(dict):
             log_dict[key] = result
             el.debug(log_dict)
 
-            with open(LOG_PATH, 'w') as f:
+            with open(LOG_PATH, 'w', encoding='utf-8') as f:
                 json.dump(log_dict, f, indent=4, ensure_ascii=False)
 
 def run_it(appname):
-    with open(LOG_PATH,'r') as log_json:
+    with open(LOG_PATH,'r', encoding='utf-8') as log_json:
         log_dict = json.load(log_json)
     if appname not in log_dict:
         log_dict[appname] = []
@@ -139,12 +139,14 @@ def run_it(appname):
     log_dict[appname] = result
     el.debug(log_dict)
 
-    with open(LOG_PATH, 'w') as f:
+    with open(LOG_PATH, 'w', encoding='utf-8') as f:
         json.dump(log_dict, f, indent=4, ensure_ascii=False)
 
 
 
 if __name__ == "__main__":
+    with open(LOG_PATH, 'w', encoding='utf-8') as f:
+        json.dump({}, f, indent=4, ensure_ascii=False)
     appdict = update_apps()
     run_all(appdict)
     try:

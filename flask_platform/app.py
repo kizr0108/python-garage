@@ -9,7 +9,7 @@ from autorun_manager.app import get_apps, run_it
 
 app = Flask(__name__)
 
-with open(LOG_PATH, 'r') as f:
+with open(LOG_PATH, 'r', encoding='utf-8') as f:
     log_json = json.load(f)
 log_autorun = []
 for key,value in log_json.items():
@@ -22,6 +22,7 @@ def login():
 
 @app.route("/")
 def index():
+    success_info = request.args.get('successinfo')
     path = './'
     flist = os.listdir(path)
     applist = []
@@ -34,13 +35,11 @@ def index():
             continue
         if os.path.exists(path+f+'/app.py') and os.path.exists(path+f+'/settings.py'):
             applist.append(f)
-    return render_template("index.html",title="success!",log_autorun=log_autorun,applist=applist)
+    return render_template("index.html",title="success!",log_autorun=log_autorun,applist=applist,success_info=success_info)
 
 @app.route("/",methods=['get'])
 def result():
     success_info = request.args.get('successinfo')
-    success_info = 'hi'
-    print(success_info)
     path = './'
     flist = os.listdir(path)
     applist = []

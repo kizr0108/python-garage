@@ -17,7 +17,7 @@
   <body class="bg-light">
     <nav class="navbar navbar-light bg-white navbar-expand-md border-bottom mb-4" style="margin-bottom:30px;">
       <div class="container">
-        <a href="/index/" class="navbar-brand">Kizr flask_platform on Heroku</a>
+        <a href="/" class="navbar-brand">Kizr flask_platform on Heroku</a>
         <button class="navbar-toggler" type="button"
             data-toggle="collapse"
             data-target="#navmenu1"
@@ -38,15 +38,18 @@
 
     <div class="container">
       <div class="row">
-        {% if success_info %}
-          <div class="alert alert-success">
-            {{success_info}}
-          </div>
-        {% endif %}
+          <div class="col-md-7">
+            {% if success_info %}
+              <div class="alert alert-success rounded pb-4 mb-4">
+                {{success_info}}
+              </div>
+            {% endif %}
 
-          <div class="col-md-7 bg-white border rounded pb-2 mb-4">
+            <div class="col-md-12 bg-white border rounded pb-4 mb-4">
+                  {% block body %}{% endblock %}
+            </div>
 
-        {% block body %}{% endblock %}
+
 
           </div>
           <div class="col-md-4 offset-md-1 bg-white border rounded pb-2 mb-4">

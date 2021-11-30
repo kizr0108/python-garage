@@ -2497,3 +2497,99 @@ NameError: name 'dellist' is not defined [app.py][line:93]
 2021-11-30 09:46:13,508: DEBUG: [['2021/11/30 09:46', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
 2021-11-30 09:46:13,508: DEBUG: [['2021/11/30 09:46', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:44', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:44', None]]
 2021-11-30 09:46:13,508: DEBUG: {'auto_bt_check': [['2021/11/30 09:46', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:44', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 09:34', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/11/30 08:45', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]}
+2021-11-30 10:52:15,545: INFO: ---------- start add_newapps() ----------
+2021-11-30 10:52:15,545: DEBUG: found:./.git
+2021-11-30 10:52:15,545: DEBUG: this file/folder has "."
+2021-11-30 10:52:15,545: DEBUG: found:./.venv
+2021-11-30 10:52:15,545: DEBUG: this file/folder has "."
+2021-11-30 10:52:15,545: DEBUG: found:./app_template
+2021-11-30 10:52:15,545: DEBUG: this file/folder is app_template
+2021-11-30 10:52:15,545: DEBUG: found:./autorun_manager
+2021-11-30 10:52:15,546: DEBUG: this file/folder is autorun_manager
+2021-11-30 10:52:15,546: DEBUG: found:./auto_bt_check
+2021-11-30 10:52:15,546: DEBUG:     this is APP
+2021-11-30 10:52:15,548: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 10:52:15,548: DEBUG: found:./auto_mail_check
+2021-11-30 10:52:15,548: DEBUG:     this is APP
+2021-11-30 10:52:15,551: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 10:52:15,551: DEBUG: found:./flask_platform
+2021-11-30 10:52:15,552: DEBUG:     this is APP
+2021-11-30 10:52:15,554: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 10:52:15,554: DEBUG: found:./log
+2021-11-30 10:52:15,554: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 10:52:15,554: DEBUG: found:./manage.py
+2021-11-30 10:52:15,554: DEBUG: this file/folder has "."
+2021-11-30 10:52:15,554: DEBUG: found:./modules
+2021-11-30 10:52:15,555: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 10:52:15,555: DEBUG: found:./Procfile
+2021-11-30 10:52:15,555: DEBUG: this is NOT folder
+2021-11-30 10:52:15,555: DEBUG: found:./readme.txt
+2021-11-30 10:52:15,555: DEBUG: this file/folder has "."
+2021-11-30 10:52:15,555: DEBUG: found:./requirements.txt
+2021-11-30 10:52:15,555: DEBUG: this file/folder has "."
+2021-11-30 10:52:15,555: DEBUG: found:./runtime.txt
+2021-11-30 10:52:15,555: DEBUG: this file/folder has "."
+2021-11-30 10:52:15,555: DEBUG: found:./test.py
+2021-11-30 10:52:15,556: DEBUG: this file/folder has "."
+2021-11-30 10:52:15,556: DEBUG: found:./__init__.py
+2021-11-30 10:52:15,556: DEBUG: this file/folder has "."
+2021-11-30 10:52:15,556: DEBUG: found:./__pycache__
+2021-11-30 10:52:15,556: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 10:52:15,556: INFO: ---------- start get_apps() ----------
+2021-11-30 10:52:15,557: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 10:52:15,557: DEBUG: found:auto_bt_check = True
+2021-11-30 10:52:15,557: DEBUG: found:auto_mail_check = False
+2021-11-30 10:52:15,557: INFO: ---------- end get_apps() ----------
+2021-11-30 10:52:15,557: INFO: ---------- start update_ini() ----------
+2021-11-30 10:52:15,558: INFO: ---------- end update_ini() ----------
+2021-11-30 10:52:15,558: INFO: ---------- end add_newapps() ----------
+2021-11-30 10:53:48,073: INFO: ---------- start add_newapps() ----------
+2021-11-30 10:53:48,073: DEBUG: found:./.git
+2021-11-30 10:53:48,073: DEBUG: this file/folder has "."
+2021-11-30 10:53:48,074: DEBUG: found:./.venv
+2021-11-30 10:53:48,074: DEBUG: this file/folder has "."
+2021-11-30 10:53:48,074: DEBUG: found:./app_template
+2021-11-30 10:53:48,074: DEBUG: this file/folder is app_template
+2021-11-30 10:53:48,074: DEBUG: found:./autorun_manager
+2021-11-30 10:53:48,074: DEBUG: this file/folder is autorun_manager
+2021-11-30 10:53:48,074: DEBUG: found:./auto_bt_check
+2021-11-30 10:53:48,075: DEBUG:     this is APP
+2021-11-30 10:53:48,077: DEBUG:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 10:53:48,077: DEBUG: found:./auto_mail_check
+2021-11-30 10:53:48,077: DEBUG:     this is APP
+2021-11-30 10:53:48,079: DEBUG:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True
+2021-11-30 10:53:48,080: DEBUG: found:./flask_platform
+2021-11-30 10:53:48,080: DEBUG:     this is APP
+2021-11-30 10:53:48,082: DEBUG:     [flask_platform/settings.py]APP_FOR_AUTO_RUN = False
+2021-11-30 10:53:48,082: DEBUG: found:./log
+2021-11-30 10:53:48,083: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 10:53:48,083: DEBUG: found:./manage.py
+2021-11-30 10:53:48,083: DEBUG: this file/folder has "."
+2021-11-30 10:53:48,083: DEBUG: found:./modules
+2021-11-30 10:53:48,083: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 10:53:48,084: DEBUG: found:./Procfile
+2021-11-30 10:53:48,084: DEBUG: this is NOT folder
+2021-11-30 10:53:48,084: DEBUG: found:./readme.txt
+2021-11-30 10:53:48,084: DEBUG: this file/folder has "."
+2021-11-30 10:53:48,084: DEBUG: found:./requirements.txt
+2021-11-30 10:53:48,084: DEBUG: this file/folder has "."
+2021-11-30 10:53:48,085: DEBUG: found:./runtime.txt
+2021-11-30 10:53:48,085: DEBUG: this file/folder has "."
+2021-11-30 10:53:48,085: DEBUG: found:./test.py
+2021-11-30 10:53:48,085: DEBUG: this file/folder has "."
+2021-11-30 10:53:48,085: DEBUG: found:./__init__.py
+2021-11-30 10:53:48,085: DEBUG: this file/folder has "."
+2021-11-30 10:53:48,085: DEBUG: found:./__pycache__
+2021-11-30 10:53:48,086: DEBUG: this folder has NOT app.py or settings.py
+2021-11-30 10:53:48,086: INFO: ---------- start get_apps() ----------
+2021-11-30 10:53:48,087: DEBUG: in [AUTORUN APP LIST]
+2021-11-30 10:53:48,087: DEBUG: found:auto_bt_check = True
+2021-11-30 10:53:48,087: DEBUG: found:auto_mail_check = False
+2021-11-30 10:53:48,087: INFO: ---------- end get_apps() ----------
+2021-11-30 10:53:48,088: INFO: ---------- start update_ini() ----------
+2021-11-30 10:53:48,089: INFO: ---------- end update_ini() ----------
+2021-11-30 10:53:48,089: INFO: ---------- end add_newapps() ----------
+2021-11-30 10:53:48,089: DEBUG: {'auto_bt_check': []}
+2021-11-30 10:54:50,679: DEBUG: [['2021/11/30 10:54', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-11-30 10:54:50,680: DEBUG: [['2021/11/30 10:54', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-11-30 10:54:50,680: DEBUG: {'auto_bt_check': [['2021/11/30 10:54', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]}

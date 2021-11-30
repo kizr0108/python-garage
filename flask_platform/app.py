@@ -5,17 +5,20 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 LOG_PATH = os.path.join('autorun_manager/log.json')
 from flask import Flask,render_template,request,redirect
 from modules.sendtoline import SendToLine
-from autorun_manager.app import get_apps, run_it
+from autorun_manager.app import get_autorun_app_list, get_log_autorun, run_it
 
 app = Flask(__name__)
 
-with open(LOG_PATH, 'r', encoding='utf-8') as f:
-    log_json = json.load(f)
-log_autorun = []
-for key,value in log_json.items():
-    if value[0] != None:
-        log_autorun.append([key,value[0]])
 
+# ------------------------- #
+# ---------- val ---------- #
+# ------------------------- #
+log_autorun = get_log_autorun()
+
+
+# -------------------------- #
+# ---------- page ---------- #
+# -------------------------- #
 @app.route("/login/")
 def login():
     return render_template("login.html",title="login")
@@ -71,7 +74,7 @@ def post():
 @app.route("/run/",methods=["post"])
 def loading_while_runapp():
     app_name = request.form["app-name"]
-    apps = get_apps()
+    apps = get_autorun_app_list()
     if app_name in apps:
         run_it(app_name)
     return redirect('/?result=success&appname={}'.format(app_name))

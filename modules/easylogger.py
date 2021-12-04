@@ -68,7 +68,7 @@ class EasyLogger:
             def _decoration_func(*args, **kwargs):
                 try:
                     self._echo_log_dependent_on_level('---------- 関数.{} 実行 ----------'.format(func.__name__),level)
-                    echo = lambda filename, line, func: self._echo_log_dependent_on_level('[実行元]{} {}行目 {}'.format(re.split(r'\\',filename)[-2]+'/'+re.split(r'\\',filename)[-1],line,func),level)
+                    echo = lambda filename, line, func: self._echo_log_dependent_on_level(filename,line,func),level)
                     frameinfo = inspect.stack()
                     for i in range(2 if len(frameinfo)> 2 else len(frameinfo)):
                         stack = frameinfo[-i-1]

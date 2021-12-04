@@ -8,10 +8,11 @@ import platform
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 import config
-from modules import easyselenium, easylogger
+from modules import  easyselenium_ver2_under_update as easyselenium
+from modules import easylogger
 from modules import sendtoline as stl
 
-es = easyselenium.EasySelenium(headless=True)
+es = easyselenium.EasySelenium(headless=False)
 el = easylogger.EasyLogger('auto_bt_check')
 if platform.system() == 'Linux':
     sendline = stl.SendToLine('health_check')
@@ -91,7 +92,7 @@ def health_check(name,true_list):
 
 ##########
 def run():
-    sendline.send('健康チェック開始 オンライン完結型試作中')
+    sendline.send('健康チェック開始')
     try:
         es.get(URL)
         result = ['','','']

@@ -14,23 +14,15 @@ from modules import easylogger
 
 
 stl = sendtoline.SendToLine()
-ep = easyfile.EasyPickle()
 el = easylogger.EasyLogger('auto_mail_check')
+es = easyselenium.EasySelenium(headless=False)
 
 MAIL_ACCOUNT = config.MAIL_ACCOUNT
 id = MAIL_ACCOUNT.split(',')[0]
 password = MAIL_ACCOUNT.split(',')[1]
 
 ########## ログイン ##########
-es = easyselenium.EasySelenium(headless=False)
-es.get('https://webmail.jikei.ac.jp/',sleeptime=5)
-es.write_all([['input[name="twuser"]',id],['input[name="twpassword"]',password]])
-es.click('input[type="submit"]',sleeptime=1)
 
-es.click('input[value="クリア"]',0.4)
-for i in range(4):
-    es.click('div[style*="/images/imatrix/a1.gif"]',0.4)
-es.click('input[value="ログイン"]',8.0)
 
 
 ########## 操作関数定義 ##########
@@ -75,8 +67,10 @@ def check_mail_and_notify():
             sendtext1 = sendtext1[:-2] + '\n=========='
             stl.send(sendtext1)
         if mail_alluser == [] and mail_not_alluser == 0:
-            stl.send('新着メッセージ無し')
+            sendtext1 = '新着メッセージ無し'
+            stl.send(sendtext1)
         es.iframe_out(5.0)
+        return sendtext1
     except:
         text = el.error_info()
         stl.send(text)
@@ -115,10 +109,22 @@ def all_mail_read():
 ##td 6番目 件名 7番目 送信者 8番目 日時
 
 ##########関数実行 ##########
-#alluser_into_trash()
-#all_mail_read()
-check_mail_and_notify()
+def run():
+    es.get('https://webmail.jikei.ac.jp/',sleeptime=5)
+    es.write_all([['input[name="twuser"]',id],['input[name="twpassword"]',password]])
+    es.click('input[type="submit"]',sleeptime=1)
 
+    es.click('input[value="クリア"]',0.4)
+    for i in range(4):
+        es.click('div[style*="/images/imatrix/a1.gif"]',0.4)
+    es.click('input[value="ログイン"]',8.0)
+
+    #alluser_into_trash()
+    #all_mail_read()
+    check_mail_and_notify()
+
+    es.quit()
 
 ########## 終了 ##########
-es.quit()
+if __name__ == "__main__":
+    run()

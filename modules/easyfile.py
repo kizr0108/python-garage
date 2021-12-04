@@ -1,32 +1,44 @@
 import os
+import sys
 import pickle
 import re
 import inspect
+import json
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+class EasyJson:
+    def __init__(self,filename):
+        self._path = 'data/json/{}.json'.format(filename)
+        if not os.path.exists(self._path):
+            with open(self._path, 'w', encoding="utf-8") as f:
+                json.dump('', f, indent=4, ensure_ascii=False)
+    def save(self,data):
+        with open(self._path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+    def load(self):
+        with open(self._path,'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data
+
+class EasyPickle:
+    def __init__(self, filename):
+        self._path = 'data/pickle/{}.pickle'.format(filename)
+        if not os.path.exists(self._path):
+            with open(self._path,'wb') as f:
+                pickle.dump('',f)
+    def save(self,data):
+        with open(self._path, 'wb') as f:
+            pickle.dump(data,f)
+    def load(self):
+        with open(self._path, 'rb') as f:
+            data = pickle.load(f)
+        return data
 
 
-class EasyFile:
-    def __init__(self):
-        self.a = 'a'
-
-    def __str__(self):
-        ef = EasyFile()
-        text = ''
-        i = 1
-        for x in inspect.getmembers(ef, inspect.ismethod):
-            if re.match('__',x[0]) != None:
-                continue
-            text += x[0]
-            if i % 4 == 0:
-                text += '()\n'
-            else:
-                text += '(), '
-            i += 1
-        del ef
-        return text
 
 class EasyTxt:
     def __init__(self,the_file=None):
-        self.path = 'C:\\Users\\kizuk\\Desktop\\python\\txt\\'
+        self.path = 'data/'
         self.path_dict = {}
         self.the_file = None
 
@@ -56,44 +68,3 @@ class EasyTxt:
     def add_line(self,text,filename=None):
         text_shaped = '\n' + text
         self.add(text_shaped,filename)
-
-
-class EasyPickle:
-    def __init__(self):
-        self.path = 'C:\\Users\\kizuk\\Desktop\\python\\pickle\\'
-        self.path_dict = {}
-    def __str__(self):
-        ep = EasyPickle()
-        text = ''
-        i = 1
-        for x in inspect.getmembers(ep, inspect.ismethod):
-            if re.match('__',x[0]) != None:
-                continue
-            text += x[0]
-            if i % 4 == 0:
-                text += '()\n'
-            else:
-                text += '(), '
-            i += 1
-        del ep
-        return text
-
-    def set_path(self,filename):
-        if re.search('.pickle',filename) != None:
-            filename = re.split('.',filename)[0]
-        if not filename in self.path_dict:
-            self.path_dict[filename] = self.path + filename + '.pickle'
-        path = self.path_dict[filename]
-        filename += '.pickle'
-        return filename,path
-    def save(self,filename,data):
-        f,path = self.set_path(filename)
-        with open(path,'wb') as file:
-            pickle.dump(data,file)
-        print('EasyPickle: save: '+f)
-    def load(self,filename):
-        f,path = self.set_path(filename)
-        with open(path,'rb') as file:
-            data = pickle.load(file)
-        print('EasyPickle: load: '+f)
-        return data

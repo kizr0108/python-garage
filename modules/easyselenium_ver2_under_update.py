@@ -7,7 +7,6 @@ from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-from fake_useragent import UserAgent
 import time
 import inspect
 import re
@@ -52,7 +51,7 @@ class EasySelenium:
         self._options.add_argument('--start-maximized');
         #セキュリティ対策
         self._ua = UserAgent()
-        self._options.add_argument('--user-agent={}'.format(self._ua.chrome))
+        self._options.add_argument('--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1')
         if headless == True or run_os == 'Linux':
             self._options.add_argument('--headless');
         #self._PROFILE_PATH = '/Users/kizuk/AppData/Local/Google/Chrome'

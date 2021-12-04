@@ -1,2 +1,3 @@
 .venv/
 .env
+data/json/autorun_manager_log.json

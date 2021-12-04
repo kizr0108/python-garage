@@ -72,6 +72,7 @@ class EasyLogger:
                     frameinfo = inspect.stack()
                     for i in range(2 if len(frameinfo)> 2 else len(frameinfo)):
                         stack = frameinfo[-i-1]
+                        print(stack.filename)
                         echo(stack.filename, stack.lineno, stack.function)
                     return func(*args, **kwargs)
                 except Exception as e:

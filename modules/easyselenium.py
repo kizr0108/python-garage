@@ -123,7 +123,7 @@ class EasySelenium:
     def iframe_in(self,iframe_selector,sleeptime=0.4):
         time.sleep(5)
         iframe = self.driver.find_element_by_css_selector(iframe_selector)
-        self.driver.switch_to_frame(iframe)
+        self.driver.switch_to.frame(iframe)
         time.sleep(sleeptime)
     def iframe_out(self,sleeptime=0.4):
         time.sleep(5)

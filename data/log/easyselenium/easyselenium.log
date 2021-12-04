@@ -620,3 +620,93 @@
 2021-12-04 09:43:56,242: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
 2021-12-04 09:43:56,243: INFO: C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py
 2021-12-04 09:43:56,243: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 51行目 run
+2021-12-04 09:59:51,212: WARNING: ##################################################
+2021-12-04 09:59:51,212: WARNING: # クラス.EasySelenium 実行. 呼び出し元:C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py #
+2021-12-04 09:59:51,213: WARNING: ##################################################
+2021-12-04 09:59:52,412: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 09:59:52,412: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:52,413: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 09:59:54,609: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 09:59:54,611: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:54,611: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 09:59:54,892: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 09:59:54,892: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:54,892: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 09:59:56,032: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 09:59:56,033: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:56,034: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 09:59:56,471: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 09:59:56,472: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:56,472: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 09:59:57,457: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 09:59:57,460: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:57,460: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 09:59:57,716: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 09:59:57,717: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:57,717: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 09:59:58,504: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 09:59:58,506: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:58,506: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 09:59:59,002: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 09:59:59,003: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:59,003: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 09:59:59,831: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 09:59:59,833: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 09:59:59,834: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:00,095: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 10:00:00,096: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:00,096: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 10:00:00,915: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 10:00:00,917: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:00,917: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:01,129: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 10:00:01,130: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:01,130: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 10:00:02,035: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 10:00:02,037: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:02,037: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:02,263: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 10:00:02,264: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:02,265: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 10:00:03,066: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 10:00:03,067: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:03,067: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:03,285: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 10:00:03,286: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:03,286: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 10:00:04,024: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 10:00:04,025: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:04,025: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:04,215: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 10:00:04,216: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:04,216: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 10:00:05,007: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 10:00:05,008: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:05,008: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:05,348: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 10:00:05,349: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:05,349: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 10:00:06,177: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 10:00:06,178: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:06,178: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:07,849: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 10:00:07,850: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:07,850: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 10:00:08,720: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 10:00:08,721: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:08,721: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:09,695: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 10:00:09,696: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:09,696: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 10:00:10,447: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 10:00:10,448: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:10,448: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:10,808: INFO: ---------- 関数.get 実行 ----------
+2021-12-04 10:00:10,809: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:10,809: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 38行目 run
+2021-12-04 10:00:11,604: INFO: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 10:00:11,605: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:11,605: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 10:00:11,986: INFO: ---------- 関数.quit 実行 ----------
+2021-12-04 10:00:11,987: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 60行目 <module>
+2021-12-04 10:00:11,987: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 51行目 run

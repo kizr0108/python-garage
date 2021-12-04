@@ -106,7 +106,7 @@ class EasyLogger:
             def _decoration(*args, **kwargs):
                 filename = inspect.stack()[-1].filename
                 self.warning('##################################################')
-                self.warning('# クラス.{} 実行. 呼び出し元:{} #'.format(Cls.__name__, filename)
+                self.warning('# クラス.{} 実行. 呼び出し元:{} #'.format(Cls.__name__, filename))
                 self.warning('##################################################')
                 return init(*args, **kwargs)
             return _decoration

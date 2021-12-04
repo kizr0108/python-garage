@@ -50,7 +50,6 @@ class EasySelenium:
         self._options.add_argument('--proxy-bypass-list=*');
         self._options.add_argument('--start-maximized');
         #セキュリティ対策
-        self._ua = UserAgent()
         self._options.add_argument('--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1')
         if headless == True or run_os == 'Linux':
             self._options.add_argument('--headless');

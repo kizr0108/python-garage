@@ -277,3 +277,20 @@ NameError: name 'key' is not defined
 2021-12-04 09:10:28,976: INFO: [実行元]autorun_manager/app.py 224行目 <module>
 2021-12-04 09:10:28,977: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
 2021-12-04 09:10:30,243: INFO: 実行：auto_manga_check.py
+2021-12-04 09:50:52,142: INFO: ---------- 関数.pop_all_autorun_log 実行 ----------
+2021-12-04 09:50:52,215: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 222行目 <module>
+2021-12-04 09:50:52,216: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 72行目 _decoration_func
+2021-12-04 09:50:52,217: INFO: autorun_manager_logを空にしました。
+2021-12-04 09:50:52,217: INFO: ---------- 関数.check_all_apps_status 実行 ----------
+2021-12-04 09:50:52,217: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 09:50:52,218: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 72行目 _decoration_func
+2021-12-04 09:50:52,218: INFO: ---------- start add_newapps() ----------
+2021-12-04 09:50:52,222: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 09:50:52,224: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
+2021-12-04 09:50:52,226: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 09:50:52,232: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
+2021-12-04 09:50:52,233: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 09:50:52,233: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 76行目 _decoration_func
+2021-12-04 09:50:52,233: INFO: ---------- start get_autorun_app_list() ----------
+2021-12-04 09:50:52,234: INFO: ---------- end get_autorun_app_list() ----------
+2021-12-04 09:50:52,235: INFO: ---------- end add_newapps() ----------

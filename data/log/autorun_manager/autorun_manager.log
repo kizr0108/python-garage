@@ -1,4 +1,4 @@
-2021-12-04 08:23:52,431: WARNING: urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=55846): Max retries exceeded with url: /session/4ea1f7097a70c44a2283ea409b8f4f15/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x044C1928>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。')) [autorun_manager/app.py][line:220]
+2021-12-04 11:42:08,256: ERROR: urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60337): Max retries exceeded with url: /session/aa7a12daf2d285c1cd2f7b5ddf11b2c8/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0444A760>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。')) [autorun_manager/app.py][line:158]
 
 Traceback (most recent call last):
   File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
@@ -30,24 +30,16 @@ Traceback (most recent call last):
     conn = self._new_conn()
   File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
     raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x044C1928>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0444A760>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 220, in <module>
-    run_all_apps(app_dict,mode='debug')
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 80, in _decoration_func
-    raise e
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 76, in _decoration_func
-    return func(*args, **kwargs)
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 157, in run_all_apps
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 158, in run_all_apps
     run_app(key)
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 80, in _decoration_func
-    raise e
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 76, in _decoration_func
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 75, in _decoration_func
     return func(*args, **kwargs)
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 167, in run_app
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 171, in run_app
     result_text = app.run()
   File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\auto_mail_check\app.py", line 113, in run
     es.get('https://webmail.jikei.ac.jp/',sleeptime=5)
@@ -77,220 +69,509 @@ Traceback (most recent call last):
     retries = retries.increment(
   File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\util\retry.py", line 439, in increment
     raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=55846): Max retries exceeded with url: /session/4ea1f7097a70c44a2283ea409b8f4f15/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x044C1928>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。'))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=60337): Max retries exceeded with url: /session/aa7a12daf2d285c1cd2f7b5ddf11b2c8/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0444A760>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。'))
 
-2021-12-04 08:29:06,505: INFO: ---------- 関数.check_all_apps_status 実行 ----------
-2021-12-04 08:29:06,626: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:29:06,626: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:29:06,627: INFO: ---------- start add_newapps() ----------
-2021-12-04 08:29:06,630: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:29:06,634: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
-2021-12-04 08:29:06,638: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:29:06,646: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
-2021-12-04 08:29:06,648: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:29:06,648: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:29:06,648: INFO: ---------- start get_autorun_app_list() ----------
-2021-12-04 08:29:06,655: INFO: ---------- end get_autorun_app_list() ----------
-2021-12-04 08:29:06,656: INFO: ---------- end add_newapps() ----------
-2021-12-04 08:29:06,656: INFO: ---------- 関数.run_all_apps 実行 ----------
-2021-12-04 08:29:06,658: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:29:06,658: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:29:06,679: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:29:06,680: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:29:06,681: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:30:05,700: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:30:05,701: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:30:05,701: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:30:46,540: INFO: ---------- 関数.check_all_apps_status 実行 ----------
-2021-12-04 08:30:46,650: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:30:46,650: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:30:46,651: INFO: ---------- start add_newapps() ----------
-2021-12-04 08:30:46,654: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:30:46,658: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
-2021-12-04 08:30:46,661: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:30:46,669: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
-2021-12-04 08:30:46,671: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:30:46,671: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:30:46,671: INFO: ---------- start get_autorun_app_list() ----------
-2021-12-04 08:30:46,678: INFO: ---------- end get_autorun_app_list() ----------
-2021-12-04 08:30:46,680: INFO: ---------- end add_newapps() ----------
-2021-12-04 08:30:46,680: INFO: ---------- 関数.run_all_apps 実行 ----------
-2021-12-04 08:30:46,681: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:30:46,681: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:30:46,692: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:30:46,693: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:30:46,694: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:31:43,554: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:31:43,557: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:31:43,557: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:34:38,635: INFO: ---------- 関数.check_all_apps_status 実行 ----------
-2021-12-04 08:34:38,704: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:34:38,704: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:34:38,704: INFO: ---------- start add_newapps() ----------
-2021-12-04 08:34:38,707: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:34:38,709: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
-2021-12-04 08:34:38,711: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:34:38,716: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
-2021-12-04 08:34:38,717: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:34:38,717: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:34:38,717: INFO: ---------- start get_autorun_app_list() ----------
-2021-12-04 08:34:38,718: INFO: ---------- end get_autorun_app_list() ----------
-2021-12-04 08:34:38,719: INFO: ---------- end add_newapps() ----------
-2021-12-04 08:34:38,719: INFO: ---------- 関数.run_all_apps 実行 ----------
-2021-12-04 08:34:38,720: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:34:38,720: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:39:25,003: INFO: ---------- 関数.check_all_apps_status 実行 ----------
-2021-12-04 08:39:25,072: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:39:25,072: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:39:25,072: INFO: ---------- start add_newapps() ----------
-2021-12-04 08:39:25,074: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:39:25,077: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
-2021-12-04 08:39:25,080: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:39:25,085: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
-2021-12-04 08:39:25,086: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:39:25,086: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:39:25,087: INFO: ---------- start get_autorun_app_list() ----------
-2021-12-04 08:39:25,088: INFO: ---------- end get_autorun_app_list() ----------
-2021-12-04 08:39:25,089: INFO: ---------- end add_newapps() ----------
-2021-12-04 08:39:25,089: INFO: ---------- 関数.run_all_apps 実行 ----------
-2021-12-04 08:39:25,089: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:39:25,090: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:39:25,090: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:39:25,091: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:39:25,091: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:40:40,968: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:40:40,969: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:40:40,970: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:43:59,124: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:43:59,126: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:43:59,127: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:44:24,814: INFO: ---------- 関数.check_all_apps_status 実行 ----------
-2021-12-04 08:44:24,882: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:44:24,882: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:44:24,882: INFO: ---------- start add_newapps() ----------
-2021-12-04 08:44:24,885: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:44:24,888: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
-2021-12-04 08:44:24,891: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:44:24,897: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
-2021-12-04 08:44:24,899: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:44:24,899: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:44:24,899: INFO: ---------- start get_autorun_app_list() ----------
-2021-12-04 08:44:24,901: INFO: ---------- end get_autorun_app_list() ----------
-2021-12-04 08:44:24,903: INFO: ---------- end add_newapps() ----------
-2021-12-04 08:44:24,903: INFO: ---------- 関数.run_all_apps 実行 ----------
-2021-12-04 08:44:24,903: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:44:24,904: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:44:24,912: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:44:24,913: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:44:24,913: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:48:10,829: INFO: ---------- 関数.check_all_apps_status 実行 ----------
-2021-12-04 08:48:10,900: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:48:10,900: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:48:10,900: INFO: ---------- start add_newapps() ----------
-2021-12-04 08:48:10,902: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:48:10,905: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
-2021-12-04 08:48:10,907: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 08:48:10,913: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
-2021-12-04 08:48:10,914: INFO: [実行元]autorun_manager/app.py 219行目 <module>
-2021-12-04 08:48:10,915: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:48:10,915: INFO: ---------- start get_autorun_app_list() ----------
-2021-12-04 08:48:10,916: INFO: ---------- end get_autorun_app_list() ----------
-2021-12-04 08:48:10,917: INFO: ---------- end add_newapps() ----------
-2021-12-04 08:48:10,917: INFO: ---------- 関数.run_all_apps 実行 ----------
-2021-12-04 08:48:10,918: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:48:10,918: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 08:48:10,919: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:48:10,920: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:48:10,920: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:51:19,366: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:51:19,368: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:51:19,368: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 08:52:05,138: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 08:52:05,142: INFO: [実行元]autorun_manager/app.py 220行目 <module>
-2021-12-04 08:52:05,142: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 09:03:22,722: INFO: ---------- 関数.check_all_apps_status 実行 ----------
-2021-12-04 09:03:22,791: INFO: [実行元]autorun_manager/app.py 223行目 <module>
-2021-12-04 09:03:22,791: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 09:03:22,791: INFO: ---------- start add_newapps() ----------
-2021-12-04 09:03:22,794: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 09:03:22,796: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
-2021-12-04 09:03:22,798: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 09:03:22,803: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
-2021-12-04 09:03:22,804: INFO: [実行元]autorun_manager/app.py 223行目 <module>
-2021-12-04 09:03:22,804: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 09:03:22,804: INFO: ---------- start get_autorun_app_list() ----------
-2021-12-04 09:03:22,805: INFO: ---------- end get_autorun_app_list() ----------
-2021-12-04 09:03:22,806: INFO: ---------- end add_newapps() ----------
-2021-12-04 09:03:22,806: INFO: ---------- 関数.run_all_apps 実行 ----------
-2021-12-04 09:03:22,807: INFO: [実行元]autorun_manager/app.py 224行目 <module>
-2021-12-04 09:03:22,807: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 09:03:22,813: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 09:03:22,814: INFO: [実行元]autorun_manager/app.py 224行目 <module>
-2021-12-04 09:03:22,814: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 09:03:24,484: ERROR: NameError: name 'key' is not defined [modules/easylogger.py][line:76]
+2021-12-04 11:53:42,947: INFO: ---------- 関数.check_all_apps_status 実行 ----------
+2021-12-04 11:53:43,019: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 11:53:43,019: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 11:53:43,019: INFO: ---------- start add_newapps() ----------
+2021-12-04 11:53:43,020: DEBUG: found:./.env
+2021-12-04 11:53:43,020: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,020: DEBUG: found:./.git
+2021-12-04 11:53:43,020: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,020: DEBUG: found:./.gitignore
+2021-12-04 11:53:43,020: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,020: DEBUG: found:./.venv
+2021-12-04 11:53:43,020: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,021: DEBUG: found:./app_template
+2021-12-04 11:53:43,021: DEBUG: this file/folder is app_template
+2021-12-04 11:53:43,021: DEBUG: found:./autorun_manager
+2021-12-04 11:53:43,021: DEBUG: this file/folder is autorun_manager
+2021-12-04 11:53:43,021: DEBUG: found:./auto_bt_check
+2021-12-04 11:53:43,021: DEBUG:     this is APP
+2021-12-04 11:53:43,023: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 11:53:43,023: DEBUG: found:./auto_mail_check
+2021-12-04 11:53:43,024: DEBUG:     this is APP
+2021-12-04 11:53:43,026: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
+2021-12-04 11:53:43,026: DEBUG: found:./auto_manga_check
+2021-12-04 11:53:43,026: DEBUG:     this is APP
+2021-12-04 11:53:43,028: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 11:53:43,028: DEBUG: found:./check.html
+2021-12-04 11:53:43,029: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,029: DEBUG: found:./config.py
+2021-12-04 11:53:43,029: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,029: DEBUG: found:./data
+2021-12-04 11:53:43,029: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 11:53:43,029: DEBUG: found:./flask_platform
+2021-12-04 11:53:43,029: DEBUG:     this is APP
+2021-12-04 11:53:43,032: DEBUG: found:./manage.py
+2021-12-04 11:53:43,032: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,032: DEBUG: found:./modules
+2021-12-04 11:53:43,033: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 11:53:43,033: DEBUG: found:./Procfile
+2021-12-04 11:53:43,033: DEBUG: this is NOT folder
+2021-12-04 11:53:43,033: DEBUG: found:./readme.txt
+2021-12-04 11:53:43,034: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,034: DEBUG: found:./requirements.txt
+2021-12-04 11:53:43,034: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,034: DEBUG: found:./runtime.txt
+2021-12-04 11:53:43,034: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,034: DEBUG: found:./test.py
+2021-12-04 11:53:43,034: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,034: DEBUG: found:./testapp
+2021-12-04 11:53:43,035: DEBUG:     this is APP
+2021-12-04 11:53:43,037: DEBUG: found:./__init__.py
+2021-12-04 11:53:43,038: DEBUG: this file/folder has "."
+2021-12-04 11:53:43,038: DEBUG: found:./__pycache__
+2021-12-04 11:53:43,038: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 11:53:43,038: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
+2021-12-04 11:53:43,039: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 11:53:43,039: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 11:53:43,039: INFO: ---------- start get_autorun_app_list() ----------
+2021-12-04 11:53:43,040: DEBUG: in [AUTORUN APP LIST]
+2021-12-04 11:53:43,040: DEBUG: found:auto_bt_check = True,1
+2021-12-04 11:53:43,040: DEBUG: found:auto_mail_check = True,3
+2021-12-04 11:53:43,040: DEBUG: found:auto_manga_check = True,1
+2021-12-04 11:53:43,040: INFO: ---------- end get_autorun_app_list() ----------
+2021-12-04 11:53:43,041: INFO: ---------- end add_newapps() ----------
+2021-12-04 11:53:43,041: INFO: ---------- 関数.run_all_apps 実行 ----------
+2021-12-04 11:53:43,042: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 11:53:43,042: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 11:53:43,043: INFO: ---------- 関数.run_app 実行 ----------
+2021-12-04 11:53:43,043: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 11:53:43,044: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 11:53:43,044: DEBUG: {'auto_bt_check': [['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:17', 'urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\')) [auto_bt_check/app.py][line:97]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 159, in _new_conn\n    conn = connection.create_connection(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 84, in create_connection\n    raise err\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 74, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 670, in urlopen\n    httplib_response = self._make_request(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 392, in _make_request\n    conn.request(method, url, **httplib_request_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1240, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1286, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1235, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1006, in _send_output\n    self.send(msg)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 946, in send\n    self.connect()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 187, in connect\n    conn = self._new_conn()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 171, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 97, in run\n    es.get(URL)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 80, in _decoration_func\n    raise e\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 76, in _decoration_func\n    return func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 33, in _limit_wrapper\n    val = func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 115, in get\n    self.driver.get(url)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 333, in get\n    self.execute(Command.GET, {\'url\': url})\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 397, in _request\n    resp = self._conn.request(method, url, body=body, headers=headers)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 79, in request\n    return self.request_encode_body(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\poolmanager.py", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 724, in urlopen\n    retries = retries.increment(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\retry.py", line 439, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\'))\n']], 'auto_mail_check': [['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': []}
+2021-12-04 11:53:43,203: INFO: 実行：auto_bt_check.py
+2021-12-04 11:55:45,943: INFO: ---------- 関数.check_all_apps_status 実行 ----------
+2021-12-04 11:55:46,018: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 11:55:46,018: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 11:55:46,018: INFO: ---------- start add_newapps() ----------
+2021-12-04 11:55:46,019: DEBUG: found:./.env
+2021-12-04 11:55:46,019: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,019: DEBUG: found:./.git
+2021-12-04 11:55:46,019: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,019: DEBUG: found:./.gitignore
+2021-12-04 11:55:46,019: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,019: DEBUG: found:./.venv
+2021-12-04 11:55:46,019: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,020: DEBUG: found:./app_template
+2021-12-04 11:55:46,020: DEBUG: this file/folder is app_template
+2021-12-04 11:55:46,020: DEBUG: found:./autorun_manager
+2021-12-04 11:55:46,020: DEBUG: this file/folder is autorun_manager
+2021-12-04 11:55:46,020: DEBUG: found:./auto_bt_check
+2021-12-04 11:55:46,020: DEBUG:     this is APP
+2021-12-04 11:55:46,022: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 11:55:46,022: DEBUG: found:./auto_mail_check
+2021-12-04 11:55:46,023: DEBUG:     this is APP
+2021-12-04 11:55:46,025: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
+2021-12-04 11:55:46,025: DEBUG: found:./auto_manga_check
+2021-12-04 11:55:46,025: DEBUG:     this is APP
+2021-12-04 11:55:46,027: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 11:55:46,027: DEBUG: found:./check.html
+2021-12-04 11:55:46,027: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,027: DEBUG: found:./config.py
+2021-12-04 11:55:46,027: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,027: DEBUG: found:./data
+2021-12-04 11:55:46,028: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 11:55:46,028: DEBUG: found:./flask_platform
+2021-12-04 11:55:46,028: DEBUG:     this is APP
+2021-12-04 11:55:46,030: DEBUG: found:./manage.py
+2021-12-04 11:55:46,030: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,030: DEBUG: found:./modules
+2021-12-04 11:55:46,031: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 11:55:46,031: DEBUG: found:./Procfile
+2021-12-04 11:55:46,031: DEBUG: this is NOT folder
+2021-12-04 11:55:46,031: DEBUG: found:./readme.txt
+2021-12-04 11:55:46,031: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,031: DEBUG: found:./requirements.txt
+2021-12-04 11:55:46,031: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,031: DEBUG: found:./runtime.txt
+2021-12-04 11:55:46,032: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,032: DEBUG: found:./test.py
+2021-12-04 11:55:46,032: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,032: DEBUG: found:./testapp
+2021-12-04 11:55:46,032: DEBUG:     this is APP
+2021-12-04 11:55:46,035: DEBUG: found:./__init__.py
+2021-12-04 11:55:46,035: DEBUG: this file/folder has "."
+2021-12-04 11:55:46,035: DEBUG: found:./__pycache__
+2021-12-04 11:55:46,036: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 11:55:46,036: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
+2021-12-04 11:55:46,037: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 11:55:46,037: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 11:55:46,037: INFO: ---------- start get_autorun_app_list() ----------
+2021-12-04 11:55:46,038: DEBUG: in [AUTORUN APP LIST]
+2021-12-04 11:55:46,038: DEBUG: found:auto_bt_check = True,1
+2021-12-04 11:55:46,038: DEBUG: found:auto_mail_check = True,3
+2021-12-04 11:55:46,038: DEBUG: found:auto_manga_check = True,1
+2021-12-04 11:55:46,038: INFO: ---------- end get_autorun_app_list() ----------
+2021-12-04 11:55:46,040: INFO: ---------- end add_newapps() ----------
+2021-12-04 11:55:46,040: INFO: ---------- 関数.run_all_apps 実行 ----------
+2021-12-04 11:55:46,040: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 11:55:46,040: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 11:55:46,041: INFO: ---------- 関数.run_app 実行 ----------
+2021-12-04 11:55:46,041: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 11:55:46,042: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 11:55:46,042: DEBUG: {'auto_bt_check': [['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:17', 'urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\')) [auto_bt_check/app.py][line:97]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 159, in _new_conn\n    conn = connection.create_connection(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 84, in create_connection\n    raise err\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 74, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 670, in urlopen\n    httplib_response = self._make_request(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 392, in _make_request\n    conn.request(method, url, **httplib_request_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1240, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1286, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1235, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1006, in _send_output\n    self.send(msg)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 946, in send\n    self.connect()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 187, in connect\n    conn = self._new_conn()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 171, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 97, in run\n    es.get(URL)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 80, in _decoration_func\n    raise e\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 76, in _decoration_func\n    return func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 33, in _limit_wrapper\n    val = func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 115, in get\n    self.driver.get(url)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 333, in get\n    self.execute(Command.GET, {\'url\': url})\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 397, in _request\n    resp = self._conn.request(method, url, body=body, headers=headers)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 79, in request\n    return self.request_encode_body(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\poolmanager.py", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 724, in urlopen\n    retries = retries.increment(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\retry.py", line 439, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\'))\n']], 'auto_mail_check': [['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': []}
+2021-12-04 11:55:46,210: INFO: 実行：auto_bt_check.py
+2021-12-04 11:57:13,842: ERROR: NameError: name 'es' is not defined [autorun_manager/app.py][line:147]
 
 Traceback (most recent call last):
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 76, in _decoration_func
-    return func(*args, **kwargs)
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 170, in run_app
-    el.info('実行：{}'.format(key))
-NameError: name 'key' is not defined
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\auto_bt_check\app.py", line 102, in run
+    status = health_check(name,list)
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\auto_bt_check\app.py", line 52, in health_check
+    es.write_all([['input#username',true_list[0]],['input#password',true_list[1]]])
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easyselenium_ver2_under_update.py", line 142, in write_all
+    self.ec_wait_selector(item[0],e)
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easyselenium_ver2_under_update.py", line 93, in ec_wait_selector
+    WebDriverWait(self.driver, self._timeout).until(EC.visibility_of_element_located((By.CSS_SELECTOR, selector)))
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
 
-2021-12-04 09:03:24,485: ERROR: NameError: name 'key' is not defined [autorun_manager/app.py][line:147]
+
+During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 147, in run_all_apps
     run_app(key)
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 80, in _decoration_func
-    raise e
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 76, in _decoration_func
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 75, in _decoration_func
     return func(*args, **kwargs)
-  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 170, in run_app
-    el.info('実行：{}'.format(key))
-NameError: name 'key' is not defined
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 171, in run_app
+    result_text = app.run()
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\auto_bt_check\app.py", line 112, in run
+    es.quit()
+NameError: name 'es' is not defined
 
-2021-12-04 09:08:23,923: INFO: ---------- 関数.check_all_apps_status 実行 ----------
-2021-12-04 09:08:23,992: INFO: [実行元]autorun_manager/app.py 223行目 <module>
-2021-12-04 09:08:23,992: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 09:08:23,992: INFO: ---------- start add_newapps() ----------
-2021-12-04 09:08:23,996: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 09:08:23,998: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
-2021-12-04 09:08:24,001: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 09:08:24,005: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
-2021-12-04 09:08:24,006: INFO: [実行元]autorun_manager/app.py 223行目 <module>
-2021-12-04 09:08:24,006: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 09:08:24,006: INFO: ---------- start get_autorun_app_list() ----------
-2021-12-04 09:08:24,008: INFO: ---------- end get_autorun_app_list() ----------
-2021-12-04 09:08:24,009: INFO: ---------- end add_newapps() ----------
-2021-12-04 09:08:24,009: INFO: ---------- 関数.run_all_apps 実行 ----------
-2021-12-04 09:08:24,010: INFO: [実行元]autorun_manager/app.py 224行目 <module>
-2021-12-04 09:08:24,010: INFO: [実行元]modules/easylogger.py 72行目 _decoration_func
-2021-12-04 09:08:24,010: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 09:08:24,012: INFO: [実行元]autorun_manager/app.py 224行目 <module>
-2021-12-04 09:08:24,012: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 09:08:25,524: INFO: 実行：auto_bt_check.py
-2021-12-04 09:09:27,030: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 09:09:27,033: INFO: [実行元]autorun_manager/app.py 224行目 <module>
-2021-12-04 09:09:27,034: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 09:09:28,335: INFO: 実行：auto_mail_check.py
-2021-12-04 09:10:28,975: INFO: ---------- 関数.run_app 実行 ----------
-2021-12-04 09:10:28,976: INFO: [実行元]autorun_manager/app.py 224行目 <module>
-2021-12-04 09:10:28,977: INFO: [実行元]modules/easylogger.py 76行目 _decoration_func
-2021-12-04 09:10:30,243: INFO: 実行：auto_manga_check.py
-2021-12-04 09:50:52,142: INFO: ---------- 関数.pop_all_autorun_log 実行 ----------
-2021-12-04 09:50:52,215: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 222行目 <module>
-2021-12-04 09:50:52,216: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 72行目 _decoration_func
-2021-12-04 09:50:52,217: INFO: autorun_manager_logを空にしました。
-2021-12-04 09:50:52,217: INFO: ---------- 関数.check_all_apps_status 実行 ----------
-2021-12-04 09:50:52,217: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
-2021-12-04 09:50:52,218: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 72行目 _decoration_func
-2021-12-04 09:50:52,218: INFO: ---------- start add_newapps() ----------
-2021-12-04 09:50:52,222: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 09:50:52,224: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
-2021-12-04 09:50:52,226: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
-2021-12-04 09:50:52,232: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
-2021-12-04 09:50:52,233: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
-2021-12-04 09:50:52,233: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 76行目 _decoration_func
-2021-12-04 09:50:52,233: INFO: ---------- start get_autorun_app_list() ----------
-2021-12-04 09:50:52,234: INFO: ---------- end get_autorun_app_list() ----------
-2021-12-04 09:50:52,235: INFO: ---------- end add_newapps() ----------
+2021-12-04 11:59:47,811: INFO: ---------- 関数.check_all_apps_status 実行 ----------
+2021-12-04 11:59:47,898: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 11:59:47,898: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 11:59:47,898: INFO: ---------- start add_newapps() ----------
+2021-12-04 11:59:47,898: DEBUG: found:./.env
+2021-12-04 11:59:47,898: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,898: DEBUG: found:./.git
+2021-12-04 11:59:47,899: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,899: DEBUG: found:./.gitignore
+2021-12-04 11:59:47,899: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,899: DEBUG: found:./.venv
+2021-12-04 11:59:47,899: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,899: DEBUG: found:./app_template
+2021-12-04 11:59:47,899: DEBUG: this file/folder is app_template
+2021-12-04 11:59:47,899: DEBUG: found:./autorun_manager
+2021-12-04 11:59:47,899: DEBUG: this file/folder is autorun_manager
+2021-12-04 11:59:47,900: DEBUG: found:./auto_bt_check
+2021-12-04 11:59:47,900: DEBUG:     this is APP
+2021-12-04 11:59:47,902: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 11:59:47,902: DEBUG: found:./auto_mail_check
+2021-12-04 11:59:47,903: DEBUG:     this is APP
+2021-12-04 11:59:47,905: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
+2021-12-04 11:59:47,905: DEBUG: found:./auto_manga_check
+2021-12-04 11:59:47,906: DEBUG:     this is APP
+2021-12-04 11:59:47,907: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 11:59:47,907: DEBUG: found:./check.html
+2021-12-04 11:59:47,907: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,907: DEBUG: found:./config.py
+2021-12-04 11:59:47,908: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,908: DEBUG: found:./data
+2021-12-04 11:59:47,908: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 11:59:47,908: DEBUG: found:./flask_platform
+2021-12-04 11:59:47,908: DEBUG:     this is APP
+2021-12-04 11:59:47,911: DEBUG: found:./manage.py
+2021-12-04 11:59:47,911: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,911: DEBUG: found:./modules
+2021-12-04 11:59:47,911: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 11:59:47,911: DEBUG: found:./Procfile
+2021-12-04 11:59:47,911: DEBUG: this is NOT folder
+2021-12-04 11:59:47,911: DEBUG: found:./readme.txt
+2021-12-04 11:59:47,912: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,912: DEBUG: found:./requirements.txt
+2021-12-04 11:59:47,912: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,912: DEBUG: found:./runtime.txt
+2021-12-04 11:59:47,912: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,912: DEBUG: found:./test.py
+2021-12-04 11:59:47,912: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,912: DEBUG: found:./testapp
+2021-12-04 11:59:47,913: DEBUG:     this is APP
+2021-12-04 11:59:47,915: DEBUG: found:./__init__.py
+2021-12-04 11:59:47,915: DEBUG: this file/folder has "."
+2021-12-04 11:59:47,915: DEBUG: found:./__pycache__
+2021-12-04 11:59:47,916: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 11:59:47,916: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
+2021-12-04 11:59:47,918: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 11:59:47,918: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 11:59:47,918: INFO: ---------- start get_autorun_app_list() ----------
+2021-12-04 11:59:47,918: DEBUG: in [AUTORUN APP LIST]
+2021-12-04 11:59:47,918: DEBUG: found:auto_bt_check = True,1
+2021-12-04 11:59:47,919: DEBUG: found:auto_mail_check = True,3
+2021-12-04 11:59:47,919: DEBUG: found:auto_manga_check = True,1
+2021-12-04 11:59:47,919: INFO: ---------- end get_autorun_app_list() ----------
+2021-12-04 11:59:47,920: INFO: ---------- end add_newapps() ----------
+2021-12-04 11:59:47,920: INFO: ---------- 関数.run_all_apps 実行 ----------
+2021-12-04 11:59:47,921: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 11:59:47,921: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 11:59:47,921: INFO: ---------- 関数.run_app 実行 ----------
+2021-12-04 11:59:47,922: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 11:59:47,923: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 11:59:47,923: DEBUG: {'auto_bt_check': [['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:17', 'urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\')) [auto_bt_check/app.py][line:97]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 159, in _new_conn\n    conn = connection.create_connection(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 84, in create_connection\n    raise err\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 74, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 670, in urlopen\n    httplib_response = self._make_request(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 392, in _make_request\n    conn.request(method, url, **httplib_request_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1240, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1286, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1235, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1006, in _send_output\n    self.send(msg)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 946, in send\n    self.connect()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 187, in connect\n    conn = self._new_conn()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 171, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 97, in run\n    es.get(URL)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 80, in _decoration_func\n    raise e\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 76, in _decoration_func\n    return func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 33, in _limit_wrapper\n    val = func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 115, in get\n    self.driver.get(url)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 333, in get\n    self.execute(Command.GET, {\'url\': url})\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 397, in _request\n    resp = self._conn.request(method, url, body=body, headers=headers)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 79, in request\n    return self.request_encode_body(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\poolmanager.py", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 724, in urlopen\n    retries = retries.increment(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\retry.py", line 439, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\'))\n']], 'auto_mail_check': [['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': []}
+2021-12-04 11:59:48,080: INFO: 実行：auto_bt_check.py
+2021-12-04 12:10:20,614: INFO: ---------- 関数.check_all_apps_status 実行 ----------
+2021-12-04 12:10:20,688: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 12:10:20,689: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 12:10:20,689: INFO: ---------- start add_newapps() ----------
+2021-12-04 12:10:20,689: DEBUG: found:./.env
+2021-12-04 12:10:20,689: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,689: DEBUG: found:./.git
+2021-12-04 12:10:20,689: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,689: DEBUG: found:./.gitignore
+2021-12-04 12:10:20,690: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,690: DEBUG: found:./.venv
+2021-12-04 12:10:20,690: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,690: DEBUG: found:./app_template
+2021-12-04 12:10:20,690: DEBUG: this file/folder is app_template
+2021-12-04 12:10:20,690: DEBUG: found:./autorun_manager
+2021-12-04 12:10:20,690: DEBUG: this file/folder is autorun_manager
+2021-12-04 12:10:20,691: DEBUG: found:./auto_bt_check
+2021-12-04 12:10:20,691: DEBUG:     this is APP
+2021-12-04 12:10:20,692: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 12:10:20,693: DEBUG: found:./auto_mail_check
+2021-12-04 12:10:20,693: DEBUG:     this is APP
+2021-12-04 12:10:20,695: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
+2021-12-04 12:10:20,695: DEBUG: found:./auto_manga_check
+2021-12-04 12:10:20,696: DEBUG:     this is APP
+2021-12-04 12:10:20,698: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 12:10:20,698: DEBUG: found:./check.html
+2021-12-04 12:10:20,699: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,699: DEBUG: found:./config.py
+2021-12-04 12:10:20,699: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,699: DEBUG: found:./data
+2021-12-04 12:10:20,699: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 12:10:20,699: DEBUG: found:./flask_platform
+2021-12-04 12:10:20,700: DEBUG:     this is APP
+2021-12-04 12:10:20,702: DEBUG: found:./manage.py
+2021-12-04 12:10:20,702: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,702: DEBUG: found:./modules
+2021-12-04 12:10:20,703: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 12:10:20,703: DEBUG: found:./Procfile
+2021-12-04 12:10:20,703: DEBUG: this is NOT folder
+2021-12-04 12:10:20,703: DEBUG: found:./readme.txt
+2021-12-04 12:10:20,703: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,703: DEBUG: found:./requirements.txt
+2021-12-04 12:10:20,703: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,704: DEBUG: found:./runtime.txt
+2021-12-04 12:10:20,704: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,704: DEBUG: found:./test.py
+2021-12-04 12:10:20,704: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,704: DEBUG: found:./testapp
+2021-12-04 12:10:20,704: DEBUG:     this is APP
+2021-12-04 12:10:20,706: DEBUG: found:./__init__.py
+2021-12-04 12:10:20,707: DEBUG: this file/folder has "."
+2021-12-04 12:10:20,707: DEBUG: found:./__pycache__
+2021-12-04 12:10:20,707: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 12:10:20,707: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
+2021-12-04 12:10:20,708: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 12:10:20,708: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 12:10:20,708: INFO: ---------- start get_autorun_app_list() ----------
+2021-12-04 12:10:20,709: DEBUG: in [AUTORUN APP LIST]
+2021-12-04 12:10:20,709: DEBUG: found:auto_bt_check = True,1
+2021-12-04 12:10:20,709: DEBUG: found:auto_mail_check = True,3
+2021-12-04 12:10:20,709: DEBUG: found:auto_manga_check = True,1
+2021-12-04 12:10:20,709: INFO: ---------- end get_autorun_app_list() ----------
+2021-12-04 12:10:20,711: INFO: ---------- end add_newapps() ----------
+2021-12-04 12:10:20,711: INFO: ---------- 関数.run_all_apps 実行 ----------
+2021-12-04 12:10:20,711: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 12:10:20,711: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 12:10:20,712: INFO: ---------- 関数.run_app 実行 ----------
+2021-12-04 12:10:20,713: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 12:10:20,713: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 12:10:20,713: DEBUG: {'auto_bt_check': [['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:17', 'urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\')) [auto_bt_check/app.py][line:97]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 159, in _new_conn\n    conn = connection.create_connection(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 84, in create_connection\n    raise err\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 74, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 670, in urlopen\n    httplib_response = self._make_request(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 392, in _make_request\n    conn.request(method, url, **httplib_request_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1240, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1286, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1235, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1006, in _send_output\n    self.send(msg)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 946, in send\n    self.connect()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 187, in connect\n    conn = self._new_conn()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 171, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 97, in run\n    es.get(URL)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 80, in _decoration_func\n    raise e\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 76, in _decoration_func\n    return func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 33, in _limit_wrapper\n    val = func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 115, in get\n    self.driver.get(url)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 333, in get\n    self.execute(Command.GET, {\'url\': url})\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 397, in _request\n    resp = self._conn.request(method, url, body=body, headers=headers)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 79, in request\n    return self.request_encode_body(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\poolmanager.py", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 724, in urlopen\n    retries = retries.increment(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\retry.py", line 439, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\'))\n']], 'auto_mail_check': [['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': []}
+2021-12-04 12:10:20,859: INFO: 実行：auto_bt_check.py
+2021-12-04 12:11:34,885: INFO: ---------- 関数.check_all_apps_status 実行 ----------
+2021-12-04 12:11:34,956: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 12:11:34,956: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 12:11:34,956: INFO: ---------- start add_newapps() ----------
+2021-12-04 12:11:34,956: DEBUG: found:./.env
+2021-12-04 12:11:34,956: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,957: DEBUG: found:./.git
+2021-12-04 12:11:34,957: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,957: DEBUG: found:./.gitignore
+2021-12-04 12:11:34,957: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,957: DEBUG: found:./.venv
+2021-12-04 12:11:34,957: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,957: DEBUG: found:./app_template
+2021-12-04 12:11:34,957: DEBUG: this file/folder is app_template
+2021-12-04 12:11:34,957: DEBUG: found:./autorun_manager
+2021-12-04 12:11:34,957: DEBUG: this file/folder is autorun_manager
+2021-12-04 12:11:34,957: DEBUG: found:./auto_bt_check
+2021-12-04 12:11:34,958: DEBUG:     this is APP
+2021-12-04 12:11:34,960: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 12:11:34,960: DEBUG: found:./auto_mail_check
+2021-12-04 12:11:34,960: DEBUG:     this is APP
+2021-12-04 12:11:34,962: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 3
+2021-12-04 12:11:34,962: DEBUG: found:./auto_manga_check
+2021-12-04 12:11:34,962: DEBUG:     this is APP
+2021-12-04 12:11:34,964: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-04 12:11:34,964: DEBUG: found:./check.html
+2021-12-04 12:11:34,965: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,965: DEBUG: found:./config.py
+2021-12-04 12:11:34,965: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,965: DEBUG: found:./data
+2021-12-04 12:11:34,966: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 12:11:34,966: DEBUG: found:./flask_platform
+2021-12-04 12:11:34,966: DEBUG:     this is APP
+2021-12-04 12:11:34,969: DEBUG: found:./manage.py
+2021-12-04 12:11:34,969: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,970: DEBUG: found:./modules
+2021-12-04 12:11:34,970: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 12:11:34,970: DEBUG: found:./Procfile
+2021-12-04 12:11:34,970: DEBUG: this is NOT folder
+2021-12-04 12:11:34,970: DEBUG: found:./readme.txt
+2021-12-04 12:11:34,970: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,970: DEBUG: found:./requirements.txt
+2021-12-04 12:11:34,970: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,971: DEBUG: found:./runtime.txt
+2021-12-04 12:11:34,971: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,971: DEBUG: found:./test.py
+2021-12-04 12:11:34,971: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,971: DEBUG: found:./testapp
+2021-12-04 12:11:34,971: DEBUG:     this is APP
+2021-12-04 12:11:34,973: DEBUG: found:./__init__.py
+2021-12-04 12:11:34,973: DEBUG: this file/folder has "."
+2021-12-04 12:11:34,973: DEBUG: found:./__pycache__
+2021-12-04 12:11:34,974: DEBUG: this folder has NOT app.py or settings.py
+2021-12-04 12:11:34,974: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
+2021-12-04 12:11:34,974: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-04 12:11:34,975: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 12:11:34,975: INFO: ---------- start get_autorun_app_list() ----------
+2021-12-04 12:11:34,975: DEBUG: in [AUTORUN APP LIST]
+2021-12-04 12:11:34,975: DEBUG: found:auto_bt_check = True,1
+2021-12-04 12:11:34,976: DEBUG: found:auto_mail_check = True,3
+2021-12-04 12:11:34,976: DEBUG: found:auto_manga_check = True,1
+2021-12-04 12:11:34,976: INFO: ---------- end get_autorun_app_list() ----------
+2021-12-04 12:11:34,977: INFO: ---------- end add_newapps() ----------
+2021-12-04 12:11:34,977: INFO: ---------- 関数.run_all_apps 実行 ----------
+2021-12-04 12:11:34,977: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 12:11:34,978: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 71行目 _decoration_func
+2021-12-04 12:11:34,978: INFO: ---------- 関数.run_app 実行 ----------
+2021-12-04 12:11:34,980: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 12:11:34,980: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 12:11:34,981: DEBUG: {'auto_bt_check': [['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:17', 'urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\')) [auto_bt_check/app.py][line:97]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 159, in _new_conn\n    conn = connection.create_connection(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 84, in create_connection\n    raise err\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 74, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 670, in urlopen\n    httplib_response = self._make_request(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 392, in _make_request\n    conn.request(method, url, **httplib_request_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1240, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1286, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1235, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1006, in _send_output\n    self.send(msg)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 946, in send\n    self.connect()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 187, in connect\n    conn = self._new_conn()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 171, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 97, in run\n    es.get(URL)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 80, in _decoration_func\n    raise e\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 76, in _decoration_func\n    return func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 33, in _limit_wrapper\n    val = func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 115, in get\n    self.driver.get(url)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 333, in get\n    self.execute(Command.GET, {\'url\': url})\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 397, in _request\n    resp = self._conn.request(method, url, body=body, headers=headers)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 79, in request\n    return self.request_encode_body(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\poolmanager.py", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 724, in urlopen\n    retries = retries.increment(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\retry.py", line 439, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\'))\n']], 'auto_mail_check': [['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': []}
+2021-12-04 12:11:35,131: INFO: 実行：auto_bt_check.py
+2021-12-04 12:13:10,764: DEBUG: [['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-12-04 12:13:10,765: DEBUG: [['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:17', 'urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\')) [auto_bt_check/app.py][line:97]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 159, in _new_conn\n    conn = connection.create_connection(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 84, in create_connection\n    raise err\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\connection.py", line 74, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 670, in urlopen\n    httplib_response = self._make_request(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 392, in _make_request\n    conn.request(method, url, **httplib_request_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1240, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1286, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1235, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 1006, in _send_output\n    self.send(msg)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\http\\client.py", line 946, in send\n    self.connect()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 187, in connect\n    conn = self._new_conn()\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connection.py", line 171, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 97, in run\n    es.get(URL)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 80, in _decoration_func\n    raise e\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easylogger.py", line 76, in _decoration_func\n    return func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 33, in _limit_wrapper\n    val = func(*args, **kwargs)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\modules\\easyselenium_ver2_under_update.py", line 115, in get\n    self.driver.get(url)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 333, in get\n    self.execute(Command.GET, {\'url\': url})\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py", line 319, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 374, in execute\n    return self._request(command_info[0], url, body=data)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py", line 397, in _request\n    resp = self._conn.request(method, url, body=body, headers=headers)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 79, in request\n    return self.request_encode_body(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\request.py", line 171, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\poolmanager.py", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 752, in urlopen\n    return self.urlopen(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\connectionpool.py", line 724, in urlopen\n    retries = retries.increment(\n  File "C:\\Users\\kizuk\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\urllib3\\util\\retry.py", line 439, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=\'127.0.0.1\', port=55765): Max retries exceeded with url: /session/1dff4dd284580c9177adbe8a27e57c34/url (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x03EF6C58>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。\'))\n']]
+2021-12-04 12:13:10,767: DEBUG: {'auto_bt_check': [['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']], 'auto_mail_check': [['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': []}
+2021-12-04 12:13:10,779: INFO: ---------- 関数.run_app 実行 ----------
+2021-12-04 12:13:10,783: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 12:13:10,784: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 12:13:10,792: DEBUG: {'auto_bt_check': [['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']], 'auto_mail_check': [['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': []}
+2021-12-04 12:13:12,130: INFO: 実行：auto_mail_check.py
+2021-12-04 12:14:04,959: DEBUG: [['2021/12/04 12:14', None]]
+2021-12-04 12:14:04,959: DEBUG: [['2021/12/04 12:14', None], ['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]]
+2021-12-04 12:14:04,960: DEBUG: {'auto_bt_check': [['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']], 'auto_mail_check': [['2021/12/04 12:14', None], ['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': []}
+2021-12-04 12:14:04,961: INFO: ---------- 関数.run_app 実行 ----------
+2021-12-04 12:14:04,962: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 12:14:04,962: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 12:14:04,966: DEBUG: {'auto_bt_check': [['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']], 'auto_mail_check': [['2021/12/04 12:14', None], ['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': []}
+2021-12-04 12:14:06,282: INFO: 実行：auto_manga_check.py
+2021-12-04 12:14:37,355: DEBUG: [['2021/12/04 12:14', '']]
+2021-12-04 12:14:37,355: DEBUG: [['2021/12/04 12:14', '']]
+2021-12-04 12:14:37,355: DEBUG: {'auto_bt_check': [['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']], 'auto_mail_check': [['2021/12/04 12:14', None], ['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': [['2021/12/04 12:14', '']]}
+2021-12-04 12:14:37,356: INFO: ---------- 関数.run_app 実行 ----------
+2021-12-04 12:14:37,357: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-04 12:14:37,357: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 75行目 _decoration_func
+2021-12-04 12:14:37,361: DEBUG: {'auto_bt_check': [['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:41', 'NameError: name \'es\' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 101, in run\n    status = health_check(name,list)\n  File "C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py", line 50, in health_check\n    es.write_all([[\'input#username\',true_list[0]],[\'input#password\',true_list[1]]])\nNameError: name \'es\' is not defined\n'], ['2021/12/04 11:35', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:30', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし'], ['2021/12/04 11:24', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']], 'auto_mail_check': [['2021/12/04 12:14', None], ['2021/12/04 11:42', None], ['2021/12/04 11:36', None], ['2021/12/04 11:31', None], ['2021/12/04 11:25', None]], 'auto_manga_check': [['2021/12/04 12:14', '']]}
+2021-12-04 12:14:37,362: INFO: 実行：auto_manga_check.py
+2021-12-04 12:14:45,529: ERROR: urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=62519): Max retries exceeded with url: /session/182f1e914859b5717cae2d1d532c9160/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04BB1568>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。')) [autorun_manager/app.py][line:158]
+
+Traceback (most recent call last):
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1240, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1286, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1235, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1006, in _send_output
+    self.send(msg)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 946, in send
+    self.connect()
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x04BB1568>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 158, in run_all_apps
+    run_app(key)
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 75, in _decoration_func
+    return func(*args, **kwargs)
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py", line 171, in run_app
+    result_text = app.run()
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\auto_manga_check\app.py", line 39, in run
+    es.get(url_root)
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 75, in _decoration_func
+    return func(*args, **kwargs)
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 75, in _decoration_func
+    return func(*args, **kwargs)
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py", line 75, in _decoration_func
+    return func(*args, **kwargs)
+  [Previous line repeated 2 more times]
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easyselenium_ver2_under_update.py", line 33, in _limit_wrapper
+    val = func(*args, **kwargs)
+  File "C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easyselenium_ver2_under_update.py", line 107, in get
+    self.driver.get(url)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\request.py", line 79, in request
+    return self.request_encode_body(
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connectionpool.py", line 752, in urlopen
+    return self.urlopen(
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connectionpool.py", line 752, in urlopen
+    return self.urlopen(
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connectionpool.py", line 752, in urlopen
+    return self.urlopen(
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\connectionpool.py", line 724, in urlopen
+    retries = retries.increment(
+  File "C:\Users\kizuk\AppData\Local\Programs\Python\Python38-32\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=62519): Max retries exceeded with url: /session/182f1e914859b5717cae2d1d532c9160/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04BB1568>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。'))
+

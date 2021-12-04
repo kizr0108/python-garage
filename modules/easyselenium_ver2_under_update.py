@@ -20,7 +20,7 @@ from . import easylogger
 from . import sendtoline
 import config
 
-el = easylogger.EasyLogger('easyselenium','info')
+el = easylogger.EasyLogger('easyselenium','debug')
 stl = sendtoline.SendToLine()
 sleeptime = 5
 
@@ -31,11 +31,11 @@ def page_transition_limit(func):
     @wraps(func)
     def _limit_wrapper(*args, **kwargs):
         val = func(*args, **kwargs)
-        time.sleep(.5)
+        time.sleep(1.2)
         return val
     return _limit_wrapper
 
-@el.deco_class_info('info')
+@el.deco_class_info('debug')
 class EasySelenium:
     def __init__(self,implicitly_wait=5,headless=False):
         run_os = platform.system()
@@ -94,19 +94,11 @@ class EasySelenium:
                 WebDriverWait(self.driver, self._timeout).until(EC.visibility_of_element_located((By.CSS_SELECTOR, selector)))
             except TimeoutException:
                 return
-                html = self.driver.page_source.encode('utf-8')
-                soup = BeautifulSoup(html,'html.parser')
-                print(soup)
     def ec_wait_text(self,selector,text):
         try:
             WebDriverWait(self.driver, self._timeout).until(EC.text_to_be_present_in_element((By.CSS_SELECTOR, selector),text))
         except TimeoutException:
             return
-            '''
-            el.error(el.error_info)
-            html = self.driver.page_source.encode('utf-8')
-            soup = BeautifulSoup(html,'html.parser')
-            print(soup)'''
     def ec_presence_of_element_located(self,selector):
         WebDriverWait(self.driver, self._timeout).until(EC.presence_of_element_located((By.CSS_SELECTOR, selector)))
 

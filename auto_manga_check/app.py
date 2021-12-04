@@ -9,10 +9,10 @@ from modules import easylogger
 from modules import sendtoline
 from modules.easyfile import EasyPickle
 
-es = easyselenium.EasySelenium(headless=True)
 stl = sendtoline.SendToLine()
-el = easylogger.EasyLogger('auto_manga_check')
+el = easylogger.EasyLogger('auto_manga_check','debug')
 ep = EasyPickle('manga_list')
+es = easyselenium.EasySelenium(headless=False)
 
 dict_url = {
     'This is good':'https://manga1001.com/%e3%81%93%e3%81%86%e3%81%84%e3%81%86%e3%81%ae%e3%81%8c%e3%81%84%e3%81%84-raw-free/',
@@ -35,12 +35,9 @@ def run():
     line = ''
     dict_latest_contents = ep.load()
     for book,url_root in dict_url.items():
+        el.debug('manga loop start')
         es.get(url_root)
-        try:
-            es.ec_wait_selector(selector)
-        except:
-            html = es.driver.page_source.encode('utf-8')
-            soup = BeautifulSoup(html,'html.parser')
+        es.ec_wait_selector(selector)
         html = es.driver.page_source.encode('utf-8')
         soup = BeautifulSoup(html,'html.parser')
         a = soup.select_one(selector)
@@ -48,12 +45,13 @@ def run():
         if book not in dict_latest_contents or dict_latest_contents[book] != title:
             dict_latest_contents[book] = title
             line += '\n{}:{}'.format(book,url)
-    es.quit()
+        el.debug('manga loop end')
     if line != '':
         stl.send(line)
     else:
         stl.send('新着マンガなし')
     ep.save(dict_latest_contents)
+    es.quit()
     return line
 
 if __name__ == '__main__':

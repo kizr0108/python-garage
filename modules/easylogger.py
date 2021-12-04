@@ -66,18 +66,13 @@ class EasyLogger:
         def _wrapper(func):
             @wraps(func)
             def _decoration_func(*args, **kwargs):
-                try:
-                    self._echo_log_dependent_on_level('---------- 関数.{} 実行 ----------'.format(func.__name__),level)
-                    echo = lambda filename, line, func: self._echo_log_dependent_on_level('[実行元]{} {}行目 {}'.format(filename,line,func),level)
-                    frameinfo = inspect.stack()
-                    for i in range(2 if len(frameinfo)> 2 else len(frameinfo)):
-                        stack = frameinfo[-i-1]
-                        echo(stack.filename, stack.lineno, stack.function)
-                    return func(*args, **kwargs)
-                except Exception as e:
-                    text = self.error_info()
-                    self.error(text)
-                    raise e
+                self._echo_log_dependent_on_level('---------- 関数.{} 実行 ----------'.format(func.__name__),level)
+                echo = lambda filename, line, func: self._echo_log_dependent_on_level('[実行元]{} {}行目 {}'.format(filename,line,func),level)
+                frameinfo = inspect.stack()
+                for i in range(2 if len(frameinfo)> 2 else len(frameinfo)):
+                    stack = frameinfo[-i-1]
+                    echo(stack.filename, stack.lineno, stack.function)
+                return func(*args, **kwargs)
             return _decoration_func
         return _wrapper
 
@@ -88,10 +83,10 @@ class EasyLogger:
             @wraps(Cls)
             def _decoration_class(*args, **kwargs):
                 for name, func in inspect.getmembers(Cls):
-                    self.debug('関数{}'.format(name))
                     if name.startswith('__'):
                         if name == '__init__':
-                            setattr(Cls, name, self._decorate_init(Cls, level)(func))
+                            clsname = Cls.__name__
+                            setattr(Cls, name, self._decorate_init(clsname, level)(func))
                             continue
                         else:
                             continue
@@ -100,15 +95,16 @@ class EasyLogger:
                 return Cls(*args, **kwargs)
             return _decoration_class
         return _wrapper_class
-    def _decorate_init(self, Cls, level):
+    def _decorate_init(self, clsname, level):
         def _wrapper(init):
             @wraps(init)
             def _decoration(*args, **kwargs):
+                obj = init(*args, **kwargs)
                 filename = inspect.stack()[-1].filename
                 self.warning('##################################################')
-                self.warning('# クラス.{} 実行. 呼び出し元:{} #'.format(Cls.__name__, filename))
+                self.warning('# クラス.{} 実行. 呼び出し元:{} #'.format(clsname, filename))
                 self.warning('##################################################')
-                return init(*args, **kwargs)
+                return obj
             return _decoration
         return _wrapper
 

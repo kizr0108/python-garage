@@ -12,7 +12,6 @@ from modules import  easyselenium_ver2_under_update as easyselenium
 from modules import easylogger
 from modules import sendtoline as stl
 
-es = easyselenium.EasySelenium(headless=False)
 el = easylogger.EasyLogger('auto_bt_check')
 if platform.system() == 'Linux':
     sendline = stl.SendToLine() #'health_check'
@@ -48,6 +47,8 @@ def true_list(list):
     return [list[0],list[1],echotime,temp]
 
 def health_check(name,true_list):
+    es = easyselenium.EasySelenium(headless=False)
+    es.get(URL)
     es.write_all([['input#username',true_list[0]],['input#password',true_list[1]]])
     es.click('#loginbtn')
     es.click('a[href="https://el4.jikei.ac.jp/course/view.php?id=1789"]')
@@ -87,6 +88,7 @@ def health_check(name,true_list):
 
     #ログアウト
     es.click_all(['a#dropdown-1','a[aria-labelledby="actionmenuaction-6"]'])
+    es.quit()
     return status
 
 
@@ -94,7 +96,6 @@ def health_check(name,true_list):
 def run():
     sendline.send('健康チェック開始')
     try:
-        es.get(URL)
         result = ['','','']
         for name,value in user_dict.items():
             list = true_list(value)
@@ -108,7 +109,7 @@ def run():
     except:
         text = el.error_info()
         sendline.send(text)
-    es.quit()
+        es.quit()
     return text
 
 if __name__ == "__main__":

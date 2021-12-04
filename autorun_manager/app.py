@@ -12,7 +12,7 @@ from modules import easylogger
 from modules.easyfile import EasyJson
 from modules import sendtoline
 
-el = easylogger.EasyLogger(rootname='autorun_manager', level='info')
+el = easylogger.EasyLogger(rootname='autorun_manager', level='debug')
 ej = EasyJson('autorun_manager_log')
 stl = sendtoline.SendToLine()
 

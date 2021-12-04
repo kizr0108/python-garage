@@ -12,7 +12,7 @@ from modules.easyfile import EasyPickle
 stl = sendtoline.SendToLine()
 el = easylogger.EasyLogger('auto_manga_check','debug')
 ep = EasyPickle('manga_list')
-es = easyselenium.EasySelenium(headless=False)
+es = easyselenium.EasySelenium(headless=True)
 
 dict_url = {
     'This is good':'https://manga1001.com/%e3%81%93%e3%81%86%e3%81%84%e3%81%86%e3%81%ae%e3%81%8c%e3%81%84%e3%81%84-raw-free/',

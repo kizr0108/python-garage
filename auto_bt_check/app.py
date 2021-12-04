@@ -14,7 +14,7 @@ from modules import sendtoline as stl
 
 el = easylogger.EasyLogger('auto_bt_check')
 if platform.system() == 'Linux':
-    sendline = stl.SendToLine() #'health_check'
+    sendline = stl.SendToLine('health_check')
 elif platform.system() == 'Windows':
     sendline = stl.SendToLine('test')
 sendtome = stl.SendToLine('test')

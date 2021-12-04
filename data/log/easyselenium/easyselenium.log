@@ -265,3 +265,93 @@
 2021-12-04 12:30:18,163: DEBUG: ---------- 関数.quit 実行 ----------
 2021-12-04 12:30:18,164: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
 2021-12-04 12:30:18,164: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 54行目 run
+2021-12-04 12:36:30,180: WARNING: ##################################################
+2021-12-04 12:36:30,180: WARNING: # クラス.EasySelenium 実行. 呼び出し元:C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py #
+2021-12-04 12:36:30,180: WARNING: ##################################################
+2021-12-04 12:36:30,181: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:30,182: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:30,182: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:32,472: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:32,474: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:32,475: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:32,757: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:32,759: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:32,759: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:34,348: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:34,349: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:34,349: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:34,852: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:34,853: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:34,853: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:36,379: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:36,380: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:36,380: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:36,729: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:36,730: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:36,730: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:38,184: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:38,185: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:38,185: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:38,714: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:38,715: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:38,715: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:40,125: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:40,126: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:40,126: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:40,431: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:40,432: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:40,432: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:41,908: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:41,909: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:41,909: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:42,146: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:42,147: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:42,147: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:43,604: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:43,607: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:43,608: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:43,874: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:43,875: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:43,875: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:45,475: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:45,475: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:45,475: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:45,749: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:45,750: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:45,750: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:47,195: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:47,196: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:47,196: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:47,457: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:47,458: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:47,458: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:48,907: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:48,908: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:48,908: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:49,227: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:49,228: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:49,228: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:50,666: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:50,667: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:50,667: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:52,199: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:52,200: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:52,200: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:53,661: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:53,662: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:53,662: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:54,496: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:54,497: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:54,497: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:55,958: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:55,959: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:55,959: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:56,314: DEBUG: ---------- 関数.get 実行 ----------
+2021-12-04 12:36:56,314: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:56,315: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 39行目 run
+2021-12-04 12:36:57,757: DEBUG: ---------- 関数.ec_wait_selector 実行 ----------
+2021-12-04 12:36:57,758: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:57,758: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 40行目 run
+2021-12-04 12:36:58,667: DEBUG: ---------- 関数.quit 実行 ----------
+2021-12-04 12:36:58,670: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 58行目 <module>
+2021-12-04 12:36:58,670: DEBUG: [実行元]C:\Users\kizuk\Desktop\git\python-garage\auto_manga_check\app.py 54行目 run

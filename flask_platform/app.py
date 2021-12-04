@@ -5,7 +5,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 LOG_PATH = os.path.join('autorun_manager/log.json')
 from flask import Flask,render_template,request,redirect
 from modules.sendtoline import SendToLine
-from autorun_manager.app import get_autorun_app_list, get_log_autorun, run_it
+from autorun_manager.app import get_autorun_app_list, get_log_autorun, run_app
 
 app = Flask(__name__)
 

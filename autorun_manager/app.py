@@ -134,7 +134,7 @@ def get_log_autorun():
     log_json = ej.load()
     log_autorun = []
     for key,value in log_json.items():
-        if value[0] != None:
+        if len(value) > 0:
             log_autorun.append([key,value[0]])
     return log_autorun
 

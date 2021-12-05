@@ -12,6 +12,7 @@ from modules import easyselenium
 from modules import sendtoline as stl
 from modules import easylogger
 
+
 el = easylogger.EasyLogger('auto_bt_check')
 es = easyselenium.EasySelenium(headless=False)
 if platform.system() == 'Linux':
@@ -28,7 +29,6 @@ for user in user_config.split('/'):
 
 URL = 'https://el4.jikei.ac.jp/login/index.php'
 css_id, css_pass = 'input#username','input#password'
-
 
 
 
@@ -93,21 +93,25 @@ def health_check(name,true_list):
 
 
 ##########
-sendline.send('健康チェック開始')
+def run():
+    try:
+        sendline.send('健康チェック開始')
 
-try:
-    es.get(URL)
-    result = ['','','']
-    for name,value in user_dict.items():
-        list = true_list(value)
-        status = health_check(name,list)
-        result[status[0]] += '「' + status[1] + '」'
-    for i in range(3):
-        if result[i] == '':
-            result[i] = 'なし'
-    text = '\n既に入力済み：{}\n入力完了：{}\nエラー：{}'.format(result[0],result[1],result[2])
-    sendline.send(text)
-except:
-    text = el.error_info()
-    sendline.send(text)
-es.quit()
+        es.get(URL)
+        result = ['','','']
+        for name,value in user_dict.items():
+            list = true_list(value)
+            status = health_check(name,list)
+            result[status[0]] += '「' + status[1] + '」'
+        for i in range(3):
+            if result[i] == '':
+                result[i] = 'なし'
+        text = '\n既に入力済み：{}\n入力完了：{}\nエラー：{}'.format(result[0],result[1],result[2])
+        sendline.send(text)
+    except:
+        text = el.error_info()
+        sendline.send(text)
+    es.quit()
+
+if __name__ == '__main__':
+    run()

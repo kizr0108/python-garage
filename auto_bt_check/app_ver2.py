@@ -8,12 +8,11 @@ import platform
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 import config
-from modules import easyselenium
-from modules import sendtoline as stl
+from modules import  easyselenium_ver2_under_update as easyselenium
 from modules import easylogger
+from modules import sendtoline as stl
 
 el = easylogger.EasyLogger('auto_bt_check')
-es = easyselenium.EasySelenium(headless=False)
 if platform.system() == 'Linux':
     sendline = stl.SendToLine('health_check')
 elif platform.system() == 'Windows':
@@ -28,8 +27,6 @@ for user in user_config.split('/'):
 
 URL = 'https://el4.jikei.ac.jp/login/index.php'
 css_id, css_pass = 'input#username','input#password'
-
-
 
 
 
@@ -50,6 +47,8 @@ def true_list(list):
     return [list[0],list[1],echotime,temp]
 
 def health_check(name,true_list):
+    es = easyselenium.EasySelenium(headless=False)
+    es.get(URL)
     es.write_all([['input#username',true_list[0]],['input#password',true_list[1]]])
     es.click('#loginbtn')
     es.click('a[href="https://el4.jikei.ac.jp/course/view.php?id=1789"]')
@@ -89,25 +88,29 @@ def health_check(name,true_list):
 
     #ログアウト
     es.click_all(['a#dropdown-1','a[aria-labelledby="actionmenuaction-6"]'])
+    es.quit()
     return status
 
 
 ##########
-sendline.send('健康チェック開始')
+def run():
+    sendline.send('健康チェック開始')
+    try:
+        result = ['','','']
+        for name,value in user_dict.items():
+            list = true_list(value)
+            status = health_check(name,list)
+            result[status[0]] += '「' + status[1] + '」'
+        for i in range(3):
+            if result[i] == '':
+                result[i] = 'なし'
+        text = '\n既に入力済み：{}\n入力完了：{}\nエラー：{}'.format(result[0],result[1],result[2])
+        sendline.send(text)
+    except:
+        text = el.error_info()
+        sendline.send(text)
+        es.quit()
+    return text
 
-try:
-    es.get(URL)
-    result = ['','','']
-    for name,value in user_dict.items():
-        list = true_list(value)
-        status = health_check(name,list)
-        result[status[0]] += '「' + status[1] + '」'
-    for i in range(3):
-        if result[i] == '':
-            result[i] = 'なし'
-    text = '\n既に入力済み：{}\n入力完了：{}\nエラー：{}'.format(result[0],result[1],result[2])
-    sendline.send(text)
-except:
-    text = el.error_info()
-    sendline.send(text)
-es.quit()
+if __name__ == "__main__":
+    run()

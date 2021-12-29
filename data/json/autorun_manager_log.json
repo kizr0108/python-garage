@@ -1,27 +1,35 @@
 {
     "auto_bt_check": [
         [
+            "2021/12/29 11:43",
+            null
+        ],
+        [
+            "2021/12/29 11:42",
+            null
+        ],
+        [
+            "2021/12/28 21:17",
+            null
+        ],
+        [
+            "2021/12/28 21:16",
+            null
+        ],
+        [
             "2021/12/04 12:13",
-            "\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし"
-        ],
-        [
-            "2021/12/04 11:41",
-            "NameError: name 'es' is not defined [auto_bt_check/app.py][line:101]\n\nTraceback (most recent call last):\n  File \"C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py\", line 101, in run\n    status = health_check(name,list)\n  File \"C:\\Users\\kizuk\\Desktop\\git\\python-garage\\autorun_manager\\..\\auto_bt_check\\app.py\", line 50, in health_check\n    es.write_all([['input#username',true_list[0]],['input#password',true_list[1]]])\nNameError: name 'es' is not defined\n"
-        ],
-        [
-            "2021/12/04 11:35",
-            "\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし"
-        ],
-        [
-            "2021/12/04 11:30",
-            "\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし"
-        ],
-        [
-            "2021/12/04 11:24",
             "\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし"
         ]
     ],
     "auto_mail_check": [
+        [
+            "2021/12/29 11:44",
+            null
+        ],
+        [
+            "2021/12/28 21:18",
+            null
+        ],
         [
             "2021/12/04 12:14",
             null
@@ -32,14 +40,6 @@
         ],
         [
             "2021/12/04 11:36",
-            null
-        ],
-        [
-            "2021/12/04 11:31",
-            null
-        ],
-        [
-            "2021/12/04 11:25",
             null
         ]
     ],

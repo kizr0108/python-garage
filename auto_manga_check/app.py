@@ -29,13 +29,15 @@ dict_url = {
     'HUNTER HUNTER':'https://manga1001.com/hunter-x-hunter-raw-free/',
     'HANCHOU':'https://manga1001.com/1%e6%97%a5%e5%a4%96%e5%87%ba%e9%8c%b2%e3%83%8f%e3%83%b3%e3%83%81%e3%83%a7%e3%82%a6-raw-free/',
     'my home hero':'https://manga1001.com/%e3%83%9e%e3%82%a4%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%92%e3%83%bc%e3%83%ad%e3%83%bc-raw-free/',
+    'abiss':'https://manga1001.com/%e5%b0%91%e5%b9%b4%e3%81%ae%e3%82%a2%e3%83%93%e3%82%b9-raw-free/',
+    'semel':'https://manga1001.com/%e3%82%bb%e3%83%a1%e3%83%ab%e3%83%91%e3%83%ab%e3%82%b9-raw-free/'
 }
 def run():
     selector = '.chaplist tr:first-of-type a'
     line = ''
     dict_latest_contents = ep.load()
     for book,url_root in dict_url.items():
-        el.debug('manga loop start')
+        #el.debug('manga loop start')
         es.get(url_root)
         es.ec_wait_selector(selector)
         html = es.driver.page_source.encode('utf-8')
@@ -47,8 +49,10 @@ def run():
             line += '\n{}:{}'.format(book,url)
         el.debug('manga loop end')
     if line != '':
+        el.debug(line)
         stl.send(line)
     else:
+        el.debug('新着マンガなし')
         stl.send('新着マンガなし')
     ep.save(dict_latest_contents)
     es.quit()

@@ -1,3 +1,8 @@
+import os
+import vobject
+import pprint
+import inspect
+import re
 class TestFunc:
     def __init__(self):
         a = 1
@@ -20,9 +25,22 @@ print(str(a))
 print(str(type(1)))
 print(type(1))
 
-
-try:
-    a = 1 / 0
-except Exception as e:
-    print('wow')
-    raise e
+path = os.path.join(os.path.dirname(__file__),'for_offline\\data\\')
+with open(path+'iCloud vCards.vcf', 'r', encoding='UTF-8') as f:
+    v = vobject.readOne(f)
+    print(v.serialize())
+    text = ''
+    i = 1
+    for x in inspect.getmembers(v, inspect.ismethod):
+        if re.match('__',x[0]) != None:
+            continue
+        text += x[0]
+        if i % 4 == 0:
+            text += '()\n'
+        else:
+            text += '(), '
+        i += 1
+    print(text)
+    print(vars(v))
+with open(path+'test.vcf', 'w' ,encoding='UTF-8') as f:
+    f.write(v.serialize())

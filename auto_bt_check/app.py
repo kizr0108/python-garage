@@ -14,7 +14,7 @@ from modules import easylogger
 
 
 el = easylogger.EasyLogger('auto_bt_check')
-es = easyselenium.EasySelenium(headless=False)
+es = easyselenium.EasySelenium(headless=True)
 if platform.system() == 'Linux':
     sendline = stl.SendToLine('health_check')
 elif platform.system() == 'Windows':

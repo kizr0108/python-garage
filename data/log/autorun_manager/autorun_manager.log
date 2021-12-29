@@ -395,3 +395,81 @@ Traceback (most recent call last):
     raise MaxRetryError(_pool, url, error or ResponseError(cause))
 urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=63616): Max retries exceeded with url: /session/5c9fe3684c3917d243337f91eddf910f/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x01382538>: Failed to establish a new connection: [WinError 10061] 対象のコンピューターによって拒否されたため、接続できませんでした。'))
 
+2021-12-29 11:50:30,415: INFO: ---------- 関数.check_all_apps_status 実行 ----------
+2021-12-29 11:50:30,482: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-29 11:50:30,482: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 72行目 _decoration_func
+2021-12-29 11:50:30,482: INFO: ---------- start add_newapps() ----------
+2021-12-29 11:50:30,482: DEBUG: found:./.env
+2021-12-29 11:50:30,482: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,482: DEBUG: found:./.git
+2021-12-29 11:50:30,482: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,482: DEBUG: found:./.gitignore
+2021-12-29 11:50:30,482: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,482: DEBUG: found:./.venv
+2021-12-29 11:50:30,482: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,482: DEBUG: found:./app_template
+2021-12-29 11:50:30,482: DEBUG: this file/folder is app_template
+2021-12-29 11:50:30,482: DEBUG: found:./autorun_manager
+2021-12-29 11:50:30,482: DEBUG: this file/folder is autorun_manager
+2021-12-29 11:50:30,482: DEBUG: found:./auto_bt_check
+2021-12-29 11:50:30,482: DEBUG:     this is APP
+2021-12-29 11:50:30,482: INFO:     [auto_bt_check/settings.py]APP_FOR_AUTO_RUN = True, RUN_FREQUENCY = 1
+2021-12-29 11:50:30,482: DEBUG: found:./auto_mail_check
+2021-12-29 11:50:30,482: DEBUG:     this is APP
+2021-12-29 11:50:30,482: INFO:     [auto_mail_check/settings.py]APP_FOR_AUTO_RUN = False, RUN_FREQUENCY = 10
+2021-12-29 11:50:30,482: DEBUG: found:./auto_manga_check
+2021-12-29 11:50:30,482: DEBUG:     this is APP
+2021-12-29 11:50:30,498: INFO:     [auto_manga_check/settings.py]APP_FOR_AUTO_RUN = False, RUN_FREQUENCY = 10
+2021-12-29 11:50:30,498: DEBUG: found:./check.html
+2021-12-29 11:50:30,498: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,498: DEBUG: found:./config.py
+2021-12-29 11:50:30,498: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,498: DEBUG: found:./data
+2021-12-29 11:50:30,500: DEBUG: this folder has NOT app.py or settings.py
+2021-12-29 11:50:30,500: DEBUG: found:./flask_platform
+2021-12-29 11:50:30,500: DEBUG:     this is APP
+2021-12-29 11:50:30,505: DEBUG: found:./for_offline
+2021-12-29 11:50:30,506: DEBUG: this folder has NOT app.py or settings.py
+2021-12-29 11:50:30,506: DEBUG: found:./manage.py
+2021-12-29 11:50:30,506: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,506: DEBUG: found:./modules
+2021-12-29 11:50:30,507: DEBUG: this folder has NOT app.py or settings.py
+2021-12-29 11:50:30,507: DEBUG: found:./Procfile
+2021-12-29 11:50:30,507: DEBUG: this is NOT folder
+2021-12-29 11:50:30,508: DEBUG: found:./readme.txt
+2021-12-29 11:50:30,508: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,508: DEBUG: found:./requirements.txt
+2021-12-29 11:50:30,508: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,508: DEBUG: found:./runtime.txt
+2021-12-29 11:50:30,509: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,509: DEBUG: found:./test.py
+2021-12-29 11:50:30,509: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,509: DEBUG: found:./testapp
+2021-12-29 11:50:30,510: DEBUG:     this is APP
+2021-12-29 11:50:30,513: DEBUG: found:./__init__.py
+2021-12-29 11:50:30,514: DEBUG: this file/folder has "."
+2021-12-29 11:50:30,514: DEBUG: found:./__pycache__
+2021-12-29 11:50:30,514: DEBUG: this folder has NOT app.py or settings.py
+2021-12-29 11:50:30,515: INFO: ---------- 関数.get_autorun_app_list 実行 ----------
+2021-12-29 11:50:30,516: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 223行目 <module>
+2021-12-29 11:50:30,516: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 76行目 _decoration_func
+2021-12-29 11:50:30,516: INFO: ---------- start get_autorun_app_list() ----------
+2021-12-29 11:50:30,517: DEBUG: in [AUTORUN APP LIST]
+2021-12-29 11:50:30,517: DEBUG: found:auto_bt_check = True,1
+2021-12-29 11:50:30,517: DEBUG: found:auto_mail_check = True,3
+2021-12-29 11:50:30,518: DEBUG: found:auto_manga_check = True,10
+2021-12-29 11:50:30,518: INFO: ---------- end get_autorun_app_list() ----------
+2021-12-29 11:50:30,518: INFO: delete:auto_mail_check
+2021-12-29 11:50:30,518: INFO: delete:auto_manga_check
+2021-12-29 11:50:30,520: INFO: ---------- end add_newapps() ----------
+2021-12-29 11:50:30,520: INFO: ---------- 関数.run_all_apps 実行 ----------
+2021-12-29 11:50:30,522: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-29 11:50:30,522: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 72行目 _decoration_func
+2021-12-29 11:50:30,522: INFO: ---------- 関数.run_app 実行 ----------
+2021-12-29 11:50:30,524: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\app.py 224行目 <module>
+2021-12-29 11:50:30,525: INFO: [実行元]C:\Users\kizuk\Desktop\git\python-garage\autorun_manager\..\modules\easylogger.py 76行目 _decoration_func
+2021-12-29 11:50:30,525: DEBUG: {'auto_bt_check': [['2021/12/29 11:43', None], ['2021/12/29 11:42', None], ['2021/12/28 21:17', None], ['2021/12/28 21:16', None], ['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']], 'auto_mail_check': [['2021/12/29 11:44', None], ['2021/12/28 21:18', None], ['2021/12/04 12:14', None], ['2021/12/04 11:42', None], ['2021/12/04 11:36', None]], 'auto_manga_check': [['2021/12/04 12:14', '']]}
+2021-12-29 11:50:31,777: INFO: 実行：auto_bt_check.py
+2021-12-29 11:51:35,406: DEBUG: [['2021/12/29 11:51', None]]
+2021-12-29 11:51:35,407: DEBUG: [['2021/12/29 11:51', None], ['2021/12/29 11:43', None], ['2021/12/29 11:42', None], ['2021/12/28 21:17', None], ['2021/12/28 21:16', None], ['2021/12/04 12:13', '\n既に入力済み：「堀見」「井谷」「石塚」「椋下」\n入力完了：なし\nエラー：なし']]
+2021-12-29 11:51:35,409: DEBUG: {'auto_bt_check': [['2021/12/29 11:51', None], ['2021/12/29 11:43', None], ['2021/12/29 11:42', None], ['2021/12/28 21:17', None], ['2021/12/28 21:16', None]], 'auto_mail_check': [['2021/12/29 11:44', None], ['2021/12/28 21:18', None], ['2021/12/04 12:14', None], ['2021/12/04 11:42', None], ['2021/12/04 11:36', None]], 'auto_manga_check': [['2021/12/04 12:14', '']]}
